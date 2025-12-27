@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Collection</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">Romance<span>ID</span></div>
+            <div class="header-subtitle">Project TL Manga</div>
+        </header>
+
+        <div class="manga-grid" id="mangaContainer">
+            </div>
+        
+        <div id="emptyMessage" style="display: none; text-align: center; color: #b0b3b8; margin-top: 50px;">
+            <i class="fa-solid fa-folder-open" style="font-size: 3rem; margin-bottom: 10px;"></i>
+            <p>Belum ada manga yang ditambahkan.</p>
+        </div>
+    </div>
+
+    <div id="mangaModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-image">
+                <img id="modalImg" src="" alt="Manga Cover">
+            </div>
+            <div class="modal-info-content">
+                <h2 id="modalTitle">Judul Manga</h2>
+                <div id="modalGenres" style="margin-bottom: 10px;"></div>
+                
+                <div id="modalDetails" style="margin-bottom: 15px; display: flex; gap: 15px; flex-wrap: wrap;"></div>
+                
+                <p class="synopsis-label">Sinopsis:</p>
+                <p id="modalSynopsis" class="synopsis-text"></p>
+                
+                <a id="modalLink" href="#" target="_blank" class="btn-read modal-btn">
+                    Baca di Mangadex <i class="fa-solid fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

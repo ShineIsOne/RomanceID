@@ -1,0 +1,287 @@
+/* --- RESET & VARIABLES --- */
+:root {
+    --bg-dark: #111820;
+    --bg-card: #1c2630;
+    --bg-modal: #161f29;
+    --accent: #fee715;       /* Kuning Terang */
+    --success: #00b894;      /* Hijau */
+    --text-white: #ffffff;
+    --text-gray: #b0b3b8;
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+/* --- HEADER --- */
+header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 0; margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.logo { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.logo span { color: var(--text-white); }
+.header-subtitle { color: var(--text-gray); font-size: 0.9rem; }
+
+/* --- GRID SYSTEM --- */
+.manga-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    gap: 25px;
+}
+
+/* --- CARD DESIGN --- */
+.card {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    transition: var(--transition);
+    cursor: pointer;
+    display: flex; flex-direction: column;
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 20px rgba(254, 231, 21, 0.1);
+}
+
+.card-image {
+    width: 100%; aspect-ratio: 2/3; overflow: hidden; position: relative;
+}
+
+.card-image img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-image img { transform: scale(1.1); }
+
+/* --- STATUS BADGE --- */
+.status-badge {
+    position: absolute; top: 10px; left: 10px;
+    padding: 4px 10px; border-radius: 20px;
+    font-size: 0.75rem; font-weight: 600;
+    z-index: 2; display: flex; align-items: center; gap: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.status-ongoing { background-color: var(--accent); color: var(--bg-dark); }
+.status-completed { background-color: var(--success); color: white; }
+
+/* --- CONTENT --- */
+.card-content { 
+    padding: 15px; flex-grow: 1; 
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+
+.manga-title {
+    font-size: 1rem; font-weight: 600; margin-bottom: 8px;
+    color: var(--text-white);
+    display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* Container Genre Desktop */
+.manga-info { 
+    margin-bottom: 8px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 5px; /* Jarak antar genre */
+}
+
+.genre-tag {
+    font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;
+    background-color: rgba(254, 231, 21, 0.1);
+    color: var(--accent); 
+    white-space: nowrap;
+}
+
+/* --- CHAPTER INFO --- */
+.chapter-text {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    margin-bottom: 12px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chapter-text i { color: var(--accent); font-size: 0.7rem; }
+
+/* --- BUTTON LINK --- */
+.btn-read {
+    display: block; width: 100%; padding: 8px 0;
+    text-align: center; background-color: transparent;
+    border: 1px solid var(--accent); color: var(--accent);
+    font-size: 0.85rem; font-weight: 600; border-radius: 6px;
+    text-decoration: none; transition: var(--transition);
+    margin-top: auto;
+}
+
+.btn-read:hover { background-color: var(--accent); color: var(--bg-dark); }
+
+.modal-btn { margin-top: 20px; padding: 12px; font-size: 1rem; }
+
+/* --- MODAL --- */
+.modal {
+    display: none; position: fixed; z-index: 1000; left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px);
+    align-items: center; justify-content: center;
+    opacity: 0; transition: opacity 0.3s ease;
+}
+
+.modal.show { display: flex; opacity: 1; }
+
+.modal-content {
+    background-color: var(--bg-modal); width: 90%; max-width: 800px;
+    border-radius: 16px; border: 1px solid rgba(254, 231, 21, 0.3);
+    position: relative; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden; animation: slideUp 0.3s ease forwards;
+    display: flex; flex-direction: row; 
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.close-btn {
+    position: absolute; top: 15px; right: 15px;
+    color: var(--text-white); font-size: 20px; font-weight: bold;
+    cursor: pointer; z-index: 20;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 35px; height: 35px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    transition: var(--transition);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.close-btn:hover { background-color: var(--accent); color: var(--bg-dark); }
+
+.modal-image { width: 40%; flex-shrink: 0; background-color: #000; }
+.modal-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.modal-info-content { padding: 30px; overflow-y: auto; max-height: 80vh; width: 60%; }
+.modal-info-content h2 { color: var(--accent); margin-bottom: 10px; font-size: 1.8rem; }
+.synopsis-label { font-weight: 600; margin-top: 20px; color: var(--text-gray); display: block; margin-bottom: 5px;}
+.synopsis-text { line-height: 1.6; color: #ddd; font-size: 0.95rem; text-align: justify; }
+
+/* --- MOBILE RESPONSIVE TWEAKS --- */
+@media (max-width: 768px) {
+    .container { padding: 10px; }
+    
+    .manga-grid {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 8px;
+    }
+
+    .card-content { padding: 8px 6px; } /* Sedikit padding extra atas bawah */
+    
+    .manga-title {
+        font-size: 0.65rem; margin-bottom: 6px;
+        -webkit-line-clamp: 2; line-clamp: 2;
+        line-height: 1.2;
+    }
+
+    /* --- PERBAIKAN GENRE MOBILE (RAPI) --- */
+    .manga-info { 
+        margin-bottom: 6px; 
+        height: auto;
+        /* Flexbox agar jarak rapi otomatis */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px; /* Jarak antar kotak genre (atas/bawah/kiri/kanan) */
+    }
+
+    .genre-tag { 
+        display: inline-flex; /* Supaya padding presisi */
+        align-items: center;
+        font-size: 0.45rem; 
+        padding: 2px 5px; /* Sedikit dilebarkan */
+        margin: 0; /* Margin dihapus, diganti gap diatas */
+        border-radius: 3px;
+        line-height: 1;
+    }
+
+    .chapter-text {
+        font-size: 0.5rem; margin-bottom: 8px;
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .chapter-text i { font-size: 0.5rem; }
+    .btn-read { font-size: 0.55rem; padding: 4px 0; }
+    
+    .status-badge {
+        font-size: 0.45rem; padding: 2px 5px;
+        top: 5px; left: 5px; gap: 3px;
+    }
+
+    /* --- BACKGROUND BLUR MODAL --- */
+    .modal-content { 
+        flex-direction: column; 
+        height: 90vh;
+        width: 95%;
+        overflow: hidden; 
+    }
+    
+    .modal-image { 
+        width: 100%; 
+        height: 45%; 
+        background-color: #000; 
+        position: relative; 
+    }
+    
+    .modal-image::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-image: var(--bg-image);
+        background-size: cover;
+        background-position: center;
+        filter: blur(20px) brightness(0.7);
+        transform: scale(1.1);
+        z-index: 1; 
+    }
+    
+    .modal-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+        position: relative; 
+        z-index: 2; 
+        filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+    }
+    
+    .modal-info-content { 
+        width: 100%; 
+        height: 55%;
+        padding: 20px; 
+        background: var(--bg-modal); 
+        position: relative;
+        z-index: 3;
+    }
+    
+    .modal-info-content h2 { font-size: 1.4rem; }
+
+    /* GENRE DI MODAL TETAP BESAR */
+    .modal-info-content .genre-tag {
+        font-size: 0.8rem;
+        padding: 4px 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        gap: 5px; /* Override gap mobile */
+    }
+}
