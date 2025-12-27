@@ -1,5 +1,20 @@
 const mangaList = [
     {
+        "id": 1766798064,
+        "title": "Ore no Class ni Wakagaetta Moto Yome ga Iru",
+        "image": "img/Vol 2.jpg",
+        "genres": [
+            "Comedy",
+            "Romance",
+            "School",
+            "Slice of Life"
+        ],
+        "status": "Completed",
+        "latestChapter": "Vol. 2 Ch.10",
+        "link": "https://mangadex.org/title/0cf1c1c7-2894-4b4d-a3cc-3e1501fb3e36/ore-no-class-ni-wakagaetta-moto-yome-ga-iru",
+        "synopsis": "Kouhei memutuskan mengakhiri pernikahannya dengan sang istri, Yuzuka. Namun, sepulang dari mengurus surat cerai, Yuzuka hampir tertabrak mobil. Kohei refleks melindunginya dan kehilangan nyawanya.\n\nSaat sadar, ia terbangun di ranjang rumah orang tuanya, di depan adiknya yang kembali muda. Ia ternyata bereinkarnasi ke masa SMA. Di kehidupan keduanya ini, Kohei kembali bersekolah\u2026 dan di kelasnya ada Yuzuka, mantan istrinya. Akankah hubungan mereka kali ini berakhir berbeda, atau justru kembali menjadi suami istri?"
+    },
+    {
         "id": 1766795220,
         "title": "Kurai Anoko to Shitai Koto",
         "image": "img/Volume 7.png",
