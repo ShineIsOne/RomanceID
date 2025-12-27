@@ -1,5 +1,21 @@
 const mangaList = [
     {
+        "id": 1766835798,
+        "title": "Mikakunin de Shinkoukei",
+        "image": "img/Vol 16.jpg",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance",
+            "Slice of Life",
+            "School"
+        ],
+        "status": "Completed",
+        "latestChapter": "Vol.16 Ch.187.5",
+        "link": "https://mangadex.org/title/f6635579-f1e6-4e43-8adf-06b009e1af0c/mikakunin-de-shinkoukei",
+        "synopsis": "Ini adalah manga komedi empat panel tentang Kobeni Yonomori, yang pada ulang tahunnya yang ke-16 tiba-tiba kedatangan seorang pria muda dengan kehadiran minim bernama Hakuya Mitsumine dan adik perempuannya Mashiro di hadapannya. Ternyata Hakuya adalah tunangannya, dan Mashiro adalah calon adik iparnya. Mereka bertiga (dan kakak perempuan Kobeni yang terlalu protektif, Benio) mulai tinggal bersama di bawah satu atap, dan kejadian-kejadian lucu pun terjadi."
+    },
+    {
         "id": 1766835395,
         "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
         "image": "img/Vol 4.jpg",
