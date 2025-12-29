@@ -55,12 +55,21 @@ function renderManga() {
         card.addEventListener('click', () => openModal(manga));
 
         // HTML Structure
+        // PERUBAHAN DISINI: Menambahkan decoding="async" dan width/height
         card.innerHTML = `
             <div class="card-image">
                 <span class="status-badge ${statusClass}">
                     ${statusIcon} ${manga.status}
                 </span>
-                <img src="${manga.image}" alt="${manga.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'">
+                <img 
+                    src="${manga.image}" 
+                    alt="${manga.title}" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="200" 
+                    height="300" 
+                    onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'"
+                >
             </div>
             <div class="card-content">
                 <div>

@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
+from PIL import Image # LIBRARY UNTUK EDIT GAMBAR
 import json
 import os
 import shutil
@@ -8,11 +9,12 @@ import time
 # --- KONFIGURASI ---
 FILE_DATA = 'data.js'
 FOLDER_IMG = 'img'
+TARGET_WIDTH = 400  # Lebar gambar yang diinginkan (pixel)
 
 class MangaAdminApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Admin Manga Project - Edit & Add Mode")
+        self.root.title("Admin Manga Project - Auto Optimizer")
         self.root.geometry("600x800")
         
         # Pastikan folder img ada
@@ -25,15 +27,15 @@ class MangaAdminApp:
         style.configure('TButton', font=('Segoe UI', 10))
         
         # Variabel State
-        self.current_editing_id = None # Jika None = Mode Tambah Baru, Jika ada isi = Mode Edit
+        self.current_editing_id = None # Jika None = Mode Tambah Baru
         self.source_image_path = ""
-        self.manga_data_list = [] # Menyimpan data di memori
+        self.manga_data_list = [] 
 
         # --- UI ELEMENTS ---
         main_frame = ttk.Frame(root, padding="20")
         main_frame.pack(fill=tk.BOTH, expand=True)
 
-        # --- BAGIAN PENCARIAN (BARU) ---
+        # --- BAGIAN PENCARIAN ---
         search_frame = ttk.LabelFrame(main_frame, text="Cari / Edit Manga", padding="10")
         search_frame.pack(fill=tk.X, pady=(0, 15))
 
@@ -61,7 +63,7 @@ class MangaAdminApp:
         self.combo_status.pack(fill=tk.X, pady=(0, 10))
 
         # Gambar (Browse)
-        ttk.Label(form_frame, text="Cover Image").pack(anchor=tk.W)
+        ttk.Label(form_frame, text="Cover Image (Auto Resize & Compress)").pack(anchor=tk.W)
         img_frame = ttk.Frame(form_frame)
         img_frame.pack(fill=tk.X, pady=(0, 10))
         
@@ -77,7 +79,7 @@ class MangaAdminApp:
         self.entry_genres.pack(fill=tk.X, pady=(0, 10))
 
         # Chapter
-        ttk.Label(form_frame, text="Chapter Terakhir (Misal: Vol.1 Ch.10)").pack(anchor=tk.W)
+        ttk.Label(form_frame, text="Chapter Terakhir").pack(anchor=tk.W)
         self.entry_chapter = ttk.Entry(form_frame)
         self.entry_chapter.pack(fill=tk.X, pady=(0, 10))
 
@@ -103,10 +105,7 @@ class MangaAdminApp:
         self.load_and_refresh_data()
 
     def load_and_refresh_data(self):
-        """Membaca data.js dan mengisi dropdown pencarian"""
         self.manga_data_list = self.read_data_from_file()
-        
-        # Isi Combobox dengan judul-judul manga
         titles = [m['title'] for m in self.manga_data_list]
         self.combo_search['values'] = titles
         
@@ -117,7 +116,6 @@ class MangaAdminApp:
             with open(FILE_DATA, 'r', encoding='utf-8') as f:
                 content = f.read()
                 if not content.strip(): return []
-                # Hapus bagian JS prefix/suffix
                 json_str = content.replace("const mangaList = ", "").replace(";", "")
                 return json.loads(json_str)
         except Exception as e:
@@ -133,32 +131,22 @@ class MangaAdminApp:
             self.entry_image.insert(0, filename)
 
     def on_manga_select(self, event):
-        """Saat user memilih manga dari dropdown"""
         selected_title = self.combo_search.get()
-        
-        # Cari data berdasarkan judul
         selected_manga = next((m for m in self.manga_data_list if m['title'] == selected_title), None)
         
         if selected_manga:
             self.current_editing_id = selected_manga.get('id')
-            
-            # Ubah tampilan tombol
             self.btn_save.config(text="SIMPAN PERUBAHAN (UPDATE)", bg="#0984e3")
             self.lbl_status.config(text=f"Mode Edit: {selected_title}", foreground="blue")
 
-            # Isi Form
             self.entry_title.delete(0, tk.END)
             self.entry_title.insert(0, selected_manga.get('title', ''))
-
             self.combo_status.set(selected_manga.get('status', 'Ongoing'))
             
-            # Handle Image path (hapus 'img/' biar bersih di inputan jika mau, tapi biarkan standard)
             img_path = selected_manga.get('image', '')
             self.entry_image.delete(0, tk.END)
-            # Kita ambil nama filenya saja untuk ditampilkan di input, biar user gak bingung path
             self.entry_image.insert(0, os.path.basename(img_path)) 
 
-            # Genre join koma
             genres_str = ", ".join(selected_manga.get('genres', []))
             self.entry_genres.delete(0, tk.END)
             self.entry_genres.insert(0, genres_str)
@@ -172,11 +160,9 @@ class MangaAdminApp:
             self.text_synopsis.delete("1.0", tk.END)
             self.text_synopsis.insert("1.0", selected_manga.get('synopsis', ''))
             
-            # Reset source image path karena kita belum pilih gambar baru
             self.source_image_path = ""
 
     def reset_form(self):
-        """Kembali ke mode tambah baru"""
         self.current_editing_id = None
         self.entry_title.delete(0, tk.END)
         self.entry_genres.delete(0, tk.END)
@@ -187,7 +173,6 @@ class MangaAdminApp:
         self.combo_search.set("Pilih Manga untuk diedit...")
         self.source_image_path = ""
         
-        # Balikin tombol ke mode tambah
         self.btn_save.config(text="TAMBAH MANGA BARU", bg="#00b894")
         self.lbl_status.config(text="Mode Tambah Baru", foreground="gray")
 
@@ -205,25 +190,49 @@ class MangaAdminApp:
             messagebox.showwarning("Peringatan", "Judul dan Gambar wajib diisi!")
             return
 
-        # 2. Proses Gambar
-        # Jika user tidak memilih file baru (source_image_path kosong),
-        # berarti pakai gambar lama (cuma nama file di entry).
-        # Kita pastikan pathnya lengkap "img/namafile"
-        
         final_image_db_path = f"img/{os.path.basename(img_filename)}"
 
+        # 2. PROSES GAMBAR (RESIZE & OPTIMIZE)
         if self.source_image_path:
-            # Ada gambar baru dipilih dari komputer
+            # Jika user memilih gambar baru dari komputer
             dest_path = os.path.join(FOLDER_IMG, os.path.basename(img_filename))
+            
             try:
-                shutil.copy(self.source_image_path, dest_path)
+                # Buka gambar menggunakan Pillow
+                with Image.open(self.source_image_path) as img:
+                    # Resize logic (Hitung tinggi otomatis berdasarkan rasio)
+                    w_percent = (TARGET_WIDTH / float(img.size[0]))
+                    h_size = int((float(img.size[1]) * float(w_percent)))
+                    
+                    # Lakukan resize dengan filter kualitas tinggi
+                    img = img.resize((TARGET_WIDTH, h_size), Image.Resampling.LANCZOS)
+                    
+                    # Simpan sesuai format aslinya
+                    file_ext = os.path.splitext(dest_path)[1].lower()
+                    
+                    if file_ext in ['.jpg', '.jpeg', '.JPG', '.JPEG']:
+                        # Save JPG dengan quality 85 (sudah sangat cukup untuk web)
+                        if img.mode != 'RGB':
+                            img = img.convert('RGB') # JPG tidak support transparan
+                        img.save(dest_path, "JPEG", quality=85, optimize=True)
+                        
+                    elif file_ext in ['.png', '.PNG']:
+                        # Save PNG dengan optimize
+                        # PNG tetap PNG (transparansi aman)
+                        img.save(dest_path, "PNG", optimize=True, compress_level=9)
+                        
+                    elif file_ext in ['.webp']:
+                        img.save(dest_path, "WEBP", quality=85)
+                    else:
+                        # Fallback untuk format lain
+                        img.save(dest_path)
+
             except Exception as e:
-                messagebox.showerror("Error Gambar", f"Gagal copy gambar: {e}")
+                messagebox.showerror("Error Gambar", f"Gagal memproses gambar: {e}")
                 return
         
         # 3. Update List Data di Memory
         if self.current_editing_id:
-            # --- MODE UPDATE ---
             found = False
             for manga in self.manga_data_list:
                 if manga.get('id') == self.current_editing_id:
@@ -237,11 +246,10 @@ class MangaAdminApp:
                     found = True
                     break
             if not found:
-                messagebox.showerror("Error", "ID Manga tidak ditemukan (mungkin file berubah eksternal).")
+                messagebox.showerror("Error", "ID Manga tidak ditemukan.")
                 return
-            msg_success = f"Data '{title}' berhasil diperbarui!"
+            msg_success = f"Data '{title}' berhasil diperbarui & gambar dioptimasi!"
         else:
-            # --- MODE TAMBAH BARU ---
             new_manga = {
                 "id": int(time.time()),
                 "title": title,
@@ -253,7 +261,7 @@ class MangaAdminApp:
                 "synopsis": synopsis
             }
             self.manga_data_list.insert(0, new_manga)
-            msg_success = "Manga Baru Berhasil Ditambahkan!"
+            msg_success = "Manga Baru Berhasil Ditambahkan & Gambar Dioptimasi!"
 
         # 4. Tulis Ulang ke File
         try:
@@ -264,7 +272,6 @@ class MangaAdminApp:
             self.lbl_status.config(text=msg_success, foreground="green")
             messagebox.showinfo("Sukses", msg_success)
             
-            # Refresh dropdown list kalau judul berubah atau ada baru
             self.load_and_refresh_data()
             self.reset_form()
             
