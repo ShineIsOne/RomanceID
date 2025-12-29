@@ -18,7 +18,7 @@ const mangaList = [
     {
         "id": 1766835395,
         "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
-        "image": "img/Vol 5.jpg",
+        "image": "img/Vol 6.jpg",
         "genres": [
             "Comedy",
             "Romance",
@@ -26,7 +26,7 @@ const mangaList = [
             "Slice of Life"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.5 Ch.63.5",
+        "latestChapter": "Vol.6 Ch.75.5",
         "link": "https://mangadex.org/title/51c1e7cc-23f4-4a08-a961-c1ab75e2bb33/kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun",
         "synopsis": "Kenalkan Kashiwada-san, siswi SMP yang wajahnya tetap datar meski sering diganggu. Dan Oota-kun, yang tidak bisa menyembunyikan ekspresi wajahnya, adalah kebalikan dari Kashiwada-san, tapi entah kenapa dia terus mengusilinya, meski tahu itu bukan ide bagus. Meski mereka sangat bertolak belakang, akankah rasa cinta tumbuh di antara mereka?"
     },
