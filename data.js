@@ -2,7 +2,7 @@ const mangaList = [
     {
         "id": 1767544015,
         "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun+",
-        "image": "img/Vol 2.jpg",
+        "image": "img/Vol 2_1.jpg",
         "genres": [
             "Comedy",
             "Romance",
