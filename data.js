@@ -48,7 +48,7 @@ const mangaList = [
     {
         "id": 1766798064,
         "title": "Ore no Class ni Wakagaetta Moto Yome ga Iru",
-        "image": "img/Vol 2.jpg",
+        "image": "img/f36d00f5-5cf8-417b-91ea-366ac37230ed.jpg",
         "genres": [
             "Comedy",
             "Romance",
