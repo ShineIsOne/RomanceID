@@ -2,15 +2,15 @@ const mangaList = [
     {
         "id": 1767544015,
         "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun+",
-        "image": "img/Vol 2_1.jpg",
+        "image": "img/asdqdq.jpg",
         "genres": [
             "Comedy",
             "Romance",
             "School",
             "Slice of Life"
         ],
-        "status": "Ongoing",
-        "latestChapter": "Vol. 2 Ch. 23",
+        "status": "Completed",
+        "latestChapter": "Vol. 3 Ch. 36",
         "link": "https://mangadex.org/title/9fe1eafe-3f77-4df2-8d24-ea12bae5172b/kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun",
         "synopsis": "Menceritakan keseharian Kashiwada-san dan Oota-kun setelah mereka resmi berpacaran. Hubungan mereka berkembang lewat momen sekolah, keluarga, dan liburan, dengan dinamika khas. Kashiwada tetap sulit dibaca, sementara perasaan Oota selalu terlihat jelas. Sebuah komedi romantis hangat tentang pasangan muda yang perlahan makin dekat."
     },
