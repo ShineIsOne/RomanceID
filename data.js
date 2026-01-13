@@ -1,5 +1,20 @@
 const mangaList = [
     {
+        "id": 1768319942,
+        "title": "Make Heroine o Katasetai!!",
+        "image": "img/1.jpg",
+        "genres": [
+            "Comedy",
+            "Romance",
+            "School",
+            "Slice of Life"
+        ],
+        "status": "Ongoing",
+        "latestChapter": "Vol. 2 Ch.13 | Up Next 15 Jan 2026",
+        "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
+        "synopsis": "Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati\u2026 sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan\u2026 namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang\u2026!?"
+    },
+    {
         "id": 1767544015,
         "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun+",
         "image": "img/asdqdq.jpg",
