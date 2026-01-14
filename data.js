@@ -1,5 +1,40 @@
 const mangaList = [
     {
+        "id": 1768395372,
+        "title": "Oshi no Teki ni Natta node",
+        "image": "img/03d9a08e-e713-4c29-b9b4-97321d3e8713.jpg",
+        "genres": [
+            "Action",
+            "Comedy",
+            "Fantasy",
+            "Romance",
+            "Superhero",
+            "Reincarnation"
+        ],
+        "status": "Ongoing",
+        "latestChapter": "Vol.1 Ch.1",
+        "link": "https://mangadex.org/title/b15c9c2a-5d37-4d06-b7ca-33bf18482a40/oshi-no-teki-ni-natta-node",
+        "synopsis": "Sejak banyak perempuan membangkitkan kemampuan khusus\u300aBakat\u300bdan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\nIbuki, anggota organisasi jahat\u3010Sumpah Penyelamatan\u3011, adalah seorang rookie yang meski laki-laki memiliki \u300aBakat Pemisahan\u300b.\nJati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya.\n\nSejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan \u3010Primum Libra\u3011. Bagi Ibuki, medan perang antara keadilan dan kejahatan adalah \u201cgaris depan aktivitas mengidolakan\u201d.\n\nKadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya. Sambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya...\n\nMasa depan idolaku akan dijaga oleh musuhnya (aku)!"
+    },
+    {
+        "id": 1768395262,
+        "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
+        "image": "img/163beb3d-eaa8-4ae2-9439-ac252b097bbf.png",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Romance",
+            "Slice of Life",
+            "Monster Girls",
+            "School Life",
+            "Supernatural"
+        ],
+        "status": "Ongoing",
+        "latestChapter": "Vol.1 Ch. 1",
+        "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
+        "synopsis": "Ryuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai."
+    },
+    {
         "id": 1768319942,
         "title": "Make Heroine o Katasetai!!",
         "image": "img/1.jpg",
