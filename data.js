@@ -12,7 +12,7 @@ const mangaList = [
             "Reincarnation"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.1 Ch.4",
+        "latestChapter": "Vol.1 Ch.7 | Up Next ??",
         "link": "https://mangadex.org/title/b15c9c2a-5d37-4d06-b7ca-33bf18482a40/oshi-no-teki-ni-natta-node",
         "synopsis": "Sejak banyak perempuan membangkitkan kemampuan khusus [Bakat] dan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\nIbuki, anggota organisasi jahat [Sumpah Penyelamatan], adalah seorang rookie yang meski laki-laki memiliki [Bakat Pemisahan].\nJati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya.\n\nSejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan [Primum Libra]. Bagi Ibuki, medan perang antara keadilan dan kejahatan adalah \u201cgaris depan aktivitas mengidolakan\u201d.\n\nKadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya. Sambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya...\n\nMasa depan idolaku akan dijaga oleh musuhnya (aku)!"
     },
