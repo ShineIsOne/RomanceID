@@ -136,7 +136,7 @@ const mangaList = [
             "Office Workers"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.8 Ch.56 | Up Next 23 Jan 2026",
+        "latestChapter": "Vol.8 Ch.57 | Up Next 25 Februari 2026",
         "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
         "synopsis": "Sasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?"
     }
