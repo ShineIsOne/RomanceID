@@ -30,7 +30,7 @@ const mangaList = [
             "Supernatural"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.1 Ch. 1",
+        "latestChapter": "Vol.1 Ch. 2 | Up Next ???",
         "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
         "synopsis": "Ryuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai."
     },
