@@ -8,7 +8,7 @@ const mangaList = [
             "Comedy"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol. 1 Ch. 2",
+        "latestChapter": "Vol. 1 Ch. 6",
         "link": "https://mangadex.org/title/c93e558f-d189-4097-bb0d-71e931feed4d/ore-ga-inai-to-sugu-chomeru-hakanagi-kasumi",
         "synopsis": "Pada musim semi tahun pertama SMA, Takase Michiru memutuskan bahwa ia tidak akan berusaha keras dalam kehidupan sekolahnya.\n\nNamun, teman sebangkunya adalah Hakanagi Kasumi, siswi yang penuh rumor mencurigakan. Dengan penutup mata dan perban, ia terlihat seperti seorang menhera, membuat Michiru ingin menjaga jarak.\n\nAkan tetapi, karena suatu kejadian tak terduga, mereka berdua menjadi hubungan yang saling melengkapi. Tubuhnya lemah, tetapi ia berusaha dengan tulus."
     },
