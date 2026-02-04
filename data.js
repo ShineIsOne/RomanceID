@@ -25,7 +25,7 @@ const mangaList = [
             "Reincarnation"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.1 Ch.7 | Up Next ??",
+        "latestChapter": "Vol.1 Ch.8 | Up Next Maret??",
         "link": "https://mangadex.org/title/b15c9c2a-5d37-4d06-b7ca-33bf18482a40/oshi-no-teki-ni-natta-node",
         "synopsis": "Sejak banyak perempuan membangkitkan kemampuan khusus [Bakat] dan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\nIbuki, anggota organisasi jahat [Sumpah Penyelamatan], adalah seorang rookie yang meski laki-laki memiliki [Bakat Pemisahan].\nJati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya.\n\nSejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan [Primum Libra]. Bagi Ibuki, medan perang antara keadilan dan kejahatan adalah \u201cgaris depan aktivitas mengidolakan\u201d.\n\nKadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya. Sambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya...\n\nMasa depan idolaku akan dijaga oleh musuhnya (aku)!"
     },
@@ -58,7 +58,7 @@ const mangaList = [
             "Slice of Life"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol. 2 Ch.14 | Up Next ??",
+        "latestChapter": "Vol. 2 Ch.14 | Up Next 12 Feb 2026",
         "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
         "synopsis": "Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati\u2026 sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan\u2026 namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang\u2026!?"
     },
@@ -134,7 +134,7 @@ const mangaList = [
             "School"
         ],
         "status": "Ongoing",
-        "latestChapter": "Vol.8 Ch.89 | Up Next 30 Jan 2026",
+        "latestChapter": "Vol.8 Ch.90 | Up Next 13 Feb 2026",
         "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
         "synopsis": "Siswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan\u2026 tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!"
     },
