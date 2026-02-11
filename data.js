@@ -1,5 +1,23 @@
 const mangaList = [
     {
+        "id": 1770792399,
+        "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
+        "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Isekai",
+            "Romance",
+            "Slice of Life",
+            "Magic",
+            "Reincarnation"
+        ],
+        "status": "Ongoing",
+        "latestChapter": "Vol.1 Ch. 1",
+        "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
+        "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an overworked salaryman, dies and meets a goddess who offers him reincarnation in another world. He falls in love with her and asks her to marry him. She agrees, and they begin their newlywed life together in a fantasy world. The story focuses on romance, daily life, and light adventures."
+    },
+    {
         "id": 1769473570,
         "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
         "image": "img/9f637a7f-2ce1-4bc2-8329-b83733c780f9.jpg",
