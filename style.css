@@ -169,7 +169,8 @@ header {
     border-radius: 16px; border: 1px solid rgba(254, 231, 21, 0.3);
     position: relative; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     overflow: hidden; animation: slideUp 0.3s ease forwards;
-    display: flex; flex-direction: row; 
+    display: flex; flex-direction: row;
+    max-height: 90vh;
 }
 
 @keyframes slideUp {
@@ -191,10 +192,39 @@ header {
 
 .close-btn:hover { background-color: var(--accent); color: var(--bg-dark); }
 
-.modal-image { width: 40%; flex-shrink: 0; background-color: #000; }
-.modal-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.modal-image { 
+    width: 40%; 
+    flex-shrink: 0; 
+    background-color: #000;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
 
-.modal-info-content { padding: 30px; overflow-y: auto; max-height: 80vh; width: 60%; }
+.modal-image::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px) brightness(0.7);
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.modal-image img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+}
+
+.modal-info-content { padding: 30px; overflow-y: auto; width: 60%; }
 .modal-info-content h2 { color: var(--accent); margin-bottom: 10px; font-size: 1.8rem; }
 .synopsis-label { font-weight: 600; margin-top: 20px; color: var(--text-gray); display: block; margin-bottom: 5px;}
 .synopsis-text { line-height: 1.6; color: #ddd; font-size: 0.95rem; text-align: justify; }
@@ -219,6 +249,18 @@ header {
     transition: 0.2s;
 }
 
+#modalGenres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-width: 100%;
+}
+
+#modalGenres .genre-tag {
+    white-space: normal;
+    word-break: break-word;
+}
+
 .lang-btn.active,
 .lang-btn:hover {
     background: var(--accent);
@@ -228,11 +270,10 @@ header {
 .lang-flags img {
     width: 26px;
     height: 18px;
-    object-fit: cover;   /* paksa crop agar sama */
+    object-fit: cover;
     aspect-ratio: 26 / 18;
     display: block;
-    background: #000;   /* biar area kosong gak kelihatan aneh */
-
+    background: #000;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
@@ -246,7 +287,7 @@ header {
         gap: 8px;
     }
 
-    .card-content { padding: 8px 6px; } /* Sedikit padding extra atas bawah */
+    .card-content { padding: 8px 6px; } 
     
     .manga-title {
         font-size: 0.65rem; margin-bottom: 6px;
@@ -254,30 +295,34 @@ header {
         line-height: 1.2;
     }
 
-    /* --- PERBAIKAN GENRE MOBILE (RAPI) --- */
     .manga-info { 
         margin-bottom: 6px; 
         height: auto;
-        /* Flexbox agar jarak rapi otomatis */
         display: flex;
         flex-wrap: wrap;
-        gap: 3px; /* Jarak antar kotak genre (atas/bawah/kiri/kanan) */
+        gap: 3px; 
     }
 
     .genre-tag { 
-        display: inline-flex; /* Supaya padding presisi */
+        display: inline-flex;
         align-items: center;
         font-size: 0.45rem; 
-        padding: 2px 5px; /* Sedikit dilebarkan */
-        margin: 0; /* Margin dihapus, diganti gap diatas */
+        padding: 2px 5px; 
+        margin: 0; 
         border-radius: 3px;
         line-height: 1;
     }
 
+    /* FIX: Bagian Vol/Terakhir tidak terpotong */
     .chapter-text {
-        font-size: 0.5rem; margin-bottom: 8px;
-        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        font-size: 0.5rem; 
+        margin-bottom: 8px;
+        white-space: normal; /* Berubah dari nowrap agar teks bisa wrap ke bawah */
+        overflow: visible; 
+        text-overflow: clip;
+        line-height: 1.2;
     }
+
     .chapter-text i { font-size: 0.5rem; }
     .btn-read { font-size: 0.55rem; padding: 4px 0; }
     
@@ -286,7 +331,6 @@ header {
         top: 5px; left: 5px; gap: 3px;
     }
 
-    /* --- BACKGROUND BLUR MODAL --- */
     .modal-content { 
         flex-direction: column; 
         height: 90vh;
@@ -297,20 +341,6 @@ header {
     .modal-image { 
         width: 100%; 
         height: 45%; 
-        background-color: #000; 
-        position: relative; 
-    }
-    
-    .modal-image::before {
-        content: '';
-        position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background-image: var(--bg-image);
-        background-size: cover;
-        background-position: center;
-        filter: blur(20px) brightness(0.7);
-        transform: scale(1.1);
-        z-index: 1; 
     }
     
     .modal-image img {
@@ -319,7 +349,6 @@ header {
         object-fit: contain; 
         position: relative; 
         z-index: 2; 
-        filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
     }
     
     .modal-info-content { 
@@ -327,30 +356,38 @@ header {
         height: 55%;
         padding: 20px; 
         background: var(--bg-modal); 
-        position: relative;
-        z-index: 3;
     }
     
     .modal-info-content h2 { font-size: 1.4rem; }
 
-    /* GENRE DI MODAL TETAP BESAR */
     .modal-info-content .genre-tag {
         font-size: 0.8rem;
         padding: 4px 10px;
         margin-right: 5px;
         margin-bottom: 5px;
-        gap: 5px; /* Override gap mobile */
     }
 
-    /* ===== FIX SIZE BENDERA MOBILE SAJA ===== */
-.lang-flags img {
-    width: 14px !important;
-    height: 10px !important;
-}
+    .lang-flags img {
+        width: 14px !important;
+        height: 10px !important;
+    }
 
-.lang-flags {
-    top: 6px !important;
-    right: 6px !important;
-}
+    .lang-flags {
+        top: 6px !important;
+        right: 6px !important;
+    }
 
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-subtitle {
+        font-size: 0.7rem;
+    }
+
+    .lang-btn {
+        padding: 3px 6px;
+        font-size: 0.6rem;
+    }
 }

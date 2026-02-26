@@ -85,7 +85,14 @@ function renderManga() {
 
     emptyMessage.style.display = "none";
 
-    mangaList.forEach(manga => {
+    // ===== SORT ONGOING DULU BARU COMPLETED =====
+const sortedList = [...mangaList].sort((a, b) => {
+    if (a.status === "Ongoing" && b.status === "Completed") return -1;
+    if (a.status === "Completed" && b.status === "Ongoing") return 1;
+    return 0;
+});
+
+sortedList.forEach(manga => {
 
         const genreTags = manga.genres.map(g =>
             `<span class="genre-tag">${g}</span>`
@@ -154,6 +161,10 @@ function openModal(manga) {
 
     modalTitle.textContent = manga.title;
     modalImg.src = manga.image;
+
+    // set background image untuk blur mobile
+    modal.querySelector(".modal-content")
+        .style.setProperty("--bg-image", `url(${manga.image})`);
 
     modalSynopsis.textContent = extractSynopsis(manga.synopsis);
     modalLink.href = manga.link;
