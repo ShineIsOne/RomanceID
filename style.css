@@ -60,7 +60,26 @@ header {
     width: 100%; aspect-ratio: 2/3; overflow: hidden; position: relative;
 }
 
-.card-image img {
+.card-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px; /* tinggi area gelap */
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0)
+    );
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+.card-image img:not(.lang-flag) {
     width: 100%; height: 100%; object-fit: cover;
     transition: transform 0.5s ease;
 }
@@ -180,6 +199,44 @@ header {
 .synopsis-label { font-weight: 600; margin-top: 20px; color: var(--text-gray); display: block; margin-bottom: 5px;}
 .synopsis-text { line-height: 1.6; color: #ddd; font-size: 0.95rem; text-align: justify; }
 
+.lang-flags {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 6px;
+    z-index: 3;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.lang-btn.active,
+.lang-btn:hover {
+    background: var(--accent);
+    color: var(--bg-dark);
+}
+
+.lang-flags img {
+    width: 26px;
+    height: 18px;
+    object-fit: cover;   /* paksa crop agar sama */
+    aspect-ratio: 26 / 18;
+    display: block;
+    background: #000;   /* biar area kosong gak kelihatan aneh */
+
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
 /* --- MOBILE RESPONSIVE TWEAKS --- */
 @media (max-width: 768px) {
     .container { padding: 10px; }
@@ -284,4 +341,16 @@ header {
         margin-bottom: 5px;
         gap: 5px; /* Override gap mobile */
     }
+
+    /* ===== FIX SIZE BENDERA MOBILE SAJA ===== */
+.lang-flags img {
+    width: 14px !important;
+    height: 10px !important;
+}
+
+.lang-flags {
+    top: 6px !important;
+    right: 6px !important;
+}
+
 }

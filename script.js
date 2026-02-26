@@ -1,10 +1,59 @@
-// 1. DOM SELECTION
+let currentLang = "id";
+
+// =========================
+// LANGUAGE SYSTEM
+// =========================
+
+function setLanguage(lang) {
+    currentLang = lang;
+
+    btnID.classList.remove("active");
+    btnEN.classList.remove("active");
+
+    if (lang === "id") btnID.classList.add("active");
+    if (lang === "en") btnEN.classList.add("active");
+
+    document.querySelector(".header-subtitle").textContent =
+        translateText("Project TL Manga", "Manga TL Project");
+
+    document.querySelector(".synopsis-label").textContent =
+        translateText("Sinopsis:", "Synopsis:");
+
+    renderManga();
+}
+
+function translateText(idText, enText) {
+    return currentLang === "id" ? idText : enText;
+}
+
+function extractSynopsis(fullText) {
+    if (!fullText) return "";
+
+    const idMatch = fullText.match(/\(IDN\)([\s\S]*?)(\(ENG\)|$)/);
+    const enMatch = fullText.match(/\(ENG\)([\s\S]*)/);
+
+    if (currentLang === "id" && idMatch) return idMatch[1].trim();
+    if (currentLang === "en" && enMatch) return enMatch[1].trim();
+
+    return fullText;
+}
+
+function translateStatus(status) {
+    if (currentLang === "id") return status;
+    if (status === "Ongoing") return "Ongoing";
+    if (status === "Completed") return "Completed";
+    return status;
+}
+
+// =========================
+// DOM
+// =========================
+
 const container = document.getElementById('mangaContainer');
 const emptyMessage = document.getElementById('emptyMessage');
 const modal = document.getElementById('mangaModal');
 const closeBtn = document.querySelector('.close-btn');
 
-// Elemen Modal
 const modalTitle = document.getElementById('modalTitle');
 const modalImg = document.getElementById('modalImg');
 const modalGenres = document.getElementById('modalGenres');
@@ -12,65 +61,68 @@ const modalSynopsis = document.getElementById('modalSynopsis');
 const modalLink = document.getElementById('modalLink');
 const modalDetails = document.getElementById('modalDetails');
 
-// 2. FUNGSI RENDER
+const btnID = document.getElementById("langID");
+const btnEN = document.getElementById("langEN");
+
+// =========================
+// RENDER
+// =========================
+
 function renderManga() {
     container.innerHTML = "";
 
-    // Cek apakah variabel mangaList ada dan memiliki isi
-    if (typeof mangaList === 'undefined' || mangaList.length === 0) {
-        if(emptyMessage) emptyMessage.style.display = 'block';
+    if (!mangaList || mangaList.length === 0) {
+        emptyMessage.innerHTML = `
+            <i class="fa-solid fa-folder-open" style="font-size: 3rem; margin-bottom: 10px;"></i>
+            <p>${translateText(
+                "Belum ada manga yang ditambahkan.",
+                "No manga has been added yet."
+            )}</p>
+        `;
+        emptyMessage.style.display = "block";
         return;
-    } else {
-        if(emptyMessage) emptyMessage.style.display = 'none';
     }
 
-    // --- SORTING: Ongoing First ---
-    mangaList.sort((a, b) => {
-        if (a.status === "Ongoing" && b.status !== "Ongoing") return -1;
-        if (a.status !== "Ongoing" && b.status === "Ongoing") return 1;
-        return 0;
-    });
+    emptyMessage.style.display = "none";
 
     mangaList.forEach(manga => {
-        // Genre Tags
-        const genreTags = manga.genres.map(genre => 
-            `<span class="genre-tag">${genre}</span>`
+
+        const genreTags = manga.genres.map(g =>
+            `<span class="genre-tag">${g}</span>`
         ).join('');
 
-        // Status Logic
-        let statusIcon = "";
-        let statusClass = "";
-        if(manga.status === "Ongoing") {
-            statusIcon = '<i class="fa-solid fa-hourglass-half"></i>';
-            statusClass = "status-ongoing";
-        } else {
-            statusIcon = '<i class="fa-solid fa-check"></i>';
-            statusClass = "status-completed";
+        let statusClass = manga.status === "Ongoing"
+            ? "status-ongoing"
+            : "status-completed";
+
+        let statusIcon = manga.status === "Ongoing"
+            ? '<i class="fa-solid fa-hourglass-half"></i>'
+            : '<i class="fa-solid fa-check"></i>';
+
+        let flags = "";
+        if (Array.isArray(manga.lang)) {
+            flags = `
+                <div class="lang-flags">
+                    ${manga.lang.includes("id") ? '<img src="https://flagcdn.com/w40/id.png">' : ""}
+                    ${manga.lang.includes("en") ? '<img src="https://flagcdn.com/w40/gb.png">' : ""}
+                </div>
+            `;
         }
 
         const card = document.createElement('div');
         card.classList.add('card');
-        
-        // Open Modal
-        card.addEventListener('click', () => openModal(manga));
 
-        // HTML Structure
-        // PERUBAHAN DISINI: Menambahkan decoding="async" dan width/height
         card.innerHTML = `
             <div class="card-image">
                 <span class="status-badge ${statusClass}">
-                    ${statusIcon} ${manga.status}
+                    ${statusIcon} ${translateStatus(manga.status)}
                 </span>
-                <img 
-                    src="${manga.image}" 
-                    alt="${manga.title}" 
-                    loading="lazy" 
-                    decoding="async" 
-                    width="200" 
-                    height="300" 
-                    onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'"
-                >
+
+                ${flags}
+
+                <img src="${manga.image}">
             </div>
+
             <div class="card-content">
                 <div>
                     <h3 class="manga-title">${manga.title}</h3>
@@ -78,63 +130,74 @@ function renderManga() {
                         ${genreTags}
                     </div>
                     <div class="chapter-text">
-                        <i class="fa-solid fa-book-open"></i> ${manga.latestChapter}
+                        <i class="fa-solid fa-book-open"></i>
+                        ${manga.latestChapter}
                     </div>
                 </div>
-                
-                <a href="${manga.link}" target="_blank" class="btn-read" onclick="event.stopPropagation()">
-                    Baca di Mangadex <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                <a href="${manga.link}" target="_blank" class="btn-read">
+                    ${translateText("Baca di Mangadex", "Read on Mangadex")}
                 </a>
             </div>
         `;
 
+        card.addEventListener('click', () => openModal(manga));
         container.appendChild(card);
     });
 }
 
-// 3. LOGIKA MODAL
+// =========================
+// MODAL
+// =========================
+
 function openModal(manga) {
+
     modalTitle.textContent = manga.title;
     modalImg.src = manga.image;
-    
-    // --- FITUR BARU: Set Background Blur ---
-    // Kita kirim URL gambar ke CSS variable pada elemen pembungkus (modal-image)
-    if(modalImg.parentElement) {
-        modalImg.parentElement.style.setProperty('--bg-image', `url('${manga.image}')`);
-    }
 
-    modalSynopsis.textContent = manga.synopsis;
+    modalSynopsis.textContent = extractSynopsis(manga.synopsis);
     modalLink.href = manga.link;
 
-    modalGenres.innerHTML = manga.genres.map(genre => 
-        `<span class="genre-tag">${genre}</span>`
+    modalLink.innerHTML = `
+        ${translateText("Baca di Mangadex", "Read on Mangadex")}
+        <i class="fa-solid fa-external-link-alt"></i>
+    `;
+
+    modalGenres.innerHTML = manga.genres.map(g =>
+        `<span class="genre-tag">${g}</span>`
     ).join('');
 
-    // Render Status & Chapter di Modal
-    const statusColor = manga.status === "Ongoing" ? "#fee715" : "#00b894";
     modalDetails.innerHTML = `
-        <span style="color: ${statusColor}; font-weight: 600; font-size: 0.9rem;">
-            <i class="fa-solid ${manga.status === 'Ongoing' ? 'fa-hourglass-half' : 'fa-check'}"></i> 
-            Status: ${manga.status}
+        <span>
+            ${translateText("Status", "Status")}:
+            ${translateStatus(manga.status)}
         </span>
-        <span style="color: var(--text-gray); font-weight: 500; font-size: 0.9rem;">
-            <i class="fa-solid fa-book-open" style="color: var(--accent);"></i> 
-            Terakhir: ${manga.latestChapter}
+        <span>
+            ${translateText("Terakhir", "Latest")}:
+            ${manga.latestChapter}
         </span>
     `;
 
-    modal.classList.add('show');
-    document.body.style.overflow = 'hidden';
+    modal.classList.add("show");
 }
 
 function closeModalAction() {
-    modal.classList.remove('show');
-    document.body.style.overflow = 'auto';
+    modal.classList.remove("show");
 }
 
-closeBtn.addEventListener('click', closeModalAction);
-window.addEventListener('click', (e) => {
+closeBtn.addEventListener("click", closeModalAction);
+
+window.addEventListener("click", (e) => {
     if (e.target == modal) closeModalAction();
 });
 
-document.addEventListener('DOMContentLoaded', renderManga);
+// =========================
+// INIT
+// =========================
+
+btnID.addEventListener("click", () => setLanguage("id"));
+btnEN.addEventListener("click", () => setLanguage("en"));
+
+document.addEventListener("DOMContentLoaded", () => {
+    setLanguage("id");
+});
