@@ -64,7 +64,7 @@ const mangaList = [
   {
     "id": 1768395262,
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
-    "image": "img/163beb3d-eaa8-4ae2-9439-ac252b097bbf.png",
+    "image": "img/163beb3d-eaa8-4ae2-9439-ac252b097bbf.jpg",
     "genres": [
       "Comedy",
       "Fantasy",
