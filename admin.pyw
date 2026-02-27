@@ -3,9 +3,12 @@ from tkinter import ttk, filedialog, messagebox
 import json
 import os
 import time
+from PIL import Image
+import io
 
 FILE_DATA = 'data.js'
 FOLDER_IMG = 'img'
+MAX_FILE_SIZE = 80 * 1024  # 80 KB dalam bytes
 
 
 class MangaAdminApp:
@@ -74,7 +77,6 @@ class MangaAdminApp:
         self.canvas.bind("<MouseWheel>", _on_mousewheel)
         scrollable_frame.bind("<MouseWheel>", _on_mousewheel)
 
-        # Support Linux / macOS (Button-4 = scroll up, Button-5 = scroll down)
         self.canvas.bind("<Button-4>", lambda e: self.canvas.yview_scroll(-1, "units"))
         self.canvas.bind("<Button-5>", lambda e: self.canvas.yview_scroll(1, "units"))
         scrollable_frame.bind("<Button-4>", lambda e: self.canvas.yview_scroll(-1, "units"))
@@ -231,18 +233,57 @@ class MangaAdminApp:
 
     def browse_image(self):
         fp = filedialog.askopenfilename(filetypes=[("Images", "*.jpg *.jpeg *.png *.webp")])
-        if fp:
-            fn = os.path.basename(fp)
-            tp = os.path.join(FOLDER_IMG, fn)
-            if not os.path.exists(tp):
-                try:
-                    with open(fp, 'rb') as src, open(tp, 'wb') as dst:
-                        dst.write(src.read())
-                except Exception as e:
-                    messagebox.showwarning("Peringatan", f"Gagal menyalin gambar:\n{e}")
+        if not fp:
+            return
+
+        original_name = os.path.basename(fp)
+        name, _ = os.path.splitext(original_name)
+        new_filename = f"{name}.webp"
+        target_path = os.path.join(FOLDER_IMG, new_filename)
+
+        try:
+            img = Image.open(fp).convert("RGB")  # hilangkan alpha channel
+
+            # Resize dulu (maks lebar 480px, proporsional)
+            max_width = 480
+            if img.width > max_width:
+                ratio = max_width / img.width
+                new_size = (max_width, int(img.height * ratio))
+                img = img.resize(new_size, Image.Resampling.LANCZOS)
+
+            # Kompres agresif sampai < 80 KB
+            quality = 92
+            while quality >= 28:
+                buf = io.BytesIO()
+                img.save(buf, format="WEBP", quality=quality, method=6)
+                size = buf.tell()
+
+                if size <= MAX_FILE_SIZE:
+                    break
+
+                quality -= 6   # turun cukup agresif
+
+            # Simpan hasil terakhir (paksa <80kb atau quality minimal)
+            with open(target_path, "wb") as f:
+                f.write(buf.getvalue())
+
             self.entry_image.delete(0, tk.END)
-            self.entry_image.insert(0, fn)
+            self.entry_image.insert(0, new_filename)
             self.mark_as_changed()
+
+            messagebox.showinfo("Sukses", f"Cover berhasil dikompres menjadi WebP\nUkuran: {size//1024} KB\nNama file: {new_filename}")
+
+        except Exception as e:
+            messagebox.showwarning("Gagal kompres", f"Error saat kompres:\n{e}\n\nGambar dicopy tanpa kompresi.")
+            # fallback: copy original
+            try:
+                with open(fp, 'rb') as src, open(target_path, 'wb') as dst:
+                    dst.write(src.read())
+                self.entry_image.delete(0, tk.END)
+                self.entry_image.insert(0, original_name)
+                self.mark_as_changed()
+            except:
+                messagebox.showerror("Gagal total", "Tidak bisa menyalin gambar sama sekali.")
 
     def on_manga_select(self, event=None):
         if self.has_unsaved_changes:
