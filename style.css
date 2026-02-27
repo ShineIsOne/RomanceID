@@ -8,6 +8,7 @@
     --text-white: #ffffff;
     --text-gray: #b0b3b8;
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --glow: 0 0 12px rgba(254, 231, 21, 0.5);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -19,23 +20,129 @@ body {
     overflow-x: hidden;
 }
 
-.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
 
 /* --- HEADER --- */
 header {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 20px 0; margin-bottom: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0; 
+    margin-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.logo { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
-.logo span { color: var(--text-white); }
-.header-subtitle { color: var(--text-gray); font-size: 0.9rem; }
+
+.logo { 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: var(--accent); 
+}
+
+.logo span { 
+    color: var(--text-white); 
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-subtitle { 
+    color: var(--text-gray); 
+    font-size: 0.9rem; 
+}
+
+/* Hilangkan duplikat subtitle jika ada */
+.filter-wrapper + .header-subtitle,
+.container > .header-subtitle:not(:first-child) {
+    display: none !important;
+}
+
+/* --- TOMOBOL BAHASA DENGAN ANIMASI --- */
+.lang-btn {
+    background: transparent;
+    border: 1.5px solid var(--accent);
+    color: var(--accent);
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.lang-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(254,231,21,0.15), transparent);
+    transition: left 0.6s;
+}
+
+.lang-btn:hover::before {
+    left: 100%;
+}
+
+.lang-btn:hover {
+    background: rgba(254,231,21,0.08);
+    box-shadow: var(--glow);
+    transform: translateY(-1px);
+}
+
+.lang-btn.active {
+    background: var(--accent);
+    color: var(--bg-dark);
+    box-shadow: var(--glow);
+    border-color: transparent;
+}
+
+/* --- FILTER --- */
+.filter-wrapper {
+    margin: 15px 0 25px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.filter-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid var(--accent);
+    background: transparent;
+    color: var(--accent);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow);
+}
+
+.filter-btn.active {
+    background: var(--accent);
+    color: var(--bg-dark);
+    box-shadow: var(--glow);
+}
 
 /* --- GRID SYSTEM --- */
 .manga-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
     gap: 25px;
+    justify-content: center;
 }
 
 /* --- CARD DESIGN --- */
@@ -57,24 +164,18 @@ header {
 }
 
 .card-image {
-    width: 100%; aspect-ratio: 2/3; overflow: hidden; position: relative;
+    width: 100%; 
+    aspect-ratio: 2/3; 
+    overflow: hidden; 
+    position: relative;
 }
 
 .card-image::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px; /* tinggi area gelap */
-
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.75),
-        rgba(0,0,0,0.4),
-        rgba(0,0,0,0)
-    );
-
+    top: 0; left: 0; right: 0;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.4), rgba(0,0,0,0));
     pointer-events: none;
     z-index: 1;
 }
@@ -86,7 +187,7 @@ header {
 
 .card:hover .card-image img { transform: scale(1.1); }
 
-/* --- STATUS BADGE --- */
+/* --- STATUS BADGE & FLAGS --- */
 .status-badge {
     position: absolute; top: 10px; left: 10px;
     padding: 4px 10px; border-radius: 20px;
@@ -98,35 +199,59 @@ header {
 .status-ongoing { background-color: var(--accent); color: var(--bg-dark); }
 .status-completed { background-color: var(--success); color: white; }
 
-/* --- CONTENT --- */
+.lang-flags {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;  /* penting untuk sejajar vertikal */
+    gap: 6px;
+    z-index: 3;
+}
+
+.lang-flags img {
+    width: 26px;
+    height: 18px;
+    object-fit: fill;                 /* stretch ENG agar memenuhi tinggi 18px seperti ID */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* --- CONTENT CARD --- */
 .card-content { 
-    padding: 15px; flex-grow: 1; 
-    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 15px; 
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
 }
 
 .manga-title {
-    font-size: 1rem; font-weight: 600; margin-bottom: 8px;
-    color: var(--text-white);
-    display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2;
-    -webkit-box-orient: vertical; overflow: hidden;
+    font-size: 1rem; 
+    font-weight: 600; 
+    margin-bottom: 8px;
+    display: -webkit-box; 
+    -webkit-line-clamp: 2; 
+    line-clamp: 2;
+    overflow: hidden;
 }
 
-/* Container Genre Desktop */
 .manga-info { 
     margin-bottom: 8px; 
     display: flex; 
     flex-wrap: wrap; 
-    gap: 5px; /* Jarak antar genre */
+    gap: 5px;
 }
 
 .genre-tag {
-    font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;
+    font-size: 0.7rem; 
+    padding: 2px 8px; 
+    border-radius: 4px;
     background-color: rgba(254, 231, 21, 0.1);
     color: var(--accent); 
     white-space: nowrap;
 }
 
-/* --- CHAPTER INFO --- */
 .chapter-text {
     font-size: 0.8rem;
     color: var(--text-gray);
@@ -139,7 +264,7 @@ header {
 
 .chapter-text i { color: var(--accent); font-size: 0.7rem; }
 
-/* --- BUTTON LINK --- */
+/* --- BUTTON LINK CARD --- */
 .btn-read {
     display: block; width: 100%; padding: 8px 0;
     text-align: center; background-color: transparent;
@@ -149,136 +274,194 @@ header {
     margin-top: auto;
 }
 
-.btn-read:hover { background-color: var(--accent); color: var(--bg-dark); }
-
-.modal-btn { margin-top: 20px; padding: 12px; font-size: 1rem; }
-
-/* --- MODAL --- */
-.modal {
-    display: none; position: fixed; z-index: 1000; left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px);
-    align-items: center; justify-content: center;
-    opacity: 0; transition: opacity 0.3s ease;
+.btn-read:hover { 
+    background-color: var(--accent); 
+    color: var(--bg-dark); 
 }
 
-.modal.show { display: flex; opacity: 1; }
+/* --- MODAL - UI LENGKAP & UPGRADE --- */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(17, 24, 32, 0.92);
+    backdrop-filter: blur(8px);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.modal.show {
+    display: flex;
+    opacity: 1;
+}
 
 .modal-content {
-    background-color: var(--bg-modal); width: 90%; max-width: 800px;
-    border-radius: 16px; border: 1px solid rgba(254, 231, 21, 0.3);
-    position: relative; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    overflow: hidden; animation: slideUp 0.3s ease forwards;
-    display: flex; flex-direction: row;
-    max-height: 90vh;
+    background: var(--bg-modal);
+    width: 90%;
+    max-width: 860px;
+    border-radius: 16px;
+    border: 1px solid rgba(254, 231, 21, 0.25);
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.7), 0 0 30px rgba(254, 231, 21, 0.15);
+    position: relative;
+    animation: modalPop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    display: flex;
+    flex-direction: row;
+    max-height: 92vh;
 }
 
-@keyframes slideUp {
-    from { transform: translateY(50px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+@keyframes modalPop {
+    from { transform: scale(0.85) translateY(40px); opacity: 0; }
+    to { transform: scale(1) translateY(0); opacity: 1; }
 }
 
 .close-btn {
-    position: absolute; top: 15px; right: 15px;
-    color: var(--text-white); font-size: 20px; font-weight: bold;
-    cursor: pointer; z-index: 20;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 35px; height: 35px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: var(--text-white);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 20;
+    background: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: var(--transition);
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(254, 231, 21, 0.2);
 }
 
-.close-btn:hover { background-color: var(--accent); color: var(--bg-dark); }
+.close-btn:hover {
+    background: var(--accent);
+    color: var(--bg-dark);
+    transform: rotate(90deg);
+    box-shadow: var(--glow);
+}
 
-.modal-image { 
-    width: 40%; 
-    flex-shrink: 0; 
-    background-color: #000;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
+.modal-image {
+    width: 40%;
+    flex-shrink: 0;
+    background: #000;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-image::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: var(--bg-image);
+    inset: 0;
+    background: var(--bg-image, linear-gradient(135deg, #111820, #1c2630));
     background-size: cover;
     background-position: center;
-    filter: blur(20px) brightness(0.7);
-    transform: scale(1.1);
+    filter: blur(25px) brightness(0.6);
+    transform: scale(1.15);
     z-index: 1;
 }
 
-.modal-image img { 
-    width: 100%; 
-    height: 100%; 
-    object-fit: contain; 
+.modal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     position: relative;
     z-index: 2;
-    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.6));
+    transition: transform 0.6s ease;
 }
 
-.modal-info-content { padding: 30px; overflow-y: auto; width: 60%; }
-.modal-info-content h2 { color: var(--accent); margin-bottom: 10px; font-size: 1.8rem; }
-.synopsis-label { font-weight: 600; margin-top: 20px; color: var(--text-gray); display: block; margin-bottom: 5px;}
-.synopsis-text { line-height: 1.6; color: #ddd; font-size: 0.95rem; text-align: justify; }
+.modal-content:hover .modal-image img {
+    transform: scale(1.04);
+}
 
-.lang-flags {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.modal-info-content {
+    padding: 32px 28px;
+    overflow-y: auto;
+    width: 60%;
     display: flex;
-    gap: 6px;
-    z-index: 3;
+    flex-direction: column;
 }
 
-.lang-btn {
-    background: transparent;
-    border: 1px solid var(--accent);
+.modal-info-content h2 {
     color: var(--accent);
-    padding: 4px 8px;
-    font-size: 0.7rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.2s;
+    margin-bottom: 12px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 #modalGenres {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    max-width: 100%;
+    gap: 8px;
+    margin-bottom: 16px;
 }
 
 #modalGenres .genre-tag {
-    white-space: normal;
-    word-break: break-word;
+    font-size: 0.85rem;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: rgba(254, 231, 21, 0.12);
+    color: var(--accent);
+    border: 1px solid rgba(254, 231, 21, 0.2);
 }
 
-.lang-btn.active,
-.lang-btn:hover {
+#modalDetails {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: var(--text-gray);
+}
+
+.synopsis-label {
+    font-weight: 600;
+    margin: 20px 0 8px;
+    color: var(--text-gray);
+    font-size: 1.05rem;
+}
+
+.synopsis-text {
+    line-height: 1.7;
+    color: #e0e0e0;
+    font-size: 0.98rem;
+    text-align: justify;
+}
+
+.modal-btn {
+    margin-top: auto;
+    padding: 14px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 24px auto 0;
+}
+
+.modal-btn:hover {
     background: var(--accent);
     color: var(--bg-dark);
+    box-shadow: var(--glow);
+    transform: translateY(-2px);
 }
 
-.lang-flags img {
-    width: 26px;
-    height: 18px;
-    object-fit: cover;
-    aspect-ratio: 26 / 18;
-    display: block;
-    background: #000;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-}
-
-/* --- MOBILE RESPONSIVE TWEAKS --- */
+/* --- RESPONSIVE MOBILE --- */
 @media (max-width: 768px) {
     .container { padding: 10px; }
     
@@ -291,35 +474,24 @@ header {
     
     .manga-title {
         font-size: 0.65rem; margin-bottom: 6px;
-        -webkit-line-clamp: 2; line-clamp: 2;
         line-height: 1.2;
     }
 
     .manga-info { 
         margin-bottom: 6px; 
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
         gap: 3px; 
     }
 
     .genre-tag { 
-        display: inline-flex;
-        align-items: center;
         font-size: 0.45rem; 
         padding: 2px 5px; 
-        margin: 0; 
         border-radius: 3px;
-        line-height: 1;
     }
 
-    /* FIX: Bagian Vol/Terakhir tidak terpotong */
     .chapter-text {
         font-size: 0.5rem; 
         margin-bottom: 8px;
-        white-space: normal; /* Berubah dari nowrap agar teks bisa wrap ke bawah */
-        overflow: visible; 
-        text-overflow: clip;
+        white-space: normal;
         line-height: 1.2;
     }
 
@@ -331,45 +503,13 @@ header {
         top: 5px; left: 5px; gap: 3px;
     }
 
-    .modal-content { 
-        flex-direction: column; 
-        height: 90vh;
-        width: 95%;
-        overflow: hidden; 
-    }
-    
-    .modal-image { 
-        width: 100%; 
-        height: 45%; 
-    }
-    
-    .modal-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; 
-        position: relative; 
-        z-index: 2; 
-    }
-    
-    .modal-info-content { 
-        width: 100%; 
-        height: 55%;
-        padding: 20px; 
-        background: var(--bg-modal); 
-    }
-    
-    .modal-info-content h2 { font-size: 1.4rem; }
-
-    .modal-info-content .genre-tag {
-        font-size: 0.8rem;
-        padding: 4px 10px;
-        margin-right: 5px;
-        margin-bottom: 5px;
+    .lang-btn {
+        padding: 3px 6px;
+        font-size: 0.6rem;
     }
 
-    .lang-flags img {
-        width: 14px !important;
-        height: 10px !important;
+    .header-subtitle {
+        font-size: 0.7rem;
     }
 
     .lang-flags {
@@ -377,17 +517,39 @@ header {
         right: 6px !important;
     }
 
-    header {
-        flex-direction: row;
-        align-items: center;
+    .lang-flags img {
+        width: 14px !important;
+        height: 10px !important;
+        object-fit: fill;   /* stretch ENG agar tinggi sama dengan ID di mobile */
     }
 
-    .header-subtitle {
-        font-size: 0.7rem;
+    /* Modal mobile */
+    .modal-content {
+        flex-direction: column;
+        width: 94%;
+        max-height: 90vh;
     }
 
-    .lang-btn {
-        padding: 3px 6px;
-        font-size: 0.6rem;
+    .modal-image {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .modal-info-content {
+        width: 100%;
+        padding: 24px 18px;
+    }
+
+    .modal-info-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .synopsis-text {
+        font-size: 0.92rem;
+    }
+
+    .modal-btn {
+        font-size: 0.98rem;
+        padding: 12px 0;
     }
 }

@@ -12,25 +12,35 @@
 <body>
 
     <div class="container">
+
         <header>
             <div class="logo">Romance<span>ID</span></div>
 
-            <div style="display:flex; gap:10px; align-items:center;">
+            <div class="header-right">
                 <button id="langID" class="lang-btn">IDN</button>
                 <button id="langEN" class="lang-btn">ENG</button>
                 <div class="header-subtitle">Project TL Manga</div>
             </div>
         </header>
 
+        <!-- FILTER DI BAWAH LOGO -->
+        <div class="filter-wrapper">
+            <button id="btnTL" class="filter-btn active">TL Project</button>
+            <button id="btnOrder" class="filter-btn">Order Project</button>
+        </div>
+
         <div class="manga-grid" id="mangaContainer">
-            </div>
+            <!-- Card manga akan dimasukkan oleh JS di sini -->
+        </div>
         
         <div id="emptyMessage" style="display: none; text-align: center; color: #b0b3b8; margin-top: 50px;">
             <i class="fa-solid fa-folder-open" style="font-size: 3rem; margin-bottom: 10px;"></i>
             <p>Belum ada manga yang ditambahkan.</p>
         </div>
-    </div>
 
+    </div> <!-- akhir container -->
+
+    <!-- MODAL -->
     <div id="mangaModal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>

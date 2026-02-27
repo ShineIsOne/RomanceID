@@ -1,5 +1,5 @@
 let currentLang = "id";
-
+let currentView = "TL"; // default tampilan TL
 // =========================
 // LANGUAGE SYSTEM
 // =========================
@@ -63,6 +63,8 @@ const modalDetails = document.getElementById('modalDetails');
 
 const btnID = document.getElementById("langID");
 const btnEN = document.getElementById("langEN");
+const btnTL = document.getElementById("btnTL");
+const btnOrder = document.getElementById("btnOrder");
 
 // =========================
 // RENDER
@@ -71,12 +73,16 @@ const btnEN = document.getElementById("langEN");
 function renderManga() {
     container.innerHTML = "";
 
-    if (!mangaList || mangaList.length === 0) {
+    const filteredList = mangaList.filter(manga =>
+        manga.type === currentView
+    );
+
+    if (!filteredList || filteredList.length === 0) {
         emptyMessage.innerHTML = `
             <i class="fa-solid fa-folder-open" style="font-size: 3rem; margin-bottom: 10px;"></i>
             <p>${translateText(
-                "Belum ada manga yang ditambahkan.",
-                "No manga has been added yet."
+                "Belum ada manga di kategori ini.",
+                "No manga in this category."
             )}</p>
         `;
         emptyMessage.style.display = "block";
@@ -85,12 +91,11 @@ function renderManga() {
 
     emptyMessage.style.display = "none";
 
-    // ===== SORT ONGOING DULU BARU COMPLETED =====
-const sortedList = [...mangaList].sort((a, b) => {
-    if (a.status === "Ongoing" && b.status === "Completed") return -1;
-    if (a.status === "Completed" && b.status === "Ongoing") return 1;
-    return 0;
-});
+    const sortedList = [...filteredList].sort((a, b) => {
+        if (a.status === "Ongoing" && b.status === "Completed") return -1;
+        if (a.status === "Completed" && b.status === "Ongoing") return 1;
+        return 0;
+    });
 
 sortedList.forEach(manga => {
 
@@ -111,7 +116,7 @@ sortedList.forEach(manga => {
             flags = `
                 <div class="lang-flags">
                     ${manga.lang.includes("id") ? '<img src="https://flagcdn.com/w40/id.png">' : ""}
-                    ${manga.lang.includes("en") ? '<img src="https://flagcdn.com/w40/gb.png">' : ""}
+                    ${manga.lang.includes("en") ? '<img src="https://flagcdn.com/w40/gb.png" alt="English" style="aspect-ratio: 5/3; object-fit: fill;">' : ""}
                 </div>
             `;
         }
@@ -211,4 +216,18 @@ btnEN.addEventListener("click", () => setLanguage("en"));
 
 document.addEventListener("DOMContentLoaded", () => {
     setLanguage("id");
+});
+
+btnTL.addEventListener("click", () => {
+    currentView = "TL";
+    btnTL.classList.add("active");
+    btnOrder.classList.remove("active");
+    renderManga();
+});
+
+btnOrder.addEventListener("click", () => {
+    currentView = "Order";
+    btnOrder.classList.add("active");
+    btnTL.classList.remove("active");
+    renderManga();
 });
