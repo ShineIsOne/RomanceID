@@ -269,7 +269,7 @@ const mangaList = [
       "Seinen"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @caroluussss | Vol 6 - Vol 15 | Kirim via Drive",
+    "latestChapter": "Order by @_fikritriewaluyo26 | Vol 6 - Vol 15 | Kirim via Drive",
     "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
     "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
     "lang": [
