@@ -31,7 +31,7 @@ const mangaList = [
       "Comedy"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol. 1 Ch. 12 | Up Next 4 March 2026",
+    "latestChapter": "Vol. 1 Ch. 13 | Up Next 15 March 2026",
     "link": "https://mangadex.org/title/c93e558f-d189-4097-bb0d-71e931feed4d/ore-ga-inai-to-sugu-chomeru-hakanagi-kasumi",
     "synopsis": "(IDN)\nPada musim semi tahun pertama SMA, Takase Michiru memutuskan bahwa ia tidak akan berusaha keras dalam kehidupan sekolahnya.\nNamun, teman sebangkunya adalah Hakanagi Kasumi, siswi yang penuh rumor mencurigakan. Dengan penutup mata dan perban, ia terlihat seperti seorang menhera, membuat Michiru ingin menjaga jarak.\nAkan tetapi, karena suatu kejadian tak terduga, mereka berdua menjadi hubungan yang saling melengkapi. Tubuhnya lemah, tetapi ia berusaha dengan tulus.\n\n(ENG)\nIn the spring of her first year of high school, Michiru Takase decided that she would not put much effort into her school life.\nHowever, her seatmate was Kasumi Hakanagi, a student surrounded by suspicious rumors. With an eyepatch and bandages, she looked like a \"menhera,\" making Michiru want to keep her distance.\nYet, due to an unexpected turn of events, the two of them entered into a relationship where they complemented each other. Her body was weak, but she gave it her sincere effort.",
     "lang": [
