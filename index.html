@@ -17,9 +17,15 @@
             <div class="logo">Romance<span>ID</span></div>
 
             <div class="header-right">
-                <button id="langID" class="lang-btn">IDN</button>
-                <button id="langEN" class="lang-btn">ENG</button>
-                <div class="header-subtitle">Project TL Manga</div>
+                <button id="supportBtn" class="support-btn">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="support-btn-text">Support Me</span>
+                </button>
+                <div class="header-lang-group">
+                    <button id="langID" class="lang-btn">IDN</button>
+                    <button id="langEN" class="lang-btn">ENG</button>
+                    <div class="header-subtitle">Project TL Manga</div>
+                </div>
             </div>
         </header>
 
@@ -60,6 +66,143 @@
                     Baca di Mangadex <i class="fa-solid fa-external-link-alt"></i>
                 </a>
             </div>
+        </div>
+    </div>
+
+    <!-- FLOATING ORDER INFO BUTTON -->
+    <button id="orderInfoBtn" class="order-fab" style="display:none;">
+        <i class="fa-solid fa-circle-info"></i>
+    </button>
+
+    <!-- ORDER INFO MODAL -->
+    <div id="orderInfoModal" class="modal order-info-modal">
+        <div class="modal-content order-info-modal-content">
+            <span class="close-btn" id="orderInfoCloseBtn">&times;</span>
+
+            <div class="order-info-header">
+                <div class="order-info-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <h2 class="order-info-title" id="orderInfoTitle">Info Order</h2>
+            </div>
+
+            <div class="order-info-lang-toggle">
+                <button class="support-lang-tab active" id="orderTabID" onclick="switchOrderLang('id')">
+                    <img src="https://flagcdn.com/w40/id.png" alt="ID"> Indonesia
+                </button>
+                <button class="support-lang-tab" id="orderTabEN" onclick="switchOrderLang('en')">
+                    <img src="https://flagcdn.com/w40/gb.png" alt="EN"> English
+                </button>
+            </div>
+
+            <!-- Panel Indonesia -->
+            <div class="order-info-panel" id="orderPanelID">
+                <div class="order-info-body">
+                    <p>Bagi yang mau baca manga versi Indonesia tapi belum ada yang TL, bisa order atau pesan di sini. Terserah manga apa saja, genre apa saja, baik itu manga yang ada di MangaDex atau tidak ada.</p>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-solid fa-truck-fast"></i> Cara Pengiriman</div>
+                        <p>Bisa lewat upload di MangaDex, atau bisa lewat Google Drive (kalau manga di MD di-takedown). Bisa format <strong>JPG</strong> atau <strong>PDF</strong>.</p>
+                    </div>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-solid fa-tag"></i> Harga</div>
+                        <p>Harganya menyesuaikan per halaman, jadi bisa pesan per chapter atau per volume.</p>
+                    </div>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-brands fa-instagram"></i> Cara Pesan</div>
+                        <p>DM gw di Instagram untuk memesan.</p>
+                    </div>
+
+                    <a href="https://www.instagram.com/shine.is.one/" target="_blank" class="order-info-btn" id="orderIGBtnID">
+                        <i class="fa-brands fa-instagram"></i> DM di Instagram
+                    </a>
+                </div>
+            </div>
+
+            <!-- Panel English -->
+            <div class="order-info-panel" id="orderPanelEN" style="display:none;">
+                <div class="order-info-body">
+                    <p>Want to read a manga in Indonesian but no one has translated it yet? You can place an order here — any manga, any genre, whether it's on MangaDex or not.</p>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-solid fa-truck-fast"></i> Delivery Method</div>
+                        <p>Can be uploaded to MangaDex, or shared via Google Drive (if the manga gets taken down on MD). Available in <strong>JPG</strong> or <strong>PDF</strong> format.</p>
+                    </div>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-solid fa-tag"></i> Pricing</div>
+                        <p>Pricing is based on page count, so you can order per chapter or per volume.</p>
+                    </div>
+
+                    <div class="order-info-section">
+                        <div class="order-info-section-title"><i class="fa-brands fa-instagram"></i> How to Order</div>
+                        <p>DM me on Instagram to place your order.</p>
+                    </div>
+
+                    <a href="https://instagram.com/" target="_blank" class="order-info-btn" id="orderIGBtnEN">
+                        <i class="fa-brands fa-instagram"></i> DM on Instagram
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SUPPORT MODAL -->
+    <div id="supportModal" class="modal support-modal">
+        <div class="modal-content support-modal-content">
+            <span class="close-btn" id="supportCloseBtn">&times;</span>
+
+            <div class="support-header">
+                <div class="support-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <h2 class="support-title" id="supportTitle">Dukung Saya</h2>
+                <p class="support-subtitle" id="supportSubtitle">Dukunganmu sangat berarti untuk melanjutkan proyek ini!</p>
+            </div>
+
+            <div class="support-lang-toggle">
+                <button class="support-lang-tab active" id="tabID" onclick="switchSupportLang('id')">
+                    <img src="https://flagcdn.com/w40/id.png" alt="ID"> Indonesia
+                </button>
+                <button class="support-lang-tab" id="tabEN" onclick="switchSupportLang('en')">
+                    <img src="https://flagcdn.com/w40/gb.png" alt="EN"> English
+                </button>
+            </div>
+
+            <!-- Indonesia: QRIS -->
+            <div class="support-panel" id="panelID">
+                <div class="support-qr-wrapper">
+                    <div class="qr-label" id="qrLabelID">Scan QRIS untuk donasi</div>
+                    <div class="qr-frame">
+                        <img src="support/IMG_4088.JPG" alt="QRIS Code" class="qr-image">
+                    </div>
+                    <p class="qr-note" id="qrNoteID">Gunakan aplikasi e-wallet atau m-banking apapun yang mendukung QRIS</p>
+                </div>
+            </div>
+
+            <!-- English: Ko-fi -->
+            <div class="support-panel" id="panelEN" style="display:none;">
+                <div class="support-kofi-wrapper">
+                    <div class="kofi-profile">
+                        <img src="support/Profile Ko-fi.jpg" alt="Ko-fi Profile" class="kofi-profile-img">
+                        <div class="kofi-info">
+                            <span class="kofi-name">Shine Is One</span>
+                            <span class="kofi-platform">Ko-fi</span>
+                        </div>
+                    </div>
+                    <div class="qr-frame kofi-qr-frame">
+                        <img src="support/QR Ko-fi.jpg" alt="Ko-fi QR" class="qr-image">
+                    </div>
+                    <p class="qr-note" id="qrNoteEN">Scan QR or click the button below</p>
+                    <a href="https://ko-fi.com/shineisone" target="_blank" class="kofi-btn">
+                        <i class="fa-solid fa-mug-hot"></i> Support on Ko-fi
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 

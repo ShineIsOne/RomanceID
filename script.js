@@ -231,3 +231,104 @@ btnOrder.addEventListener("click", () => {
     btnTL.classList.remove("active");
     renderManga();
 });
+
+// =========================
+// SUPPORT MODAL
+// =========================
+
+const supportModal = document.getElementById("supportModal");
+const supportBtn = document.getElementById("supportBtn");
+const supportCloseBtn = document.getElementById("supportCloseBtn");
+
+function switchSupportLang(lang) {
+    const panelID = document.getElementById("panelID");
+    const panelEN = document.getElementById("panelEN");
+    const tabID = document.getElementById("tabID");
+    const tabEN = document.getElementById("tabEN");
+    const titleEl = document.getElementById("supportTitle");
+    const subtitleEl = document.getElementById("supportSubtitle");
+
+    if (lang === "id") {
+        panelID.style.display = "";
+        panelEN.style.display = "none";
+        tabID.classList.add("active");
+        tabEN.classList.remove("active");
+        titleEl.textContent = "Dukung Saya";
+        subtitleEl.textContent = "Dukunganmu sangat berarti untuk melanjutkan proyek ini!";
+    } else {
+        panelID.style.display = "none";
+        panelEN.style.display = "";
+        tabID.classList.remove("active");
+        tabEN.classList.add("active");
+        titleEl.textContent = "Support Me";
+        subtitleEl.textContent = "Your support means a lot to keep this project going!";
+    }
+}
+
+supportBtn.addEventListener("click", () => {
+    supportModal.classList.add("show");
+    // Sync dengan bahasa aktif saat ini
+    switchSupportLang(currentLang);
+});
+
+supportCloseBtn.addEventListener("click", () => {
+    supportModal.classList.remove("show");
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target === supportModal) supportModal.classList.remove("show");
+});
+
+// =========================
+// ORDER INFO FAB & MODAL
+// =========================
+
+const orderInfoBtn = document.getElementById("orderInfoBtn");
+const orderInfoModal = document.getElementById("orderInfoModal");
+const orderInfoCloseBtn = document.getElementById("orderInfoCloseBtn");
+
+// Tampilkan/sembunyikan FAB sesuai view
+function updateOrderFab() {
+    if (currentView === "Order") {
+        orderInfoBtn.style.display = "flex";
+    } else {
+        orderInfoBtn.style.display = "none";
+        orderInfoModal.classList.remove("show");
+    }
+}
+
+function switchOrderLang(lang) {
+    const panelID = document.getElementById("orderPanelID");
+    const panelEN = document.getElementById("orderPanelEN");
+    const tabID = document.getElementById("orderTabID");
+    const tabEN = document.getElementById("orderTabEN");
+
+    if (lang === "id") {
+        panelID.style.display = "";
+        panelEN.style.display = "none";
+        tabID.classList.add("active");
+        tabEN.classList.remove("active");
+    } else {
+        panelID.style.display = "none";
+        panelEN.style.display = "";
+        tabID.classList.remove("active");
+        tabEN.classList.add("active");
+    }
+}
+
+orderInfoBtn.addEventListener("click", () => {
+    orderInfoModal.classList.add("show");
+    switchOrderLang(currentLang);
+});
+
+orderInfoCloseBtn.addEventListener("click", () => {
+    orderInfoModal.classList.remove("show");
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target === orderInfoModal) orderInfoModal.classList.remove("show");
+});
+
+// Patch tombol TL/Order agar FAB ikut update
+btnTL.addEventListener("click", updateOrderFab);
+btnOrder.addEventListener("click", updateOrderFab);
