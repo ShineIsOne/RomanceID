@@ -192,7 +192,7 @@ const mangaList = [
       "School"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.92 | Up Next 13 Maret 2026",
+    "latestChapter": "Vol.8 Ch.93 | Up Next 27 Maret 2026",
     "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
     "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
     "lang": [
