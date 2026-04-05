@@ -64,7 +64,7 @@ const mangaList = [
   {
     "id": 1768395262,
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
-    "image": "img/163beb3d-eaa8-4ae2-9439-ac252b097bbf.jpg",
+    "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
       "Comedy",
       "Fantasy",
@@ -280,7 +280,7 @@ const mangaList = [
   },
   {
     "title": "Chigau Miyahara Omae Janai!",
-    "image": "img/d3154ed8-eb5b-4b04-807b-e0b5dd8531cb.webp",
+    "image": "img/ca758c9b-c401-4ee3-b357-1c440507f5d0.webp",
     "genres": [
       "Comedy",
       "Romance",
@@ -288,7 +288,7 @@ const mangaList = [
       "School Life"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @yerrrrrrrrrr._ | Chapter 1 - 20 | Kirim via MangaDex",
+    "latestChapter": "Order by @yerrrrrrrrrr._ | Chapter 1 - 40.5 | Kirim via MangaDex",
     "link": "https://mangadex.org/title/ae3736bf-dc58-40cc-b1cb-928269edf62b/chigau-miyahara-omae-janai",
     "synopsis": "(IDN)\nManga ini berpusat pada Arima, seorang anak laki-laki yang menyukai seorang gadis bernama Yukihira. Namun setiap kali ia mencoba melakukan sesuatu untuk mendekati Yukihira, temannya yang lain, Miyahara, kebetulan selalu berada di situ dan salah paham, mengira Arima sedang mencoba mendekatinya.",
     "lang": [
