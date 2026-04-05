@@ -10,16 +10,6 @@
 //    Pilih "Start in test mode" > Next > Enable
 // ============================================================
 
-import emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/+esm";
-
-// ============================================================
-// EMAILJS CONFIG
-// ============================================================
-emailjs.init("c4PDmjTwKUgP6fB6V");
-const EMAILJS_SERVICE_ID  = "service_fcqu6o7";
-const EMAILJS_TEMPLATE_ID = "template_bhofz5t";
-// ============================================================
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import {
   getFirestore,
@@ -33,6 +23,38 @@ import {
   limit,
   getCountFromServer
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+// ============================================================
+// TELEGRAM BOT CONFIG
+// Cara setup:
+// 1. Chat @BotFather di Telegram, buat bot baru → dapat BOT_TOKEN
+// 2. Chat bot kamu, lalu buka:
+//    https://api.telegram.org/bot<BOT_TOKEN>/getUpdates
+//    Ambil nilai "id" dari "chat" → itu CHAT_ID kamu
+// ============================================================
+const TELEGRAM_BOT_TOKEN = "8752213236:AAHxV7KDI-rjeyXw3iyQH8kLysXSF3E2Jos";
+const TELEGRAM_CHAT_ID   = "5247945257";
+
+async function sendTelegramNotif({ mangaTitle, username, text }) {
+  const message =
+    `💬 *Komentar Baru!*\n` +
+    `📖 Manga: ${mangaTitle}\n` +
+    `👤 User: ${username}\n` +
+    `🕒 Waktu: ${new Date().toLocaleString("id-ID")}\n\n` +
+    `💬 ${text}`;
+
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+
+  fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: TELEGRAM_CHAT_ID,
+      text: message,
+      parse_mode: "Markdown"
+    })
+  }).catch(err => console.warn("Telegram notif error:", err));
+}
 
 // ============================================================
 // FIREBASE CONFIG — ganti dengan config milik kamu!
@@ -184,13 +206,8 @@ window.sendComment = async function() {
       timestamp: serverTimestamp()
     });
 
-    // Kirim notif email
-    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-      manga_title: mangaTitle,
-      name:        username,
-      message:     text,
-      time:        new Date().toLocaleString("id-ID"),
-    }).catch(err => console.warn("EmailJS error:", err));
+    // Kirim notif Telegram
+    sendTelegramNotif({ mangaTitle, username, text });
 
     input.value = "";
     document.getElementById("commentCharCount").textContent = "0/300";
