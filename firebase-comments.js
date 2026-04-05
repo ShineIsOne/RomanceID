@@ -10,6 +10,16 @@
 //    Pilih "Start in test mode" > Next > Enable
 // ============================================================
 
+import emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/+esm";
+
+// ============================================================
+// EMAILJS CONFIG
+// ============================================================
+emailjs.init("c4PDmjTwKUgP6fB6V");
+const EMAILJS_SERVICE_ID  = "service_fcqu6o7";
+const EMAILJS_TEMPLATE_ID = "template_bhofz5t";
+// ============================================================
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import {
   getFirestore,
@@ -173,6 +183,14 @@ window.sendComment = async function() {
       text: text,
       timestamp: serverTimestamp()
     });
+
+    // Kirim notif email
+    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+      manga_title: mangaTitle,
+      name:        username,
+      message:     text,
+      time:        new Date().toLocaleString("id-ID"),
+    }).catch(err => console.warn("EmailJS error:", err));
 
     input.value = "";
     document.getElementById("commentCharCount").textContent = "0/300";
