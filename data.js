@@ -280,7 +280,7 @@ const mangaList = [
   },
   {
     "title": "Chigau Miyahara Omae Janai!",
-    "image": "img/ca758c9b-c401-4ee3-b357-1c440507f5d0.webp",
+    "image": "img/32406940-85f8-48c7-a39a-6642f9fe1baa.webp",
     "genres": [
       "Comedy",
       "Romance",
@@ -288,7 +288,7 @@ const mangaList = [
       "School Life"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @yerrrrrrrrrr._ | Chapter 1 - 40.5 | Kirim via MangaDex",
+    "latestChapter": "Order by @yerrrrrrrrrr._ | Volume 5 - Chapter 53 | Kirim via MangaDex",
     "link": "https://mangadex.org/title/ae3736bf-dc58-40cc-b1cb-928269edf62b/chigau-miyahara-omae-janai",
     "synopsis": "(IDN)\nManga ini berpusat pada Arima, seorang anak laki-laki yang menyukai seorang gadis bernama Yukihira. Namun setiap kali ia mencoba melakukan sesuatu untuk mendekati Yukihira, temannya yang lain, Miyahara, kebetulan selalu berada di situ dan salah paham, mengira Arima sedang mencoba mendekatinya.",
     "lang": [
