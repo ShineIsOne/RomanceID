@@ -20,7 +20,8 @@ import {
   orderBy,
   onSnapshot,
   serverTimestamp,
-  limit
+  limit,
+  getCountFromServer
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
 // ============================================================
@@ -206,3 +207,20 @@ function formatTime(date) {
   if (diff < 86400) return `${Math.floor(diff / 3600)} jam lalu`;
   return date.toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" });
 }
+
+// ============================================================
+// HITUNG KOMENTAR PER MANGA (untuk badge di card)
+// ============================================================
+window.loadCommentCounts = function(mangaIds) {
+  mangaIds.forEach(id => {
+    const q = query(
+      collection(db, "comments"),
+      where("mangaId", "==", String(id))
+    );
+    getCountFromServer(q).then(snapshot => {
+      const count = snapshot.data().count;
+      const badge = document.getElementById("comment-count-" + id);
+      if (badge) badge.textContent = count > 0 ? count : "";
+    }).catch(() => {});
+  });
+};

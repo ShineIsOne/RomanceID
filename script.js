@@ -153,6 +153,7 @@ sortedList.forEach(manga => {
                 <button class="btn-comment" onclick="event.stopPropagation(); openCommentModal(${JSON.stringify(manga).replace(/"/g, '&quot;')})">
                        <i class="fa-regular fa-comments"></i>
                        ${translateText("Komentar", "Comments")}
+                       <span id="comment-count-${manga.id}" class="comment-count-badge"></span>
                 </button>
             </div>
         `;
@@ -160,6 +161,11 @@ sortedList.forEach(manga => {
         card.addEventListener('click', () => openModal(manga));
         container.appendChild(card);
     });
+
+    // Load jumlah komentar untuk semua card yang tampil
+    if (typeof loadCommentCounts === 'function') {
+        loadCommentCounts(sortedList.map(m => m.id));
+    }
 }
 
 // =========================
