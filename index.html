@@ -206,6 +206,41 @@
         </div>
     </div>
 
+    <!-- COMMENT MODAL -->
+<div id="commentModal" class="modal" onclick="if(event.target===this) closeCommentModal()">
+  <div class="comment-modal-content">
+
+    <div class="comment-modal-header">
+      <img id="commentModalImg" src="" alt="cover">
+      <div class="comment-modal-header-info">
+        <h3 id="commentModalTitle">Judul Manga</h3>
+        <span><i class="fa-regular fa-comments"></i> Komentar</span>
+      </div>
+      <button class="comment-modal-close" onclick="closeCommentModal()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div id="commentList"></div>
+
+    <div class="comment-modal-form">
+      <input id="commentUsername" type="text" placeholder="Username kamu..." maxlength="30">
+      <div class="comment-textarea-wrapper">
+        <textarea id="commentInput" placeholder="Tulis komentar tentang manga ini..." maxlength="300"
+          oninput="document.getElementById('commentCharCount').textContent = this.value.length + '/300'"></textarea>
+        <span id="commentCharCount">0/300</span>
+      </div>
+      <div class="comment-form-actions">
+        <span id="commentError"></span>
+        <button id="commentSendBtn" onclick="sendComment()">
+          <i class="fa-solid fa-paper-plane"></i> Kirim
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <script type="module" src="firebase-comments.js"></script>
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>

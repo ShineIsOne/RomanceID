@@ -150,6 +150,10 @@ sortedList.forEach(manga => {
                 <a href="${manga.link}" target="_blank" class="btn-read">
                     ${translateText("Baca di Mangadex", "Read on Mangadex")}
                 </a>
+                <button class="btn-comment" onclick="event.stopPropagation(); openCommentModal(${JSON.stringify(manga).replace(/"/g, '&quot;')})">
+                       <i class="fa-regular fa-comments"></i>
+                       ${translateText("Komentar", "Comments")}
+                </button>
             </div>
         `;
 
