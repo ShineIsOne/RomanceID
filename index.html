@@ -207,7 +207,7 @@
     </div>
 
     <!-- COMMENT MODAL -->
-<div id="commentModal" class="modal" onclick="if(event.target===this) closeCommentModal()">
+<div id="commentModal" class="modal" onmousedown="window._cmMousedownTarget=event.target" onmouseup="if(window._cmMousedownTarget===this && event.target===this) closeCommentModal()">
   <div class="comment-modal-content">
 
     <div class="comment-modal-header">

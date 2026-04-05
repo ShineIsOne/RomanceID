@@ -946,6 +946,8 @@ header {
 
     .chapter-text i { font-size: 0.5rem; }
     .btn-read { font-size: 0.55rem; padding: 4px 0; }
+    .btn-comment { font-size: 0.55rem; padding: 4px 0; gap: 3px; margin-top: 4px; border-width: 1px; border-radius: 6px; }
+    .btn-comment i { font-size: 0.55rem; }
     
     .status-badge {
         font-size: 0.45rem; padding: 2px 5px;
@@ -992,6 +994,17 @@ header {
     .support-btn i {
         font-size: 0.65rem;
     }
+
+    /* Tombol komentar mobile - samakan ukuran dengan btn-read */
+    .btn-comment {
+        font-size: 0.55rem;
+        padding: 4px 0;
+        gap: 3px;
+        margin-top: 4px;
+        border-width: 1px;
+        border-radius: 6px;
+    }
+    .btn-comment i { font-size: 0.55rem; }
 
     .lang-flags {
         top: 6px !important;
@@ -1047,7 +1060,6 @@ header {
    COMMENT SYSTEM
    ============================================= */
 
-/* Tombol komentar di card - selaraskan dengan btn-read */
 .btn-comment {
   display: flex;
   align-items: center;
@@ -1073,6 +1085,20 @@ header {
 }
 
 .btn-comment i { font-size: 0.85rem; }
+
+@media (max-width: 768px) {
+  .btn-comment {
+    font-size: 0.55rem !important;
+    padding: 4px 0 !important;
+    gap: 3px !important;
+    margin-top: 4px !important;
+    border-width: 1px !important;
+    border-radius: 6px !important;
+    color: var(--accent) !important;
+    background: transparent !important;
+  }
+  .btn-comment i { font-size: 0.55rem !important; }
+}
 
 /* Overlay */
 #commentModal {
