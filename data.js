@@ -298,7 +298,7 @@ const mangaList = [
     "id": 1773560320543
   },
   {
-    "title": "Gal Shinkan wa Rizare ga Darui",
+    "title": "Gyaru Shinkan wa Rizare ga Darui",
     "image": "img/63b725fc-39f2-45ed-9aa3-1c8a685f54a1.webp",
     "genres": [
       "Comedy",
