@@ -182,7 +182,6 @@ const mangaList = [
     "type": "TL"
   },
   {
-    "id": 1766795220,
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/Vol 7 2.webp",
     "genres": [
@@ -192,13 +191,14 @@ const mangaList = [
       "School"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.94 | Up Next 10 April 2026",
+    "latestChapter": "Vol.8 Ch.95 | Up Next 24 April 2026",
     "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
     "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
     "lang": [
       "id"
     ],
-    "type": "TL"
+    "type": "TL",
+    "id": 1766795220
   },
   {
     "id": 1766795019,
@@ -306,7 +306,7 @@ const mangaList = [
       "Romance"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.2 | Next Update ???",
+    "latestChapter": "Vol.1 Ch.5 | Next Update ???",
     "link": "https://mangadex.org/title/c6886f02-c7e5-41eb-aa35-c78bbd3bc757/gyaru-shinkan-wa-rizare-ga-darui",
     "synopsis": "(IDN)\nUntuk mengalahkan Raja Iblis, seorang pahlawan terus bertarung sendirian berulang kali. Meski sudah mati berkali-kali, dia tetap maju tanpa ragu. Sebenarnya, dia melakukan semua itu karena ingin bertemu dan mengobrol berdua dengan seorang pendeta gyaru yang bisa menghidupkannya kembali. Bahkan mati pun tidak masalah baginya, selama dia bisa bertemu dengannya lagi.\n\n(ENG)\nTo defeat the Demon King, a hero continues to fight alone over and over again. Even though he dies countless times, he still pushes forward recklessly. In truth, he only does it because he wants to meet and spend time talking one-on-one with a gyaru priestess who can bring him back to life. Even dying doesn’t matter to him, as long as he can see her again.",
     "lang": [
