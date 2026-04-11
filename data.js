@@ -1,5 +1,42 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/Vol 7 2.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.8 Ch.95 | Up Next 24 April 2026",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
+    "id": 1769473570,
+    "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
+    "image": "img/9f637a7f-2ce1-4bc2-8329-b83733c780f9.jpg",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol. 2 Ch. 15 | Up Next 15 April 2026",
+    "link": "https://mangadex.org/title/c93e558f-d189-4097-bb0d-71e931feed4d/ore-ga-inai-to-sugu-chomeru-hakanagi-kasumi",
+    "synopsis": "(IDN)\nPada musim semi tahun pertama SMA, Takase Michiru memutuskan bahwa ia tidak akan berusaha keras dalam kehidupan sekolahnya.\nNamun, teman sebangkunya adalah Hakanagi Kasumi, siswi yang penuh rumor mencurigakan. Dengan penutup mata dan perban, ia terlihat seperti seorang menhera, membuat Michiru ingin menjaga jarak.\nAkan tetapi, karena suatu kejadian tak terduga, mereka berdua menjadi hubungan yang saling melengkapi. Tubuhnya lemah, tetapi ia berusaha dengan tulus.\n\n(ENG)\nIn the spring of her first year of high school, Michiru Takase decided that she would not put much effort into her school life.\nHowever, her seatmate was Kasumi Hakanagi, a student surrounded by suspicious rumors. With an eyepatch and bandages, she looked like a \"menhera,\" making Michiru want to keep her distance.\nYet, due to an unexpected turn of events, the two of them entered into a relationship where they complemented each other. Her body was weak, but she gave it her sincere effort.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL"
+  },
+  {
     "id": 1770792399,
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
     "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
@@ -23,20 +60,21 @@ const mangaList = [
     "type": "TL"
   },
   {
-    "id": 1769473570,
-    "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
-    "image": "img/9f637a7f-2ce1-4bc2-8329-b83733c780f9.jpg",
+    "id": 1766795019,
+    "title": "Super no Ura de Yani Suu Futari",
+    "image": "img/Volume 9.webp",
     "genres": [
+      "Comedy",
       "Romance",
-      "Comedy"
+      "Slice of Life",
+      "Office Workers"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol. 2 Ch. 15 | Up Next 15 April 2026",
-    "link": "https://mangadex.org/title/c93e558f-d189-4097-bb0d-71e931feed4d/ore-ga-inai-to-sugu-chomeru-hakanagi-kasumi",
-    "synopsis": "(IDN)\nPada musim semi tahun pertama SMA, Takase Michiru memutuskan bahwa ia tidak akan berusaha keras dalam kehidupan sekolahnya.\nNamun, teman sebangkunya adalah Hakanagi Kasumi, siswi yang penuh rumor mencurigakan. Dengan penutup mata dan perban, ia terlihat seperti seorang menhera, membuat Michiru ingin menjaga jarak.\nAkan tetapi, karena suatu kejadian tak terduga, mereka berdua menjadi hubungan yang saling melengkapi. Tubuhnya lemah, tetapi ia berusaha dengan tulus.\n\n(ENG)\nIn the spring of her first year of high school, Michiru Takase decided that she would not put much effort into her school life.\nHowever, her seatmate was Kasumi Hakanagi, a student surrounded by suspicious rumors. With an eyepatch and bandages, she looked like a \"menhera,\" making Michiru want to keep her distance.\nYet, due to an unexpected turn of events, the two of them entered into a relationship where they complemented each other. Her body was weak, but she gave it her sincere effort.",
+    "latestChapter": "Vol.9 Ch.59 | Up Next 20-28 April 2026",
+    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
+    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
     "lang": [
-      "id",
-      "en"
+      "id"
     ],
     "type": "TL"
   },
@@ -85,25 +123,6 @@ const mangaList = [
     "type": "TL"
   },
   {
-    "id": 1768319942,
-    "title": "Make Heroine o Katasetai!!",
-    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol. 2 Ch.19 | Up Next Setiap Kamis",
-    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
-    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL"
-  },
-  {
     "id": 1767544015,
     "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun+",
     "image": "img/asdqdq.jpg",
@@ -122,26 +141,6 @@ const mangaList = [
       "en"
     ],
     "type": "TL"
-  },
-  {
-    "id": 1766835798,
-    "title": "Mikakunin de Shinkoukei",
-    "image": "img/Vol 16.jpg",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Completed",
-    "latestChapter": "Order by @riskyrivaldo4 | Chapter 1-187.5 | Kirim via MangaDex",
-    "link": "https://mangadex.org/title/f6635579-f1e6-4e43-8adf-06b009e1af0c/mikakunin-de-shinkoukei",
-    "synopsis": "(IDN)\nIni adalah manga komedi empat panel tentang Kobeni Yonomori, yang pada ulang tahunnya yang ke-16 tiba-tiba kedatangan seorang pria muda dengan kehadiran minim bernama Hakuya Mitsumine dan adik perempuannya Mashiro di hadapannya. Ternyata Hakuya adalah tunangannya, dan Mashiro adalah calon adik iparnya. Mereka bertiga (dan kakak perempuan Kobeni yang terlalu protektif, Benio) mulai tinggal bersama di bawah satu atap, dan kejadian-kejadian lucu pun terjadi.",
-    "lang": [
-      "id"
-    ],
-    "type": "Order"
   },
   {
     "id": 1766835395,
@@ -182,42 +181,42 @@ const mangaList = [
     "type": "TL"
   },
   {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/Vol 7 2.webp",
+    "title": "Chigau Miyahara Omae Janai!",
+    "image": "img/32406940-85f8-48c7-a39a-6642f9fe1baa.webp",
     "genres": [
       "Comedy",
       "Romance",
       "Slice of Life",
-      "School"
+      "School Life"
     ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.95 | Up Next 24 April 2026",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
+    "status": "Completed",
+    "latestChapter": "Order by @yerrrrrrrrrr._ | Volume 5 - Chapter 53 | Kirim via MangaDex",
+    "link": "https://mangadex.org/title/ae3736bf-dc58-40cc-b1cb-928269edf62b/chigau-miyahara-omae-janai",
+    "synopsis": "(IDN)\nManga ini berpusat pada Arima, seorang anak laki-laki yang menyukai seorang gadis bernama Yukihira. Namun setiap kali ia mencoba melakukan sesuatu untuk mendekati Yukihira, temannya yang lain, Miyahara, kebetulan selalu berada di situ dan salah paham, mengira Arima sedang mencoba mendekatinya.",
     "lang": [
       "id"
     ],
-    "type": "TL",
-    "id": 1766795220
+    "type": "Order",
+    "id": 1773560320543
   },
   {
-    "id": 1766795019,
-    "title": "Super no Ura de Yani Suu Futari",
-    "image": "img/Volume 9.webp",
+    "title": "Arakawa Under the Bridge",
+    "image": "img/a7e4c41e-642b-4ed0-b802-00062b15d5e6.jpg",
     "genres": [
       "Comedy",
       "Romance",
       "Slice of Life",
-      "Office Workers"
+      "Seinen"
     ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.9 Ch.59 | Up Next 20-28 April 2026",
-    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
-    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
+    "status": "Completed",
+    "latestChapter": "Order by @_fikritriewaluyo26 | Vol 6 - Vol 15 | Kirim via Drive",
+    "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
+    "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
     "lang": [
       "id"
     ],
-    "type": "TL"
+    "type": "Order",
+    "id": 1772152121277
   },
   {
     "title": "Imasara desu ga, Osananajimi o Suki ni Natte Shimaimashita",
@@ -260,60 +259,23 @@ const mangaList = [
     "id": 1772151589172
   },
   {
-    "title": "Arakawa Under the Bridge",
-    "image": "img/a7e4c41e-642b-4ed0-b802-00062b15d5e6.jpg",
+    "id": 1766835798,
+    "title": "Mikakunin de Shinkoukei",
+    "image": "img/Vol 16.jpg",
     "genres": [
       "Comedy",
+      "Drama",
       "Romance",
       "Slice of Life",
-      "Seinen"
+      "School"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @_fikritriewaluyo26 | Vol 6 - Vol 15 | Kirim via Drive",
-    "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
-    "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
+    "latestChapter": "Order by @riskyrivaldo4 | Chapter 1-187.5 | Kirim via MangaDex",
+    "link": "https://mangadex.org/title/f6635579-f1e6-4e43-8adf-06b009e1af0c/mikakunin-de-shinkoukei",
+    "synopsis": "(IDN)\nIni adalah manga komedi empat panel tentang Kobeni Yonomori, yang pada ulang tahunnya yang ke-16 tiba-tiba kedatangan seorang pria muda dengan kehadiran minim bernama Hakuya Mitsumine dan adik perempuannya Mashiro di hadapannya. Ternyata Hakuya adalah tunangannya, dan Mashiro adalah calon adik iparnya. Mereka bertiga (dan kakak perempuan Kobeni yang terlalu protektif, Benio) mulai tinggal bersama di bawah satu atap, dan kejadian-kejadian lucu pun terjadi.",
     "lang": [
       "id"
     ],
-    "type": "Order",
-    "id": 1772152121277
-  },
-  {
-    "title": "Chigau Miyahara Omae Janai!",
-    "image": "img/32406940-85f8-48c7-a39a-6642f9fe1baa.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School Life"
-    ],
-    "status": "Completed",
-    "latestChapter": "Order by @yerrrrrrrrrr._ | Volume 5 - Chapter 53 | Kirim via MangaDex",
-    "link": "https://mangadex.org/title/ae3736bf-dc58-40cc-b1cb-928269edf62b/chigau-miyahara-omae-janai",
-    "synopsis": "(IDN)\nManga ini berpusat pada Arima, seorang anak laki-laki yang menyukai seorang gadis bernama Yukihira. Namun setiap kali ia mencoba melakukan sesuatu untuk mendekati Yukihira, temannya yang lain, Miyahara, kebetulan selalu berada di situ dan salah paham, mengira Arima sedang mencoba mendekatinya.",
-    "lang": [
-      "id"
-    ],
-    "type": "Order",
-    "id": 1773560320543
-  },
-  {
-    "title": "Gyaru Shinkan wa Rizare ga Darui",
-    "image": "img/63b725fc-39f2-45ed-9aa3-1c8a685f54a1.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.5 | Next Update ???",
-    "link": "https://mangadex.org/title/c6886f02-c7e5-41eb-aa35-c78bbd3bc757/gyaru-shinkan-wa-rizare-ga-darui",
-    "synopsis": "(IDN)\nUntuk mengalahkan Raja Iblis, seorang pahlawan terus bertarung sendirian berulang kali. Meski sudah mati berkali-kali, dia tetap maju tanpa ragu. Sebenarnya, dia melakukan semua itu karena ingin bertemu dan mengobrol berdua dengan seorang pendeta gyaru yang bisa menghidupkannya kembali. Bahkan mati pun tidak masalah baginya, selama dia bisa bertemu dengannya lagi.\n\n(ENG)\nTo defeat the Demon King, a hero continues to fight alone over and over again. Even though he dies countless times, he still pushes forward recklessly. In truth, he only does it because he wants to meet and spend time talking one-on-one with a gyaru priestess who can bring him back to life. Even dying doesn’t matter to him, as long as he can see her again.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1775650973058
+    "type": "Order"
   }
 ];
