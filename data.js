@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Gyaru Shinkan wa Rizare ga Darui",
+    "image": "img/63b725fc-39f2-45ed-9aa3-1c8a685f54a1.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.5 | Next Update 16 April 2026",
+    "link": "https://mangadex.org/title/c6886f02-c7e5-41eb-aa35-c78bbd3bc757/gyaru-shinkan-wa-rizare-ga-darui",
+    "synopsis": "(IDN)\nUntuk mengalahkan Raja Iblis, seorang pahlawan terus bertarung sendirian berulang kali. Meski sudah mati berkali-kali, dia tetap maju tanpa ragu. Sebenarnya, dia melakukan semua itu karena ingin bertemu dan mengobrol berdua dengan seorang pendeta gyaru yang bisa menghidupkannya kembali. Bahkan mati pun tidak masalah baginya, selama dia bisa bertemu dengannya lagi.\n\n(ENG)\nTo defeat the Demon King, a hero continues to fight alone over and over again. Even though he dies countless times, he still pushes forward recklessly. In truth, he only does it because he wants to meet and spend time talking one-on-one with a gyaru priestess who can bring him back to life. Even dying doesn’t matter to him, as long as he can see her again.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1775650973058
+  },
+  {
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/Vol 7 2.webp",
     "genres": [
@@ -17,6 +36,25 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1766795220
+  },
+  {
+    "title": "Make Heroine o Katasetai!!",
+    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol. 2 Ch.19 | Up Next 23 April 2026",
+    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
+    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1768319942
   },
   {
     "id": 1769473570,
