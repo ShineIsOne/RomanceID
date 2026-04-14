@@ -1,3 +1,95 @@
+// =========================
+// LOADING SCREEN
+// =========================
+
+(function () {
+    // Ambil 5 cover dari mangaList (defined in data.js)
+    // Pastikan mangaList sudah ada sebelum script ini jalan
+    // index.html meload data.js lebih dulu, jadi aman
+
+    function initLoading() {
+        const covers = (typeof mangaList !== 'undefined' ? mangaList : [])
+            .filter(m => m.image)
+            .slice(0, 5)
+            .map(m => m.image);
+
+        const coversEl = document.getElementById('lsCovers');
+        const lsBar = document.getElementById('lsBar');
+        const lsStatus = document.getElementById('lsStatus');
+
+        if (!coversEl) return; // guard
+
+        // Dots animasi
+        let dots = 0;
+        const dotsTimer = setInterval(() => {
+            dots = (dots + 1) % 4;
+            if (lsStatus && !lsStatus._done)
+                lsStatus.textContent = 'Memuat' + '.'.repeat(dots);
+        }, 380);
+
+        // Buat slot cover
+        const imgEls = covers.map((src, i) => {
+            const slot = document.createElement('div');
+            slot.className = 'ls-cover-slot';
+
+            const shimmer = document.createElement('div');
+            shimmer.className = 'ls-shimmer';
+
+            const img = document.createElement('img');
+            img.alt = '';
+
+            slot.appendChild(shimmer);
+            slot.appendChild(img);
+            coversEl.appendChild(slot);
+            return { img, shimmer };
+        });
+
+        let loaded = 0;
+        const total = imgEls.length || 1;
+
+        function onLoad(imgEl, shimmer) {
+            imgEl.classList.add('loaded');
+            shimmer.classList.add('done');
+            loaded++;
+            const pct = Math.round((loaded / total) * 100);
+            lsBar.style.width = pct + '%';
+            lsStatus.textContent = 'Memuat cover ' + loaded + ' / ' + total;
+            if (loaded >= total) finish();
+        }
+
+        function finish() {
+            clearInterval(dotsTimer);
+            lsBar.style.width = '100%';
+            lsStatus._done = true;
+            lsStatus.textContent = 'Siap!';
+            setTimeout(() => {
+                const screen = document.getElementById('loadingScreen');
+                if (screen) screen.classList.add('hidden');
+            }, 450);
+        }
+
+        if (imgEls.length === 0) {
+            setTimeout(finish, 500);
+        } else {
+            imgEls.forEach(({ img, shimmer }, i) => {
+                setTimeout(() => {
+                    img.onload = () => onLoad(img, shimmer);
+                    img.onerror = () => onLoad(img, shimmer);
+                    img.src = covers[i];
+                }, i * 90);
+            });
+            // Safety timeout
+            setTimeout(finish, 8000);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initLoading);
+    } else {
+        initLoading();
+    }
+})();
+
 let currentLang = "id";
 let currentView = "TL"; // default tampilan TL
 // =========================
