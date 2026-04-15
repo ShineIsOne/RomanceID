@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
+    "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Slice of Life",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch. 4 | Up Next ???",
+    "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
+    "synopsis": "(IDN)\nRyuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai.\n\n(ENG)\nRyuuzaki-san, known as the most beautiful girl in our grade, is strangely cold toward me. Whenever our eyes meet, she glares at me like I’m a piece of trash. Then one day, I end up seeing something unbelievable about her. Ryuuzaki-san isn’t human at all. She’s a Dragonkin.\n\n“P-Please don’t stare at me that much!”\n\nThe school’s top beauty shows only me her true face, and it turns out she’s unexpectedly dere, leaving me completely flustered. A slightly fantastical romantic comedy set in the real world. Let the love story begin!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1768395262
+  },
+  {
     "title": "Amayo no Tsuki",
     "image": "img/96f6461a-af1a-46d7-91f5-77654ca7754a.webp",
     "genres": [
@@ -153,29 +176,6 @@ const mangaList = [
     "synopsis": "(IDN)\nSejak banyak perempuan membangkitkan kemampuan khusus [Bakat] dan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\n\nIbuki, anggota organisasi jahat [Sumpah Penyelamatan], adalah seorang rookie yang meski laki-laki memiliki [Bakat Pemisahan]. Jati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya. Sejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan [Primum Libra].\n\nBagi Ibuki, medan perang antara keadilan dan kejahatan adalah “garis depan aktivitas mengidolakan”. Kadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya.\n\nSambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya... Masa depan idolaku akan dijaga oleh musuhnya (aku)!",
     "lang": [
       "id"
-    ],
-    "type": "TL"
-  },
-  {
-    "id": 1768395262,
-    "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
-    "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Slice of Life",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch. 3 | Up Next ???",
-    "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
-    "synopsis": "(IDN)\nRyuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai.\n\n(ENG)\nRyuuzaki-san, known as the most beautiful girl in our grade, is strangely cold toward me. Whenever our eyes meet, she glares at me like I’m a piece of trash. Then one day, I end up seeing something unbelievable about her. Ryuuzaki-san isn’t human at all. She’s a Dragonkin.\n\n“P-Please don’t stare at me that much!”\n\nThe school’s top beauty shows only me her true face, and it turns out she’s unexpectedly dere, leaving me completely flustered. A slightly fantastical romantic comedy set in the real world. Let the love story begin!",
-    "lang": [
-      "id",
-      "en"
     ],
     "type": "TL"
   },
