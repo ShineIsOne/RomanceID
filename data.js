@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Egao no Taenai Shokuba desu",
+    "image": "img/04a5224e-d719-426e-b26f-d42559baff9c.webp",
+    "genres": [
+      "Comedy",
+      "Office Workers",
+      "Girls' Love",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol. 1 Ch. 1-8 | Kirim via Drive",
+    "link": "https://mangadex.org/title/5199b00b-f55d-43d2-bf36-63873adee286/egao-no-taenai-shokuba-desu",
+    "synopsis": "(IDN)\nMangaka shoujo baru, Futami Nana, bekerja keras setiap hari sambil didukung oleh editor perempuannya yang lebih tua, Satou Kaede, serta asistennya, Hazama Mizuki. Menurut pengakuannya sendiri, ia kadang-kadang berkhayal liar sampai seperti “penyakit akibat kerja”!",
+    "lang": [
+      "id"
+    ],
+    "type": "Order",
+    "id": 1776229315633
+  },
+  {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
     "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
