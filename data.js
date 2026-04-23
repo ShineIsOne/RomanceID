@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Make Heroine o Katasetai!!",
+    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol. 3 Ch. 20 | Up Next 07 Mei 2026",
+    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
+    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1768319942
+  },
+  {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
     "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
@@ -137,25 +156,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1766795220
-  },
-  {
-    "title": "Make Heroine o Katasetai!!",
-    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol. 2 Ch.19 | Up Next 23 April 2026",
-    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
-    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1768319942
   },
   {
     "id": 1770792399,
