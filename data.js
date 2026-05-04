@@ -1,5 +1,27 @@
 const mangaList = [
   {
+    "title": "Oshi no Teki ni Natta node",
+    "image": "img/03d9a08e-e713-4c29-b9b4-97321d3e8713.jpg",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Superhero",
+      "Reincarnation"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.2 Ch.11 | Up Next June ??",
+    "link": "https://mangadex.org/title/b15c9c2a-5d37-4d06-b7ca-33bf18482a40/oshi-no-teki-ni-natta-node",
+    "synopsis": "(IDN)\nSejak banyak perempuan membangkitkan kemampuan khusus [Bakat] dan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\n\nIbuki, anggota organisasi jahat [Sumpah Penyelamatan], adalah seorang rookie yang meski laki-laki memiliki [Bakat Pemisahan]. Jati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya. Sejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan [Primum Libra].\n\nBagi Ibuki, medan perang antara keadilan dan kejahatan adalah “garis depan aktivitas mengidolakan”. Kadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya.\n\nSambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya... Masa depan idolaku akan dijaga oleh musuhnya (aku)!\n\n(ENG)\nA hundred years have passed since women began to awaken supernatural powers or \"Lux\", turning society into a place where men are looked down upon. Ibuki is a rookie member of the evil organization known as \"Nega Messiah (Vow of Salvation)\". Despite being a man, he has a Lux called \"Separation\". His true identity? A normal person reincarnated into the world of his favorite manga. But even before his reincarnation, he was a huge fan of Hinata, a member of the organization of justice \"Prim Libra (White Scales of Order)\".\n\nSo, the battlefield between good and evil to him was nothing but \"the very forefront of his idol-worshipping activities\"! Sometimes, he would act as Hinata's reliable older childhood friend, other times he would become her rival from the enemy organization. Ibuki enjoyed wallowing in his selfishness, having a life filled with battle together with his favorite, but things that didn't occur in the manga started happening...? I, my favorite's enemy, will protect her future! A secret illuminati that moves through love alone!!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1768395372
+  },
+  {
     "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
     "image": "img/BG.webp",
     "genres": [
@@ -120,28 +142,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1768395262
-  },
-  {
-    "title": "Oshi no Teki ni Natta node",
-    "image": "img/03d9a08e-e713-4c29-b9b4-97321d3e8713.jpg",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Superhero",
-      "Reincarnation"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.2 Ch.10 | Up Next May ??",
-    "link": "https://mangadex.org/title/b15c9c2a-5d37-4d06-b7ca-33bf18482a40/oshi-no-teki-ni-natta-node",
-    "synopsis": "(IDN)\nSejak banyak perempuan membangkitkan kemampuan khusus [Bakat] dan dunia berubah menjadi masyarakat yang merendahkan laki-laki, seratus tahun telah berlalu.\n\nIbuki, anggota organisasi jahat [Sumpah Penyelamatan], adalah seorang rookie yang meski laki-laki memiliki [Bakat Pemisahan]. Jati dirinya sebenarnya adalah seorang reinkarnator yang terlahir kembali ke dunia manga favoritnya. Sejak sebelum bereinkarnasi, ia sudah sangat mengidolakan Hinata, anggota organisasi keadilan [Primum Libra].\n\nBagi Ibuki, medan perang antara keadilan dan kejahatan adalah “garis depan aktivitas mengidolakan”. Kadang ia menjadi kakak laki-laki masa kecil Hinata yang dapat diandalkan, kadang menjadi rival tangguh dari organisasi musuhnya.\n\nSambil menikmati kehidupan pertarungan demi oshi yang dipenuhi kepentingan pribadi, perlahan mulai terjadi hal-hal yang berbeda dari ingatan manganya... Masa depan idolaku akan dijaga oleh musuhnya (aku)!\n\n(ENG)\nA hundred years have passed since women began to awaken supernatural powers or \"Lux\", turning society into a place where men are looked down upon. Ibuki is a rookie member of the evil organization known as \"Nega Messiah (Vow of Salvation)\". Despite being a man, he has a Lux called \"Separation\". His true identity? A normal person reincarnated into the world of his favorite manga. But even before his reincarnation, he was a huge fan of Hinata, a member of the organization of justice \"Prim Libra (White Scales of Order)\".\n\nSo, the battlefield between good and evil to him was nothing but \"the very forefront of his idol-worshipping activities\"! Sometimes, he would act as Hinata's reliable older childhood friend, other times he would become her rival from the enemy organization. Ibuki enjoyed wallowing in his selfishness, having a life filled with battle together with his favorite, but things that didn't occur in the manga started happening...? I, my favorite's enemy, will protect her future! A secret illuminati that moves through love alone!!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1768395372
   },
   {
     "title": "Egao no Taenai Shokuba desu",
