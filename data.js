@@ -1,5 +1,25 @@
 const mangaList = [
   {
+    "title": "Misato-san wa Amasugi Joushi ni Chotto Kibishii",
+    "image": "img/00fad615-b00e-4330-afa0-2f869b17bb28.webp",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Volume 2 Chapter 16",
+    "link": "https://mangadex.org/title/a9a664d6-4ea7-4f3b-b96b-4861673c8e5d/misato-san-wa-amasugi-joushi-ni-chotto-kibishii",
+    "synopsis": "(IDN)\nMisato-san adalah seorang karyawati kantoran yang sangat cantik dan kompeten, sedangkan Konishikawa-san adalah atasan paruh baya yang suka memanjakan bawahannya. Misato-san bersikap tegas terhadap Konishikawa-san, tapi perasaan apa yang sebenarnya tersembunyi di balik itu…!? Komedi romantis kantor dengan perbedaan usia, menampilkan kontras antara sikap tegas dan sisi imut yang bikin gemas, kisahnya pun dimulai!!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1777213646888
+  },
+  {
     "title": "Oshi no Teki ni Natta node",
     "image": "img/03d9a08e-e713-4c29-b9b4-97321d3e8713.jpg",
     "genres": [
@@ -80,26 +100,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1769473570
-  },
-  {
-    "title": "Misato-san wa Amasugi Joushi ni Chotto Kibishii",
-    "image": "img/175c1c44-8220-4dd5-9292-52145d2326b8.webp",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Volume 1 Chapter 1-8",
-    "link": "https://mangadex.org/title/a9a664d6-4ea7-4f3b-b96b-4861673c8e5d/misato-san-wa-amasugi-joushi-ni-chotto-kibishii",
-    "synopsis": "(IDN)\nMisato-san adalah seorang karyawati kantoran yang sangat cantik dan kompeten, sedangkan Konishikawa-san adalah atasan paruh baya yang suka memanjakan bawahannya. Misato-san bersikap tegas terhadap Konishikawa-san, tapi perasaan apa yang sebenarnya tersembunyi di balik itu…!? Komedi romantis kantor dengan perbedaan usia, menampilkan kontras antara sikap tegas dan sisi imut yang bikin gemas, kisahnya pun dimulai!!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1777213646888
   },
   {
     "title": "Make Heroine o Katasetai!!",
