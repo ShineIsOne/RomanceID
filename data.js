@@ -1,5 +1,43 @@
 const mangaList = [
   {
+    "title": "Make Heroine o Katasetai!!",
+    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol. 3 Ch. 20 | Up Next 14 Mei 2026",
+    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
+    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?Siswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1768319942
+  },
+  {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/Vol 7 2.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.8 Ch.97 | Up Next 22 Mei 2026",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
     "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
     "genres": [
@@ -125,25 +163,6 @@ const mangaList = [
     "id": 1769473570
   },
   {
-    "title": "Make Heroine o Katasetai!!",
-    "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol. 3 Ch. 20 | Up Next 07 Mei 2026",
-    "link": "https://mangadex.org/title/fa442671-f5ef-4397-93c4-0560b9a3a278/make-heroine-o-katasetai",
-    "synopsis": "(IDN)\nKawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1768319942
-  },
-  {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
     "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
@@ -203,25 +222,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1776053865381
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/Vol 7 2.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.95 | Up Next 24 April 2026",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "id": 1766795019,
