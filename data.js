@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Amayo no Tsuki",
+    "image": "img/d6a5a6e2-1936-42b8-80de-d6c91e923540.webp",
+    "genres": [
+      "Drama",
+      "Girls' Love",
+      "Romance",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol. 3 Ch. 9-12 | Kirim via Drive",
+    "link": "https://mangadex.org/title/c8a0426d-539b-4f6a-9537-fbccf4962529/amayo-no-tsuki",
+    "synopsis": "(IDN)\nSuatu malam hujan, Saki sedang terburu-buru ke les piano ketika ia menabrak seorang gadis cantik berambut panjang, membuat lembaran not musiknya jatuh. Saki gugup meminta maaf, tetapi gadis itu hanya mengembalikan notnya dan pergi tanpa berkata apa pun.\n\nKeesokan paginya, Saki memulai hari pertama SMA dan terkejut melihat gadis misterius tadi duduk di bangku sebelahnya. Ia mengetahui bahwa gadis itu bernama Kanon, dan bukan sepenuhnya tuli, tetapi sangat sulit mendengar.\n\nMeskipun Kanon harus berada dekat dengan orang lain untuk membaca gerak bibir, sikapnya yang dingin membuatnya cenderung menjauhkan diri. Lewat satu kebaikan kecil, Saki perlahan mulai membuka hati Kanon, sekaligus merasakan sesuatu yang baru tumbuh di dalam dirinya.",
+    "lang": [
+      "id"
+    ],
+    "type": "Order",
+    "id": 1776053865381
+  },
+  {
     "title": "30 made Hitori Dattara Issho ni Kurasou tte Itta yo ne?",
     "image": "img/A.webp",
     "genres": [
@@ -222,25 +241,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1776229315633
-  },
-  {
-    "title": "Amayo no Tsuki",
-    "image": "img/96f6461a-af1a-46d7-91f5-77654ca7754a.webp",
-    "genres": [
-      "Drama",
-      "Girls' Love",
-      "Romance",
-      "School Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol. 2 Ch. 5-8 | Kirim via Drive",
-    "link": "https://mangadex.org/title/c8a0426d-539b-4f6a-9537-fbccf4962529/amayo-no-tsuki",
-    "synopsis": "(IDN)\nSuatu malam hujan, Saki sedang terburu-buru ke les piano ketika ia menabrak seorang gadis cantik berambut panjang, membuat lembaran not musiknya jatuh. Saki gugup meminta maaf, tetapi gadis itu hanya mengembalikan notnya dan pergi tanpa berkata apa pun.\n\nKeesokan paginya, Saki memulai hari pertama SMA dan terkejut melihat gadis misterius tadi duduk di bangku sebelahnya. Ia mengetahui bahwa gadis itu bernama Kanon, dan bukan sepenuhnya tuli, tetapi sangat sulit mendengar.\n\nMeskipun Kanon harus berada dekat dengan orang lain untuk membaca gerak bibir, sikapnya yang dingin membuatnya cenderung menjauhkan diri. Lewat satu kebaikan kecil, Saki perlahan mulai membuka hati Kanon, sekaligus merasakan sesuatu yang baru tumbuh di dalam dirinya.",
-    "lang": [
-      "id"
-    ],
-    "type": "Order",
-    "id": 1776053865381
   },
   {
     "id": 1766795019,
