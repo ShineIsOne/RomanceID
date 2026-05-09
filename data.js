@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "30 made Hitori Dattara Issho ni Kurasou tte Itta yo ne?",
+    "image": "img/A.webp",
+    "genres": [
+      "Comedy",
+      "Girls' Love",
+      "Romance",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol. 1 Ch. 1-5 | Kirim via Drive",
+    "link": "https://mangadex.org/title/543919c3-966d-49f4-8417-240e6b8799f5/30-made-hitori-dattara-issho-ni-kurasou-tte-itta-yo-ne",
+    "synopsis": "(IDN)\n“Kalau kita masih sendiri sampai umur 30, ayo tinggal bersama.”\n\nYang awalnya hanya dianggap janji mabuk belaka, tiba-tiba jadi kenyataan saat menjelang ulang tahun ke-30 Tsukiko. Di tengah malam, orang yang muncul di rumahnya ternyata adalah Sora, teman yang dulu membuat janji itu dengannya.\n\nBukan kehidupan yang penuh kilau masa muda, tapi kisah tinggal bersama dua orang berusia 30-an yang ternyata cukup menyenangkan.",
+    "lang": [
+      "id"
+    ],
+    "type": "Order",
+    "id": 1778311158984
+  },
+  {
     "title": "Make Heroine o Katasetai!!",
     "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
     "genres": [
