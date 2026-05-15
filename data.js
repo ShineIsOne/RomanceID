@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Keiken o Sukiru ni suru Bannou na Nouryoku o Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
+    "image": "img/0be9cfdc-06f6-41b5-9a7f-323dd293c7ea.webp",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Romance",
+      "Fantas",
+      "Dungeon Exploration"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol 2 Chapter 10",
+    "link": "https://mangadex.org/title/2164efb1-1e83-41e4-b2f2-6d6a5ae19d3f/keiken-wo-sukiru-ni-suru-bannou-na-nouryoku-wo-te-ni-irete-saikyou-no-tansaku-sha-ni-narimashita-jk",
+    "synopsis": "(IDN)\n“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?\n\n(ENG)\n“His Dungeon Exploration Partner Is a High School Girl!?”\n\nMasato, the eldest son of the Jinguuji family, begins working as an explorer in the “Tokyo Dungeon” to support his younger brothers after their parents pass away. However, realizing the limits of working alone, he decides to look for companions to help conquer the dungeon. That is when his younger brother Rekka introduces him to Tachibana Rika, and the two form a party together.\n\nThey encounter many hardships along the way, but as they support each other and overcome those challenges together, their bond gradually grows deeper...!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778848977299
+  },
+  {
     "title": "Make Heroine o Katasetai!!",
     "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
     "genres": [
