@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Ririmu Horikku",
+    "image": "img/adewasdasdasdasfewasad.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Themes",
+      "Demons",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol 1 Chapter 2",
+    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
+    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778676602805
+  },
+  {
     "title": "Keiken o Sukiru ni suru Bannou na Nouryoku o Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
     "image": "img/0be9cfdc-06f6-41b5-9a7f-323dd293c7ea.webp",
     "genres": [
@@ -57,29 +80,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1775650973058
-  },
-  {
-    "title": "Lilim Holic",
-    "image": "img/adewasdasdasdasfewasad.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Themes",
-      "Demons",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol 1 Chapter 1",
-    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
-    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778676602805
   },
   {
     "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
