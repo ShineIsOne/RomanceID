@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Super no Ura de Yani Suu Futari",
+    "image": "img/Volume 9.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.9 Ch.62 | Up Next 20-28 Juni 2026",
+    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
+    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795019
+  },
+  {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
     "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
@@ -309,25 +328,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1776229315633
-  },
-  {
-    "id": 1766795019,
-    "title": "Super no Ura de Yani Suu Futari",
-    "image": "img/Volume 9.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.9 Ch.59 | Up Next 20-28 April 2026",
-    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
-    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL"
   },
   {
     "id": 1767544015,
