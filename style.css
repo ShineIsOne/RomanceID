@@ -698,6 +698,36 @@ header {
     box-shadow: 0 0 20px rgba(232, 67, 147, 0.6);
 }
 
+/* --- MANGA SCHEDULE BUTTON --- */
+.schedule-btn {
+    background: linear-gradient(135deg, #4e9af1, #2b6cb0);
+    border: none;
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 0 12px rgba(78, 154, 241, 0.35);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.schedule-btn i {
+    font-size: 0.78rem;
+}
+
+.schedule-btn:hover {
+    background: linear-gradient(135deg, #70b5ff, #4e9af1);
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(78, 154, 241, 0.6);
+}
+
 /* --- SUPPORT MODAL OVERRIDES --- */
 .support-modal .modal-content.support-modal-content {
     flex-direction: column;
@@ -1001,6 +1031,17 @@ header {
     }
 
     .support-btn i {
+        font-size: 0.65rem;
+    }
+
+    .schedule-btn {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        gap: 5px;
+        border-radius: 7px;
+    }
+
+    .schedule-btn i {
         font-size: 0.65rem;
     }
 
