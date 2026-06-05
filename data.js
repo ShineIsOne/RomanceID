@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/Vol 7 2.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.8 Ch.98.1",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Keiken o Sukiru ni suru Bannou na Nouryoku o Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
     "image": "img/0be9cfdc-06f6-41b5-9a7f-323dd293c7ea.webp",
     "genres": [
@@ -153,25 +172,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1779698191662
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/Vol 7 2.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.98",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "title": "Make Heroine o Katasetai!!",
