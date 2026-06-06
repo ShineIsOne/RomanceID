@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
+    "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai",
+      "Romance",
+      "Slice of Life",
+      "Magic",
+      "Reincarnation"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.13",
+    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
+    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1770792399
+  },
+  {
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/Vol 7 2.webp",
     "genres": [
@@ -266,29 +289,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1778311158984
-  },
-  {
-    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
-    "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Romance",
-      "Slice of Life",
-      "Magic",
-      "Reincarnation"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.11",
-    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
-    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1770792399
   },
   {
     "title": "Misato-san wa Amasugi Joushi ni Chotto Kibishii",
