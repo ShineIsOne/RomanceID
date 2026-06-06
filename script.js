@@ -24,7 +24,7 @@
         const dotsTimer = setInterval(() => {
             dots = (dots + 1) % 4;
             if (lsStatus && !lsStatus._done)
-                lsStatus.textContent = 'Memuat' + '.'.repeat(dots);
+                lsStatus.textContent = 'Loading' + '.'.repeat(dots);
         }, 380);
 
         // Buat slot cover
@@ -53,7 +53,7 @@
             loaded++;
             const pct = Math.round((loaded / total) * 100);
             lsBar.style.width = pct + '%';
-            lsStatus.textContent = 'Memuat cover ' + loaded + ' / ' + total;
+            lsStatus.textContent = 'Loading cover ' + loaded + ' / ' + total;
             if (loaded >= total) finish();
         }
 
@@ -61,10 +61,13 @@
             clearInterval(dotsTimer);
             lsBar.style.width = '100%';
             lsStatus._done = true;
-            lsStatus.textContent = 'Siap!';
+            lsStatus.textContent = 'Ready!';
             setTimeout(() => {
                 const screen = document.getElementById('loadingScreen');
                 if (screen) screen.classList.add('hidden');
+                // Show language picker
+                const picker = document.getElementById('langPickerOverlay');
+                if (picker) picker.classList.add('show');
             }, 450);
         }
 
@@ -316,8 +319,23 @@ window.addEventListener("click", (e) => {
 btnID.addEventListener("click", () => setLanguage("id"));
 btnEN.addEventListener("click", () => setLanguage("en"));
 
+// Called by the language picker overlay buttons
+function selectStartLang(lang) {
+    const picker = document.getElementById('langPickerOverlay');
+    if (picker) {
+        picker.classList.remove('show');
+        picker.classList.add('hide');
+    }
+    setLanguage(lang);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-    setLanguage("id");
+    // Don't auto-render here; language picker will call setLanguage after user picks
+    // But render if picker somehow already dismissed (e.g. revisit without cache)
+    const picker = document.getElementById('langPickerOverlay');
+    if (!picker || picker.classList.contains('hide')) {
+        setLanguage("id");
+    }
 });
 
 btnTL.addEventListener("click", () => {

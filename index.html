@@ -14,12 +14,30 @@
     <!-- LOADING SCREEN -->
 <div id="loadingScreen">
     <div class="ls-logo">Romance<span>ID</span></div>
-    <div class="ls-tagline">Memuat manga covers</div>
+    <div class="ls-tagline">Loading manga covers</div>
     <div class="ls-covers" id="lsCovers"></div>
     <div class="ls-bar-wrap">
         <div class="ls-bar" id="lsBar"></div>
     </div>
     <div class="ls-status" id="lsStatus">Memuat...</div>
+</div>
+
+<!-- LANGUAGE PICKER OVERLAY -->
+<div id="langPickerOverlay">
+    <div class="lang-picker-box">
+        <div class="lang-picker-logo">Romance<span>ID</span></div>
+        <p class="lang-picker-subtitle">Choose your language / Pilih bahasa</p>
+        <div class="lang-picker-buttons">
+            <button class="lang-picker-btn" onclick="selectStartLang('id')">
+                <img src="https://flagcdn.com/w40/id.png" alt="ID">
+                <span>Indonesia</span>
+            </button>
+            <button class="lang-picker-btn" onclick="selectStartLang('en')">
+                <img src="https://flagcdn.com/w40/gb.png" alt="EN">
+                <span>English</span>
+            </button>
+        </div>
+    </div>
 </div>
 
 <div class="container">

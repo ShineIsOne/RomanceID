@@ -1608,3 +1608,105 @@ header {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* ============================================================
+   LANGUAGE PICKER OVERLAY
+   ============================================================ */
+
+#langPickerOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99998;
+    background: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.45s ease, visibility 0.45s;
+}
+
+#langPickerOverlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#langPickerOverlay.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.lang-picker-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    animation: lsFadeUp 0.5s 0.1s ease forwards;
+    opacity: 0;
+    transform: translateY(16px);
+}
+
+.lang-picker-logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 4px;
+}
+
+.lang-picker-logo span { color: var(--text-white); }
+
+.lang-picker-subtitle {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.lang-picker-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.lang-picker-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 22px 36px;
+    background: var(--bg-card);
+    border: 2px solid rgba(254,231,21,0.2);
+    border-radius: 14px;
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    min-width: 130px;
+}
+
+.lang-picker-btn img {
+    width: 48px;
+    height: 32px;
+    object-fit: fill;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.lang-picker-btn:hover {
+    border-color: var(--accent);
+    background: rgba(254,231,21,0.07);
+    box-shadow: var(--glow);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 480px) {
+    .lang-picker-btn {
+        padding: 18px 24px;
+        min-width: 110px;
+        font-size: 0.9rem;
+    }
+    .lang-picker-buttons { gap: 14px; }
+}
+
