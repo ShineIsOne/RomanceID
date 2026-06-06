@@ -1,7 +1,7 @@
 const mangaList = [
   {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
-    "image": "img/5db661f5-0489-4cdb-a305-7cc055f2d936.jpg",
+    "image": "img/c54342d2-4a9a-4b69-bb38-1cb16b19dc96.webp",
     "genres": [
       "Comedy",
       "Fantasy",
