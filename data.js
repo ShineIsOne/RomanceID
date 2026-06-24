@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Ririmu Horikku",
+    "image": "img/adewasdasdasdasfewasad.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Themes",
+      "Demons",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.7",
+    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
+    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!In a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778676602805
+  },
+  {
     "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
     "image": "img/81S2p2mGoLL._SL1500_.webp",
     "genres": [
@@ -41,29 +64,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1766795220
-  },
-  {
-    "title": "Ririmu Horikku",
-    "image": "img/adewasdasdasdasfewasad.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Themes",
-      "Demons",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.6",
-    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
-    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!In a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778676602805
   },
   {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
