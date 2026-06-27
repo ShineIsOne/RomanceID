@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
+    "image": "img/1.webp",
+    "genres": [
+      "Reincarnation",
+      "Action",
+      "Romance",
+      "Comedy",
+      "Harem",
+      "Isekai",
+      "Fantasy",
+      "Adaptation"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol. 1 Ch.1",
+    "link": "https://mangadex.org/title/9f652434-2d30-49b0-9375-ba07de981c70/doutei-dakedo-akuyaku-kizoku-ni-tensei-shitanode-harem-wo-tsukuru-hazu-datta-no-ni-nazeka-sekai-wo",
+    "synopsis": "(IDN)\nDi kehidupan sebelumnya, ia meninggal sebagai seorang perjaka. Kini ia bereinkarnasi di dunia lain sebagai Grave, seorang bangsawan jahat dari sebuah eroge. Bertekad membangun harem, ia kemudian teringat bahwa Grave ditakdirkan akan terbunuh beberapa tahun kemudian. Mampukah ia menghindari takdir kematiannya dan mewujudkan harem impiannya? Fantasi harem penuh aksi dan fanservice pun dimulai!\n\n(ENG)\nIn his previous life, he died a virgin. In another world, he is reborn as Grave, the villainous noble of an eroge. Determined to build a harem, he soon remembers that Grave is destined to be killed just a few years later. Can he escape his doomed fate and create the harem of his dreams? A fantasy packed with action, fanservice, and harem antics begins!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1782542958510
+  },
+  {
     "title": "Make Heroine o Katasetai!!",
     "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
     "genres": [
