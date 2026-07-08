@@ -1,7 +1,7 @@
 const mangaList = [
   {
     "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
-    "image": "img/9f637a7f-2ce1-4bc2-8329-b83733c780f9.jpg",
+    "image": "img/81DoJr5NnaL._SY425_ (2).webp",
     "genres": [
       "Romance",
       "Comedy"
