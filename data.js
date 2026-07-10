@@ -1,5 +1,27 @@
 const mangaList = [
   {
+    "title": "Seiken-chan wa Kojirasete Iru",
+    "image": "img/Layer 1.webp",
+    "genres": [
+      "Monsters",
+      "Romance",
+      "Comedy",
+      "Adventure",
+      "Magic",
+      "Fantasy"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.2",
+    "link": "https://mangadex.org/title/dc30bdcc-422c-4dd0-934e-7166d0c489b1/seiken-chan-wa-kojirasete-iru",
+    "synopsis": "(IDN)\nAlba, seorang petualang pemalas yang ingin kaya agar bisa hidup santai, tanpa sengaja memperoleh Holy Sword (Seiken) legendaris. Namun, di dalam pedang itu bersemayam roh Holy Sword (Seiken) yang tsundere, rumit, dan tidak percaya pada manusia. Kisah fantasi aksi dan komedi romantis pun dimulai antara petualang yang malas dan Holy Sword (Seiken)-chan yang sulit jujur pada perasaannya.\n\n(ENG)\nAlba, a lazy adventurer who dreams of getting rich and living an easy life, stumbles upon a legendary Holy Sword (Seiken). However, the sword is inhabited by a complicated tsundere spirit who distrusts humans. Thus begins a fantasy adventure and romantic comedy between a laid-back adventurer and Holy Sword (Seiken)-chan",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1781248070501
+  },
+  {
     "title": "Make Heroine o Katasetai!!",
     "image": "img/44b470c4-aae2-4ef1-865e-f7988f942e12.webp",
     "genres": [
@@ -233,28 +255,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1768395262
-  },
-  {
-    "title": "Seiken-chan wa Kojirasete Iru",
-    "image": "img/Layer 1.webp",
-    "genres": [
-      "Monsters",
-      "Romance",
-      "Comedy",
-      "Adventure",
-      "Magic",
-      "Fantasy"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.1",
-    "link": "https://mangadex.org/title/dc30bdcc-422c-4dd0-934e-7166d0c489b1/seiken-chan-wa-kojirasete-iru",
-    "synopsis": "(IDN)\nAlba, seorang petualang pemalas yang ingin kaya agar bisa hidup santai, tanpa sengaja memperoleh Holy Sword (Seiken) legendaris. Namun, di dalam pedang itu bersemayam roh Holy Sword (Seiken) yang tsundere, rumit, dan tidak percaya pada manusia. Kisah fantasi aksi dan komedi romantis pun dimulai antara petualang yang malas dan Holy Sword (Seiken)-chan yang sulit jujur pada perasaannya.\n\n(ENG)\nAlba, a lazy adventurer who dreams of getting rich and living an easy life, stumbles upon a legendary Holy Sword (Seiken). However, the sword is inhabited by a complicated tsundere spirit who distrusts humans. Thus begins a fantasy adventure and romantic comedy between a laid-back adventurer and Holy Sword (Seiken)-chan",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1781248070501
   },
   {
     "title": "Oshi no Teki ni Natta node",
