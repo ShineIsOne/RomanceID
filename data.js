@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Osananajimi to no Yakusoku wo Hatasu Tame ni Hyakunen Shugyo Shita Rouyuusha, Nokori no Jumyou de Maou wo Utsu",
+    "image": "img/asdasdw.webp",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Comedy",
+      "Romance",
+      "Magic",
+      "Demons",
+      "Monsters"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.1",
+    "link": "https://mangadex.org/title/76a04714-96e5-4590-a365-443c8054a3aa/osananajimi-to-no-yakusoku-wo-hatasu-tame-ni-hyakunen-shugyo-shita-rouyuusha-nokori-no-jumyou-de",
+    "synopsis": "(IDN)\nBerg, yang kehilangan ayah dan ibunya di tangan para iblis, memulai perjalanan untuk mengalahkan Raja Iblis. Pada malam saat desanya diserang, ia berjanji kepada teman masa kecilnya bahwa ia akan menaklukkan Raja Iblis. Demi memenuhi janji itu, Berg mengasingkan diri di pegunungan dan berlatih tanpa henti. Seratus tahun kemudian, setelah usianya mencapai 110 tahun dan menguasai pukulan dengan kekuatan yang luar biasa, ia akhirnya turun gunung. Dalam perjalanannya menuju Raja Iblis, Berg bertemu dengan Eruruna, seorang pendekar pedang elf yang sedang bertarung melawan para iblis...\n\n(ENG)\nBerg, whose parents were killed by demons, sets out on a journey to defeat the Demon King. On the night his village was attacked, he promised his childhood friend that he would slay the Demon King. To fulfill that promise, he secluded himself in the mountains and trained relentlessly. One hundred years later, now 110 years old and armed with overwhelmingly powerful punches, Berg finally descends from the mountain. On his way to the Demon King, he encounters Eruruna, an elven swordswoman fighting against the demons...",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1783855050524
+  },
+  {
     "title": "Deochi Mitaina Settei wo Fuyo Shite Kuru Henshuu no Aira-senpai",
     "image": "img/amsdpoasd.webp",
     "genres": [
