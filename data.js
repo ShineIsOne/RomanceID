@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/IMG_7320.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.9 Ch.99",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Shachou to Sake to Hoshi",
     "image": "img/01.webp",
     "genres": [
@@ -233,25 +252,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1770792399
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/IMG_7320.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.8 Ch.98.3",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!Kawashima Manaka, seorang siswi SMA, jatuh cinta pada teman masa kecil sekaligus teman sekelasnya, Eguchi Ei. Ia terus memikirkan Ei dengan sepenuh hati… sampai seorang heroine lain, Takabi Ayame, tiba-tiba pindah ke kelas mereka.\n\nBerbeda dengan Kawashima, Takabi adalah heroine pemenang sejak lahir. Di pagi hari pertama kepindahannya, ia bertabrakan dengan Ei-kun di jalan ke sekolah, mendapat momen mesum keberuntungan, dan langsung memenuhi semua bendera klasik rom-com sejak awal.\n\nKawashima pun jatuh dalam keputusasaan… namun kemudian Kimura, karakter latar belakang dalam cerita ini, memutuskan untuk berjuang membimbingnya dari heroine kalah menjadi heroine pemenang…!?“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "title": "Keiken o Sukiru ni suru Bannou na Nouryoku o Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
