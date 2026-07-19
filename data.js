@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Yanikasu nan desu ka, Kemuriga-sensei",
+    "image": "img/0.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.3",
+    "link": "https://mangadex.org/title/60af6b59-a171-4a91-8d24-1d60493c753a/yanikasu-nan-desu-ka-kemuriga-sensei",
+    "synopsis": "(IDN)\nRindou, seorang guru baru yang tegas terhadap peraturan dan dijauhi oleh para murid, mengetahui bahwa guru UKS yang populer, Kemuriga Kuyuri, ternyata adalah seorang pecandu rokok yang pemalas... Kisah tentang satu malam rahasia antara dua guru yang sekilas tampak bertolak belakang pun dimulai.\n\n(ENG)\nRindou, a newly appointed teacher who is strict about school rules and disliked by the students, discovers that the popular school nurse, Kemuriga Kuyuri, is actually a lazy smoking addict... A secret night between two teachers who appear to be complete opposites begins.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1784445734833
+  },
+  {
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/IMG_7320.webp",
     "genres": [
