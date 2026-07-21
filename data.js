@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Daremo ga Urayamu Tonari no Cool Bishoujo, Jitsu wa Nounai Pink Sugiru",
+    "image": "img/asdvvv.webp",
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "School",
+      "Romance",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.1",
+    "link": "https://mangadex.org/title/10067312-34d0-4480-a1d7-bbc46d8bb9d3/daremo-ga-urayamu-tonari-no-cool-bishoujo-jitsu-wa-nounai-pink-sugiru",
+    "synopsis": "(IDN)\nKagura Rio adalah gadis yang sempurna, keren, dan cantik yang memikat perhatian semua orang begitu dia muncul di kelas. Dia brilian secara akademis, berbakat secara atletik, dan sangat cantik. Namun, hanya aku, Yonemine Sumito, yang duduk di sebelahnya dan diam-diam seorang telepati, yang tahu kebenarannya.\n\"Meskipun dia dipermainkan oleh banyak orang, tubuhnya tidak bisa menolak... rasanya sangat enak.\"\nAku tahu bahwa yang dia baca di mejanya adalah novel erotis (yang cukup ekstrem)!\nDan selama pelajaran matematika, dia memiliki pikiran terburuk: \"Guru itu sepertinya akan menjadi yang terbaik...\" Dan selama pelajaran olahraga, dia memikirkan para gadis, \"Mereka punya payudara besar. Aku ingin memegang mereka dari belakang.\" Pikiran Kagura selalu terlalu mesum!\nDia tidak dekat dengan siapa pun, tetapi entah kenapa, dia terbuka padaku dan mencoba mendekatiku!?\n\n(ENG)\nKagura Rio is a perfect, cool, and beautiful girl who captivates everyone's attention the moment she appears in the classroom. She's academically brilliant, athletically gifted, and a total beauty. However, only I, Yonemine Sumito, who sits next to her and is secretly a telepath, know the truth.\n\"Even though she's being played with by multiple people, her body can't resist...it feels so good.\"\nI know that what she's reading at her desk is an erotic novel (a pretty extreme one)!\nAnd during math class, she has the worst kind of thought: \"That teacher looks like he'd be the top...\" And during physical education class, she thinks of the girls, \"They have big boobs. I want to grab them from behind.\" Kagura's mind is always far too lewd!\nShe doesn't get close to anyone, but for some reason, she opens up to me and tries to get closer to me!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1784635314490
+  },
+  {
     "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
     "image": "img/81S2p2mGoLL._SL1500_.webp",
     "genres": [
