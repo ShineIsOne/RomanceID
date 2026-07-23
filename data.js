@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Super no Ura de Yani Suu Futari",
+    "image": "img/IMG_7319.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.10 Ch.63",
+    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
+    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795019
+  },
+  {
     "title": "Gyaru Shinkan wa Rizare ga Darui",
     "image": "img/61mPC8SDvuL._SL1000_.webp",
     "genres": [
@@ -426,25 +445,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1768395372
-  },
-  {
-    "title": "Super no Ura de Yani Suu Futari",
-    "image": "img/Volume 9.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.9 Ch.62",
-    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
-    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795019
   },
   {
     "title": "Amayo no Tsuki",
