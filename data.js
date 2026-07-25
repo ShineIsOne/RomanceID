@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Shachou to Sake to Hoshi",
+    "image": "img/3dc06592-4f85-4764-bc65-a06e140c9d71.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.3 Ch.21",
+    "link": "https://mangadex.org/title/7991e715-40ae-4c3e-b0e0-aa8bee90ece7/shachou-to-sake-to-hoshi?tab=chapters",
+    "synopsis": "(IDN)\nSetelah ayahnya meninggal secara mendadak, Izutsu Reina yang berusia 24 tahun harus mengambil alih perusahaan keluarga, Percetakan Izutsu. Tiba-tiba menjadi Direktur perusahaan membuatnya berada di bawah tekanan besar, hingga sifatnya berubah menjadi tegas dan kaku. Akibatnya, para karyawan pun segan mendekatinya, terutama Ishizumi Kenichi, Kepala Seksi senior berusia 37 tahun yang pendiam.\n\nSuatu malam, saat sedang mabuk ringan dan diliputi kelelahan di sebuah taman yang sepi, Reina tiba-tiba berkata, \"Sudah cukup! Aku berhenti jadi atasan semua orang!\" tanpa menyadari bahwa pria yang duduk di sampingnya adalah salah satu karyawannya. Di bawah lembutnya cahaya bintang, pria itu hanya mendengarkan dalam diam... lalu diam-diam berjanji akan selalu berada di sisinya.",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1784173772922
+  },
+  {
     "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
     "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
     "genres": [
@@ -224,25 +243,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1766795220
-  },
-  {
-    "title": "Shachou to Sake to Hoshi",
-    "image": "img/01.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.2 Ch.14",
-    "link": "https://mangadex.org/title/7991e715-40ae-4c3e-b0e0-aa8bee90ece7/shachou-to-sake-to-hoshi?tab=chapters",
-    "synopsis": "(IDN)\nSetelah ayahnya meninggal secara mendadak, Izutsu Reina yang berusia 24 tahun harus mengambil alih perusahaan keluarga, Percetakan Izutsu. Tiba-tiba menjadi Direktur perusahaan membuatnya berada di bawah tekanan besar, hingga sifatnya berubah menjadi tegas dan kaku. Akibatnya, para karyawan pun segan mendekatinya, terutama Ishizumi Kenichi, Kepala Seksi senior berusia 37 tahun yang pendiam.\n\nSuatu malam, saat sedang mabuk ringan dan diliputi kelelahan di sebuah taman yang sepi, Reina tiba-tiba berkata, \"Sudah cukup! Aku berhenti jadi atasan semua orang!\" tanpa menyadari bahwa pria yang duduk di sampingnya adalah salah satu karyawannya. Di bawah lembutnya cahaya bintang, pria itu hanya mendengarkan dalam diam... lalu diam-diam berjanji akan selalu berada di sisinya.",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1784173772922
   },
   {
     "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
