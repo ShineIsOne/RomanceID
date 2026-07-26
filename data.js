@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
+    "image": "img/51aa889f-df58-4835-bc77-54ddc1b839d6.webp",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Romance",
+      "Fantas",
+      "Dungeon Exploration"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.3 Ch.14",
+    "link": "https://mangadex.org/title/2164efb1-1e83-41e4-b2f2-6d6a5ae19d3f/keiken-wo-sukiru-ni-suru-bannou-na-nouryoku-wo-te-ni-irete-saikyou-no-tansaku-sha-ni-narimashita-jk",
+    "synopsis": "(IDN)\n“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?\n\n(ENG)\n“His Dungeon Exploration Partner Is a High School Girl!?”\n\nMasato, the eldest son of the Jinguuji family, begins working as an explorer in the “Tokyo Dungeon” to support his younger brothers after their parents pass away. However, realizing the limits of working alone, he decides to look for companions to help conquer the dungeon. That is when his younger brother Rekka introduces him to Tachibana Rika, and the two form a party together.\n\nThey encounter many hardships along the way, but as they support each other and overcome those challenges together, their bond gradually grows deeper...!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778848977299
+  },
+  {
     "title": "Shachou to Sake to Hoshi",
     "image": "img/3dc06592-4f85-4764-bc65-a06e140c9d71.webp",
     "genres": [
@@ -356,27 +377,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1770792399
-  },
-  {
-    "title": "Keiken o Sukiru ni suru Bannou na Nouryoku o Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
-    "image": "img/0be9cfdc-06f6-41b5-9a7f-323dd293c7ea.webp",
-    "genres": [
-      "Adventure",
-      "Action",
-      "Romance",
-      "Fantas",
-      "Dungeon Exploration"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.2 Ch.13",
-    "link": "https://mangadex.org/title/2164efb1-1e83-41e4-b2f2-6d6a5ae19d3f/keiken-wo-sukiru-ni-suru-bannou-na-nouryoku-wo-te-ni-irete-saikyou-no-tansaku-sha-ni-narimashita-jk",
-    "synopsis": "(IDN)\n“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!Di masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!Fumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\n“His Dungeon Exploration Partner Is a High School Girl!?”\n\nMasato, the eldest son of the Jinguuji family, begins working as an explorer in the “Tokyo Dungeon” to support his younger brothers after their parents pass away. However, realizing the limits of working alone, he decides to look for companions to help conquer the dungeon. That is when his younger brother Rekka introduces him to Tachibana Rika, and the two form a party together.\n\nThey encounter many hardships along the way, but as they support each other and overcome those challenges together, their bond gradually grows deeper...!?In a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!In a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!Fumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess - a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778848977299
   },
   {
     "title": "Kanojo o Dere Saseru Houhou o, Shourai Kekkon Suru Ore Dake ga Shitteiru",
