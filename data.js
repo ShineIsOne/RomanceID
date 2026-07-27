@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Kanojo o Dere Saseru Houhou o, Shourai Kekkon Suru Ore Dake ga Shitteiru",
+    "image": "img/01.webp",
+    "genres": [
+      "Time Travel",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "School Life",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.2",
+    "link": "https://mangadex.org/title/2d63ef8c-eae6-44b4-a300-595b7de11516/kanojo-o-dere-saseru-houhou-o-shourai-kekkon-suru-ore-dake-ga-shitteiru",
+    "synopsis": "(IDN)\nT: Kenapa kamu memilih SMA ini?\nJ: Karena calon istriku akan bersekolah di sini.\n\nSaat terbangun, aku mendapati diriku telah kembali ke masa lalu 15 tahun. Di hadapanku berdiri Yuki, wanita yang kelak menjadi istriku, mengenakan seragam sekolah. Dalam alur waktu semula, kami baru akan bertemu setelah dewasa dan akhirnya menikah, jadi untuk saat ini kami masih orang asing. Namun, aku tahu bahwa Yuki tidak memercayai orang lain, tidak punya teman, dan menjalani masa sekolahnya seorang diri. Aku juga tahu bahwa suatu hari nanti ia akan sangat menyesali masa itu. Karena itulah kali ini aku akan menulis ulang masa mudanya. \"Kenapa kamu tahu rahasiaku?!\" \"Karena kita suami istri... di masa depan.\" Ini adalah kisah tentang bagaimana aku mewarnai kembali masa muda kelabu calon istriku dengan warnaku sendiri.",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1782745668726
+  },
+  {
     "title": "Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
     "image": "img/51aa889f-df58-4835-bc77-54ddc1b839d6.webp",
     "genres": [
@@ -377,28 +398,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1770792399
-  },
-  {
-    "title": "Kanojo o Dere Saseru Houhou o, Shourai Kekkon Suru Ore Dake ga Shitteiru",
-    "image": "img/01.webp",
-    "genres": [
-      "Time Travel",
-      "Romance",
-      "Comedy",
-      "Drama",
-      "School Life",
-      "Slice of Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.1",
-    "link": "https://mangadex.org/title/2d63ef8c-eae6-44b4-a300-595b7de11516/kanojo-o-dere-saseru-houhou-o-shourai-kekkon-suru-ore-dake-ga-shitteiru",
-    "synopsis": "(IDN)\nT: Kenapa kamu memilih SMA ini?\nJ: Karena calon istriku akan bersekolah di sini.\n\nSaat terbangun, aku mendapati diriku telah kembali ke masa lalu 15 tahun. Di hadapanku berdiri Yuki, wanita yang kelak menjadi istriku, mengenakan seragam sekolah. Dalam alur waktu semula, kami baru akan bertemu setelah dewasa dan akhirnya menikah, jadi untuk saat ini kami masih orang asing. Namun, aku tahu bahwa Yuki tidak memercayai orang lain, tidak punya teman, dan menjalani masa sekolahnya seorang diri. Aku juga tahu bahwa suatu hari nanti ia akan sangat menyesali masa itu. Karena itulah kali ini aku akan menulis ulang masa mudanya. \"Kenapa kamu tahu rahasiaku?!\" \"Karena kita suami istri... di masa depan.\" Ini adalah kisah tentang bagaimana aku mewarnai kembali masa muda kelabu calon istriku dengan warnaku sendiri.\n\n(ENG)\nQ: Why did you choose this high school?\nA: Because my future wife is enrolling here.\n\nWhen I woke up, I had time-leaped 15 years into the past. Standing before me was Yuki, my future wife, wearing a school uniform. In the original timeline, we wouldn't meet until we became adults and eventually got married, so we're still strangers for now. But I know that she distrusts people, has no friends, and spends her school days alone. I also know she'll deeply regret that time in the future. So this time, I'm going to rewrite her youth. \"How do you know my secret?!\" \"Because we're husband and wife... in the future.\" This is the story of how I repaint my future wife's gray youth with my own colors.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1782745668726
   },
   {
     "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
