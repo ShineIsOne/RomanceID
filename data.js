@@ -1,7 +1,7 @@
 const mangaList = [
   {
     "title": "Kanojo o Dere Saseru Houhou o, Shourai Kekkon Suru Ore Dake ga Shitteiru",
-    "image": "img/01.webp",
+    "image": "img/sdddddaa.webp",
     "genres": [
       "Time Travel",
       "Romance",
