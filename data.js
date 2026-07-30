@@ -1,5 +1,25 @@
 const mangaList = [
   {
+    "title": "Imasara desu ga, Osananajimi o Suki ni Natte Shimaimashita",
+    "image": "img/d5b51113-1b84-4cb4-a998-da2bd843694c.webp",
+    "genres": [
+      "Romance",
+      "Drama",
+      "School",
+      "Slice of Life",
+      "Suggestive"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Order by @13seino | Ch.1-51 | Kirim via MangaDex",
+    "link": "https://mangadex.org/title/cf1c93cc-4bb5-4311-b926-0f02ad123ad2/imasara-desu-ga-osananajimi-o-suki-ni-natte-shimaimashita",
+    "synopsis": "(IDN)\nHikari Shirasaka dan Yu Takamura sudah berteman sejak kecil selama 10 tahun. Saat memasuki masa SMA, Hikari mulai menyadari bahwa perasaannya kepada Yu berubah menjadi cinta. Kedekatan mereka membuat Hikari semakin bingung harus tetap menjadi teman atau mencoba melangkah lebih jauh. Cerita ini mengikuti perjuangan Hikari menghadapi perasaan barunya dan usahanya untuk mengubah hubungan masa kecil mereka menjadi kisah cinta.",
+    "lang": [
+      "id"
+    ],
+    "type": "Order",
+    "id": 1772151424392
+  },
+  {
     "title": "Ririmu Horikku",
     "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
     "genres": [
@@ -639,26 +659,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1772152121277
-  },
-  {
-    "title": "Imasara desu ga, Osananajimi o Suki ni Natte Shimaimashita",
-    "image": "img/99e71e52-efad-4173-a2d9-00344da262b2.jpg",
-    "genres": [
-      "Romance",
-      "Drama",
-      "School",
-      "Slice of Life",
-      "Suggestive"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Order by @13seino | Ch.1-45 | Kirim via MangaDex",
-    "link": "https://mangadex.org/title/cf1c93cc-4bb5-4311-b926-0f02ad123ad2/imasara-desu-ga-osananajimi-o-suki-ni-natte-shimaimashita",
-    "synopsis": "(IDN)\nHikari Shirasaka dan Yu Takamura sudah berteman sejak kecil selama 10 tahun. Saat memasuki masa SMA, Hikari mulai menyadari bahwa perasaannya kepada Yu berubah menjadi cinta. Kedekatan mereka membuat Hikari semakin bingung harus tetap menjadi teman atau mencoba melangkah lebih jauh. Cerita ini mengikuti perjuangan Hikari menghadapi perasaan barunya dan usahanya untuk mengubah hubungan masa kecil mereka menjadi kisah cinta.",
-    "lang": [
-      "id"
-    ],
-    "type": "Order",
-    "id": 1772151424392
   },
   {
     "title": "Tourigakari ni Wanpointo Adobaisu Shite Iku Taipu no Yankii",
