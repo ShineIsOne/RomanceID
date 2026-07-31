@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/IMG_7320.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.9 Ch.100",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Imasara desu ga, Osananajimi o Suki ni Natte Shimaimashita",
     "image": "img/d5b51113-1b84-4cb4-a998-da2bd843694c.webp",
     "genres": [
@@ -308,25 +327,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1784445734833
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/IMG_7320.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.9 Ch.99",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
