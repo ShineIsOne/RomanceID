@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Otona ni Narenai Bokura wa",
+    "image": "img/92407c06-7a16-46fc-a34e-75950d7c64a6.webp",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Psychological",
+      "Romance",
+      "Tragedy",
+      "School Life",
+      "Time Travel",
+      "Erotica"
+    ],
+    "status": "Completed",
+    "latestChapter": "Vol.3 Ch.27",
+    "link": "https://mangadex.org/title/01d0e7f2-b3de-4196-85db-f755446b4c11/otona-ni-narenai-bokura-wa",
+    "synopsis": "(IDN)\nIni adalah kisah tentang cara kami menghabiskan waktu yang konyol, tanpa akhir, sambil terus mengulang tanggal 7 Juli.",
+    "lang": [
+      "id"
+    ],
+    "type": "Order",
+    "id": 1785913556448
+  },
+  {
     "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
     "image": "img/20260715193555537824FFE726DBB35EEF4103AD5038E7C8B-lg.webp",
     "genres": [
