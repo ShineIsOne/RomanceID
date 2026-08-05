@@ -13,7 +13,7 @@ const mangaList = [
       "Erotica"
     ],
     "status": "Completed",
-    "latestChapter": "Vol.3 Ch.27",
+    "latestChapter": "Order by @13seino | Vol.2 - Vol.3 (Final) Ch.8-27 | Kirim via MangaDex",
     "link": "https://mangadex.org/title/01d0e7f2-b3de-4196-85db-f755446b4c11/otona-ni-narenai-bokura-wa",
     "synopsis": "(IDN)\nIni adalah kisah tentang cara kami menghabiskan waktu yang konyol, tanpa akhir, sambil terus mengulang tanggal 7 Juli.",
     "lang": [
