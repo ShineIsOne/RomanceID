@@ -344,7 +344,7 @@ const mangaList = [
     "id": 1785238328973
   },
   {
-    "title": "Kanojo o Dere Saseru Houhou o, Shourai Kekkon Suru Ore Dake ga Shitteiru",
+    "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
     "image": "img/sdddddaa.webp",
     "genres": [
       "Time Travel",
