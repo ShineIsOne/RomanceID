@@ -9,7 +9,7 @@ const mangaList = [
       "School Life"
     ],
     "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.2",
+    "latestChapter": "Vol.1 Ch.3",
     "link": "https://mangadex.org/title/091c1429-d7b6-48e2-85ec-79fabb1a44fb/ikiru-no-hetana-tako-no-joshi?tab=chapters",
     "synopsis": "(IDN)\nKisah boy meets girl antara Mita, siswi SMA berwajah sangar namun ceroboh, dan Hitoyoshi, siswa SMA yang sangat penakut. Suatu pagi di kereta, Hitoyoshi tiba-tiba diajak bicara oleh Mita yang terlihat menyeramkan. Rupanya, Mita sedang merasa tidak enak badan. Meski ketakutan, Hitoyoshi tetap menolongnya. Sejak saat itu, ia mulai melihat sisi Mita yang ceroboh dan kikuk, jauh berbeda dari kesan yang diberikan oleh penampilannya.\n\n(ENG)\nA boy meets girl story about Mita, a fierce-looking but clumsy high school girl, and Hitoyoshi, a timid high school boy. One morning on the train, Hitoyoshi is suddenly approached by the intimidating-looking Mita. It turns out she's feeling unwell. Despite his fear, he helps take care of her. Through the encounter, he catches a glimpse of Mita's clumsy and awkward side, one that is completely at odds with her intimidating appearance.",
     "lang": [
