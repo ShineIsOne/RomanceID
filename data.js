@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Super no Ura de Yani Suu Futari",
+    "image": "img/IMG_7319.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.10 Ch.64",
+    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
+    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795019
+  },
+  {
     "title": "Ikiru no Heta na Takou no Joshi",
     "image": "img/asdavv.webp",
     "genres": [
@@ -382,25 +401,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1784173772922
-  },
-  {
-    "title": "Super no Ura de Yani Suu Futari",
-    "image": "img/IMG_7319.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.10 Ch.63",
-    "link": "https://mangadex.org/title/baa95345-24fb-47a9-83e9-434ff671f968/super-no-ura-de-yani-suu-futari",
-    "synopsis": "(IDN)\nSasaki, seorang pegawai kantoran yang kelelahan karena terlalu banyak kerja, menjalani hari-hari penuh stres hanya demi satu hal yang jadi cahaya di ujung terowongan: Yamada, kasir ceria yang selalu menyapanya di minimarket favoritnya.\nSuatu hari, Sasaki menghabiskan waktu lebih lama dari biasanya dalam rapat kantor, dan saat ia tiba di minimarket, Yamada sudah selesai shift dan pulang. Namun, saat hendak pergi, ia melihat seorang wanita muda bertindik sedang merokok di belakang toko?",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795019
   },
   {
     "title": "Make Heroine o Katasetai!!",
