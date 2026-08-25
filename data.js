@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
+    "image": "img/81S2p2mGoLL._SL1500_.webp",
+    "genres": [
+      "Erotica",
+      "Reincarnation",
+      "Comedy",
+      "Romance",
+      "Adventure",
+      "Isekai",
+      "Fantasy",
+      "Monsters"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.3 Ch.23",
+    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
+    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1779698191662
+  },
+  {
     "title": "Super no Ura de Yani Suu Futari",
     "image": "img/IMG_7319.webp",
     "genres": [
@@ -295,30 +319,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1785913556448
-  },
-  {
-    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
-    "image": "img/81S2p2mGoLL._SL1500_.webp",
-    "genres": [
-      "Erotica",
-      "Reincarnation",
-      "Comedy",
-      "Romance",
-      "Adventure",
-      "Isekai",
-      "Fantasy",
-      "Monsters"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.3 Ch.22",
-    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
-    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1779698191662
   },
   {
     "title": "Imasara desu ga, Osananajimi o Suki ni Natte Shimaimashita",
