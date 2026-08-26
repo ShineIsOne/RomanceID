@@ -1,5 +1,27 @@
 const mangaList = [
   {
+    "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
+    "image": "img/asdasdas.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Mystery",
+      "Psychological",
+      "Drama",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.3",
+    "link": "https://mangadex.org/title/7a82d0ef-034e-427b-bf5c-ed7d08ddbd6b/shujinkou-sama-no-imouto-ni-aisarete-iru-kedo-shikkari-yandere",
+    "synopsis": "(IDN)\nSiswa SMA bernama Usui Shinji memiliki teman masa kecil tampan, Ichinose Hinata, yang populer di kalangan perempuan layaknya seorang protagonis dalam cerita. Berada di samping Hinata yang memikat semua orang bagaikan matahari membuat Shinji merasa rendah diri, hingga tanpa sadar ia mulai sedikit tidak menyukainya. Di sisi lain, entah mengapa Ichinose Runa, adik perempuan Hinata, sangat menyayangi Shinji layaknya kakak kandung sendiri. Di tengah kesehariannya yang dipenuhi perasaan rumit itu, kisah pun dimulai ketika Shinji menerima sebuah surat cinta yang mencurigakan.\n\n(ENG)\nMale high school student Usui Shinji has a handsome childhood friend, Ichinose Hinata, who is as popular with girls as the protagonist of a story. Being beside Hinata, whose charm draws everyone in like the sun, always makes Shinji feel inferior, and before he knew it, he had started to dislike him a little. Meanwhile, for some reason, Ichinose Runa, Hinata's younger sister, is very attached to Shinji as if he were her real older brother. As Shinji goes about his days burdened by these complicated feelings, the story begins when he receives a suspicious love letter.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1785238328973
+  },
+  {
     "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
     "image": "img/81S2p2mGoLL._SL1500_.webp",
     "genres": [
@@ -339,28 +361,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1772151424392
-  },
-  {
-    "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
-    "image": "img/asdasdas.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Mystery",
-      "Psychological",
-      "Drama",
-      "School Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.2",
-    "link": "https://mangadex.org/title/7a82d0ef-034e-427b-bf5c-ed7d08ddbd6b/shujinkou-sama-no-imouto-ni-aisarete-iru-kedo-shikkari-yandere",
-    "synopsis": "(IDN)\nSiswa SMA bernama Usui Shinji memiliki teman masa kecil tampan, Ichinose Hinata, yang populer di kalangan perempuan layaknya seorang protagonis dalam cerita. Berada di samping Hinata yang memikat semua orang bagaikan matahari membuat Shinji merasa rendah diri, hingga tanpa sadar ia mulai sedikit tidak menyukainya. Di sisi lain, entah mengapa Ichinose Runa, adik perempuan Hinata, sangat menyayangi Shinji layaknya kakak kandung sendiri. Di tengah kesehariannya yang dipenuhi perasaan rumit itu, kisah pun dimulai ketika Shinji menerima sebuah surat cinta yang mencurigakan.\n\n(ENG)\nMale high school student Usui Shinji has a handsome childhood friend, Ichinose Hinata, who is as popular with girls as the protagonist of a story. Being beside Hinata, whose charm draws everyone in like the sun, always makes Shinji feel inferior, and before he knew it, he had started to dislike him a little. Meanwhile, for some reason, Ichinose Runa, Hinata's younger sister, is very attached to Shinji as if he were her real older brother. As Shinji goes about his days burdened by these complicated feelings, the story begins when he receives a suspicious love letter.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1785238328973
   },
   {
     "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
