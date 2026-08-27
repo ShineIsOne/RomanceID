@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
+    "image": "img/sdddddaa.webp",
+    "genres": [
+      "Time Travel",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "School Life",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.1 Ch.3",
+    "link": "https://mangadex.org/title/2d63ef8c-eae6-44b4-a300-595b7de11516/kanojo-o-dere-saseru-houhou-o-shourai-kekkon-suru-ore-dake-ga-shitteiru",
+    "synopsis": "(IDN)\nT: Kenapa kamu memilih SMA ini?\nJ: Karena calon istriku akan bersekolah di sini.\n\nSaat terbangun, aku mendapati diriku telah kembali ke masa lalu 15 tahun. Di hadapanku berdiri Yuki, wanita yang kelak menjadi istriku, mengenakan seragam sekolah. Dalam alur waktu semula, kami baru akan bertemu setelah dewasa dan akhirnya menikah, jadi untuk saat ini kami masih orang asing. Namun, aku tahu bahwa Yuki tidak memercayai orang lain, tidak punya teman, dan menjalani masa sekolahnya seorang diri. Aku juga tahu bahwa suatu hari nanti ia akan sangat menyesali masa itu. Karena itulah kali ini aku akan menulis ulang masa mudanya. \"Kenapa kamu tahu rahasiaku?!\" \"Karena kita suami istri... di masa depan.\" Ini adalah kisah tentang bagaimana aku mewarnai kembali masa muda kelabu calon istriku dengan warnaku sendiri.",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1782745668726
+  },
+  {
     "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
     "image": "img/1.webp",
     "genres": [
@@ -407,27 +428,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1772151424392
-  },
-  {
-    "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
-    "image": "img/sdddddaa.webp",
-    "genres": [
-      "Time Travel",
-      "Romance",
-      "Comedy",
-      "Drama",
-      "School Life",
-      "Slice of Life"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.1 Ch.2",
-    "link": "https://mangadex.org/title/2d63ef8c-eae6-44b4-a300-595b7de11516/kanojo-o-dere-saseru-houhou-o-shourai-kekkon-suru-ore-dake-ga-shitteiru",
-    "synopsis": "(IDN)\nT: Kenapa kamu memilih SMA ini?\nJ: Karena calon istriku akan bersekolah di sini.\n\nSaat terbangun, aku mendapati diriku telah kembali ke masa lalu 15 tahun. Di hadapanku berdiri Yuki, wanita yang kelak menjadi istriku, mengenakan seragam sekolah. Dalam alur waktu semula, kami baru akan bertemu setelah dewasa dan akhirnya menikah, jadi untuk saat ini kami masih orang asing. Namun, aku tahu bahwa Yuki tidak memercayai orang lain, tidak punya teman, dan menjalani masa sekolahnya seorang diri. Aku juga tahu bahwa suatu hari nanti ia akan sangat menyesali masa itu. Karena itulah kali ini aku akan menulis ulang masa mudanya. \"Kenapa kamu tahu rahasiaku?!\" \"Karena kita suami istri... di masa depan.\" Ini adalah kisah tentang bagaimana aku mewarnai kembali masa muda kelabu calon istriku dengan warnaku sendiri.",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1782745668726
   },
   {
     "title": "Shachou to Sake to Hoshi",
