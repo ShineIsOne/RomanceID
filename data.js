@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/IMG_7320.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "latestChapter": "Vol.9 Ch.102",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
     "image": "img/sdddddaa.webp",
     "genres": [
@@ -275,25 +294,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1778848977299
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/IMG_7320.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.9 Ch.101",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "title": "Seiken-chan wa Kojirasete Iru",
