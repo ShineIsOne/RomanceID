@@ -201,6 +201,7 @@ header {
     left: 10px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 5px;
     z-index: 2;
 }

@@ -187,6 +187,14 @@ function renderManga() {
     emptyMessage.style.display = "none";
 
     const sortedList = [...filteredList].sort((a, b) => {
+        // Prioritaskan status 'working' (sedang dikerjakan)
+        const aWorking = a.working ? 1 : 0;
+        const bWorking = b.working ? 1 : 0;
+        if (aWorking !== bWorking) {
+            return bWorking - aWorking; // Descending order
+        }
+        
+        // Baru kemudian urutkan Ongoing sebelum Completed
         if (a.status === "Ongoing" && b.status === "Completed") return -1;
         if (a.status === "Completed" && b.status === "Ongoing") return 1;
         return 0;
