@@ -221,9 +221,15 @@ sortedList.forEach(manga => {
 
         card.innerHTML = `
             <div class="card-image">
-                <span class="status-badge ${statusClass}">
-                    ${statusIcon} ${translateStatus(manga.status)}
-                </span>
+                <div class="status-badge-container">
+                    <span class="status-badge ${statusClass}">
+                        ${statusIcon} ${translateStatus(manga.status)}
+                    </span>
+                    ${manga.working ? `
+                    <span class="status-badge status-working">
+                        <i class="fa-solid fa-spinner fa-spin"></i> ${translateText("Sedang dikerjakan", "In Progress")}
+                    </span>` : ''}
+                </div>
 
                 ${flags}
 
@@ -293,6 +299,11 @@ function openModal(manga) {
             ${translateText("Status", "Status")}:
             ${translateStatus(manga.status)}
         </span>
+        ${manga.working ? `
+        <span class="status-working-inline">
+            <i class="fa-solid fa-spinner fa-spin"></i> ${translateText("Sedang dikerjakan", "In Progress")}
+        </span>
+        ` : ''}
         <span>
             ${translateText("Terakhir", "Latest")}:
             ${manga.latestChapter}

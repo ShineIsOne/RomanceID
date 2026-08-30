@@ -5,6 +5,7 @@
     --bg-modal: #161f29;
     --accent: #fee715;       /* Kuning Terang */
     --success: #00b894;      /* Hijau */
+    --working: #8a5cf5;      /* Violet/Ungu */
     --text-white: #ffffff;
     --text-gray: #b0b3b8;
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -194,16 +195,38 @@ header {
 .card:hover .card-image img { transform: scale(1.1); }
 
 /* --- STATUS BADGE & FLAGS --- */
+.status-badge-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
 .status-badge {
-    position: absolute; top: 10px; left: 10px;
     padding: 4px 10px; border-radius: 20px;
     font-size: 0.75rem; font-weight: 600;
-    z-index: 2; display: flex; align-items: center; gap: 5px;
+    display: flex; align-items: center; gap: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .status-ongoing { background-color: var(--accent); color: var(--bg-dark); }
 .status-completed { background-color: var(--success); color: white; }
+.status-working { background-color: var(--working); color: white; }
+
+.status-working-inline {
+    background-color: var(--working);
+    color: var(--text-white);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
 
 .lang-flags {
     position: absolute;
@@ -988,9 +1011,15 @@ header {
     .btn-comment { font-size: 0.55rem; padding: 4px 0; gap: 3px; margin-top: 4px; border-width: 1px; border-radius: 6px; }
     .btn-comment i { font-size: 0.55rem; }
     
+    .status-badge-container {
+        top: 5px;
+        left: 5px;
+        gap: 3px;
+    }
+
     .status-badge {
         font-size: 0.45rem; padding: 2px 5px;
-        top: 5px; left: 5px; gap: 3px;
+        gap: 3px;
     }
 
     .lang-btn {

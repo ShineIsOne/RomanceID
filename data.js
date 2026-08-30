@@ -1,41 +1,23 @@
 const mangaList = [
   {
-    "title": "Kakushite Kisetsu wa Ao wo Shiru",
-    "image": "img/dqwdqd3.webp",
+    "title": "Arakawa Under the Bridge",
+    "image": "img/a7e4c41e-642b-4ed0-b802-00062b15d5e6.jpg",
     "genres": [
       "Comedy",
       "Romance",
-      "School Life"
+      "Slice of Life",
+      "Seinen"
     ],
-    "status": "Ongoing",
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Kirim via Drive",
-    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
-    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
+    "status": "Completed",
+    "working": true,
+    "latestChapter": "Order by @_fikritriewaluyo26 | Vol.6 - Vol.15 | Kirim via Drive",
+    "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
+    "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
     "lang": [
-      "en"
+      "id"
     ],
     "type": "Order",
-    "id": 1787901909998
-  },
-  {
-    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
-    "image": "img/QKnws.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Ecchi",
-      "School Life",
-      "Sports"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.1 | Kirim via Drive",
-    "link": "",
-    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787901441421
+    "id": 1772152121277
   },
   {
     "title": "Aoi-kun no Waidan ga Tamaranai!!",
@@ -48,6 +30,7 @@ const mangaList = [
       "Josei"
     ],
     "status": "Ongoing",
+    "working": true,
     "latestChapter": "Order by @azibaw42 | Vol.1 - Vol.4 Ch.1 - Ch.20 | Kirim via MangaDex",
     "link": "https://mangadex.org/title/1ae96a86-b943-4c1f-8e06-e46981f6d4d3/aoi-kun-no-waidan-ga-tamaranai",
     "synopsis": "(ENG)\n\"In exchange for me talking dirty...let me live here?\" Mebuku is an office lady who loves BL and has never had a boyfriend. On Christmas Eve, when searching for fap material at a manga cafe, A gay man named Aoi, who she had never met, proposes that they live together on the condition that I \"listen to his sexy stories\"!? Aoi's exquisite dirty talk will satisfy your mind and body...! We're neither friends with benefits nor lovers. 100% pure \"I just want to tell/listen to dirty talk\" A gay man and a fujoshi's shared sex life begins!",
@@ -56,6 +39,46 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1787900738501
+  },
+  {
+    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
+    "image": "img/QKnws.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Ecchi",
+      "School Life",
+      "Sports"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.1 | Kirim via Drive",
+    "link": "",
+    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901441421
+  },
+  {
+    "title": "Kakushite Kisetsu wa Ao wo Shiru",
+    "image": "img/dqwdqd3.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Kirim via Drive",
+    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
+    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901909998
   },
   {
     "title": "Kurai Anoko to Shitai Koto",
@@ -743,25 +766,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1773560320543
-  },
-  {
-    "title": "Arakawa Under the Bridge",
-    "image": "img/a7e4c41e-642b-4ed0-b802-00062b15d5e6.jpg",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "Seinen"
-    ],
-    "status": "Completed",
-    "latestChapter": "Order by @_fikritriewaluyo26 | Vol.6 - Vol.15 | Kirim via Drive",
-    "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
-    "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
-    "lang": [
-      "id"
-    ],
-    "type": "Order",
-    "id": 1772152121277
   },
   {
     "title": "Tourigakari ni Wanpointo Adobaisu Shite Iku Taipu no Yankii",
