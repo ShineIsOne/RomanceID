@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
+    "image": "img/c54342d2-4a9a-4b69-bb38-1cb16b19dc96.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai",
+      "Romance",
+      "Slice of Life",
+      "Magic",
+      "Reincarnation"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.2 Ch.19",
+    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
+    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1770792399
+  },
+  {
     "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
     "image": "img/20260715193555537824FFE726DBB35EEF4103AD5038E7C8B-lg.webp",
     "genres": [
@@ -445,29 +469,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1768395372
-  },
-  {
-    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
-    "image": "img/c54342d2-4a9a-4b69-bb38-1cb16b19dc96.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Romance",
-      "Slice of Life",
-      "Magic",
-      "Reincarnation"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.2 Ch.17",
-    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
-    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1770792399
   },
   {
     "title": "Otona ni Narenai Bokura wa",
