@@ -122,7 +122,7 @@ const mangaList = [
     ],
     "status": "Completed",
     "working": true,
-    "latestChapter": "Order by @_fikritriewaluyo26 | Vol.6 - Vol.15 | Kirim via Drive",
+    "latestChapter": "Order by @_fikritriewaluyo26 | Vol.6 - Vol.15 | Send via GDrive",
     "link": "https://mangadex.org/title/bd5dd062-6fd3-44d4-808a-53ed9a17b580/arakawa-under-the-bridge",
     "synopsis": "(IDN)\nKou adalah seorang pria muda “elit” yang punya prinsip tidak pernah berutang budi kepada siapa pun. Namun suatu hari, ia justru berutang pada Nino, gadis aneh yang menyelamatkan hidupnya. Nino mengaku berasal dari Venus dan tinggal di bawah jembatan di tepi Sungai Arakawa. Sebagai balasan atas utangnya, Nino meminta Kou menjadi kekasihnya. Akhirnya, Kou pun mulai tinggal di bawah jembatan bersama Nino.",
     "lang": [
@@ -143,7 +143,7 @@ const mangaList = [
     ],
     "status": "Ongoing",
     "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 - Vol.4 Ch.1 - Ch.20 | Kirim via MangaDex",
+    "latestChapter": "Order by @azibaw42 | Vol.1 - Vol.4 Ch.1 - Ch.20 | Send via MangaDex",
     "link": "https://mangadex.org/title/1ae96a86-b943-4c1f-8e06-e46981f6d4d3/aoi-kun-no-waidan-ga-tamaranai",
     "synopsis": "(ENG)\n\"In exchange for me talking dirty...let me live here?\" Mebuku is an office lady who loves BL and has never had a boyfriend. On Christmas Eve, when searching for fap material at a manga cafe, A gay man named Aoi, who she had never met, proposes that they live together on the condition that I \"listen to his sexy stories\"!? Aoi's exquisite dirty talk will satisfy your mind and body...! We're neither friends with benefits nor lovers. 100% pure \"I just want to tell/listen to dirty talk\" A gay man and a fujoshi's shared sex life begins!",
     "lang": [
@@ -164,7 +164,7 @@ const mangaList = [
     ],
     "status": "Ongoing",
     "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.1 | Kirim via Drive",
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.1 | Send via GDrive",
     "link": "",
     "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
     "lang": [
@@ -183,7 +183,7 @@ const mangaList = [
     ],
     "status": "Ongoing",
     "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Kirim via Drive",
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Send via GDrive",
     "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
     "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
     "lang": [
@@ -486,7 +486,7 @@ const mangaList = [
       "Erotica"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @13seino | Vol.2 - Vol.3 (Final) Ch.8-27 | Kirim via MangaDex",
+    "latestChapter": "Order by @13seino | Vol.2 - Vol.3 (Final) Ch.8-27 | Send via MangaDex",
     "link": "https://mangadex.org/title/01d0e7f2-b3de-4196-85db-f755446b4c11/otona-ni-narenai-bokura-wa",
     "synopsis": "(IDN)\nIni adalah kisah tentang cara kami menghabiskan waktu yang konyol, tanpa akhir, sambil terus mengulang tanggal 7 Juli.",
     "lang": [
@@ -506,7 +506,7 @@ const mangaList = [
       "Suggestive"
     ],
     "status": "Ongoing",
-    "latestChapter": "Order by @13seino | Ch.1-51 | Kirim via MangaDex",
+    "latestChapter": "Order by @13seino | Ch.1-51 | Send via MangaDex",
     "link": "https://mangadex.org/title/cf1c93cc-4bb5-4311-b926-0f02ad123ad2/imasara-desu-ga-osananajimi-o-suki-ni-natte-shimaimashita",
     "synopsis": "(IDN)\nHikari Shirasaka dan Yu Takamura sudah berteman sejak kecil selama 10 tahun. Saat memasuki masa SMA, Hikari mulai menyadari bahwa perasaannya kepada Yu berubah menjadi cinta. Kedekatan mereka membuat Hikari semakin bingung harus tetap menjadi teman atau mencoba melangkah lebih jauh. Cerita ini mengikuti perjuangan Hikari menghadapi perasaan barunya dan usahanya untuk mengubah hubungan masa kecil mereka menjadi kisah cinta.",
     "lang": [
@@ -628,7 +628,7 @@ const mangaList = [
       "School Life"
     ],
     "status": "Ongoing",
-    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.3 Ch.9-12 | Kirim via Drive",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.3 Ch.9-12 | Send via GDrive",
     "link": "https://mangadex.org/title/c8a0426d-539b-4f6a-9537-fbccf4962529/amayo-no-tsuki",
     "synopsis": "(IDN)\nSuatu malam hujan, Saki sedang terburu-buru ke les piano ketika ia menabrak seorang gadis cantik berambut panjang, membuat lembaran not musiknya jatuh. Saki gugup meminta maaf, tetapi gadis itu hanya mengembalikan notnya dan pergi tanpa berkata apa pun.\n\nKeesokan paginya, Saki memulai hari pertama SMA dan terkejut melihat gadis misterius tadi duduk di bangku sebelahnya. Ia mengetahui bahwa gadis itu bernama Kanon, dan bukan sepenuhnya tuli, tetapi sangat sulit mendengar.\n\nMeskipun Kanon harus berada dekat dengan orang lain untuk membaca gerak bibir, sikapnya yang dingin membuatnya cenderung menjauhkan diri. Lewat satu kebaikan kecil, Saki perlahan mulai membuka hati Kanon, sekaligus merasakan sesuatu yang baru tumbuh di dalam dirinya.",
     "lang": [
@@ -647,7 +647,7 @@ const mangaList = [
       "Slice of Life"
     ],
     "status": "Ongoing",
-    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.1 Ch.1-5 | Kirim via Drive",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.1 Ch.1-5 | Send via GDrive",
     "link": "https://mangadex.org/title/543919c3-966d-49f4-8417-240e6b8799f5/30-made-hitori-dattara-issho-ni-kurasou-tte-itta-yo-ne",
     "synopsis": "(IDN)\n“Kalau kita masih sendiri sampai umur 30, ayo tinggal bersama.”\n\nYang awalnya hanya dianggap janji mabuk belaka, tiba-tiba jadi kenyataan saat menjelang ulang tahun ke-30 Tsukiko. Di tengah malam, orang yang muncul di rumahnya ternyata adalah Sora, teman yang dulu membuat janji itu dengannya.\n\nBukan kehidupan yang penuh kilau masa muda, tapi kisah tinggal bersama dua orang berusia 30-an yang ternyata cukup menyenangkan.",
     "lang": [
@@ -686,7 +686,7 @@ const mangaList = [
       "Slice of Life"
     ],
     "status": "Ongoing",
-    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.1 Ch.1-8 | Kirim via Drive",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.1 Ch.1-8 | Send via GDrive",
     "link": "https://mangadex.org/title/5199b00b-f55d-43d2-bf36-63873adee286/egao-no-taenai-shokuba-desu",
     "synopsis": "(IDN)\nMangaka shoujo baru, Futami Nana, bekerja keras setiap hari sambil didukung oleh editor perempuannya yang lebih tua, Satou Kaede, serta asistennya, Hazama Mizuki. Menurut pengakuannya sendiri, ia kadang-kadang berkhayal liar sampai seperti “penyakit akibat kerja”!",
     "lang": [
@@ -763,7 +763,7 @@ const mangaList = [
       "School Life"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @yerrrrrrrrrr._ | Vol.5 Ch.53 | Kirim via MangaDex",
+    "latestChapter": "Order by @yerrrrrrrrrr._ | Vol.5 Ch.53 | Send via MangaDex",
     "link": "https://mangadex.org/title/ae3736bf-dc58-40cc-b1cb-928269edf62b/chigau-miyahara-omae-janai",
     "synopsis": "(IDN)\nManga ini berpusat pada Arima, seorang anak laki-laki yang menyukai seorang gadis bernama Yukihira. Namun setiap kali ia mencoba melakukan sesuatu untuk mendekati Yukihira, temannya yang lain, Miyahara, kebetulan selalu berada di situ dan salah paham, mengira Arima sedang mencoba mendekatinya.",
     "lang": [
@@ -783,7 +783,7 @@ const mangaList = [
       "Office Workers"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @jeycavv | Ch.81-88.5 | Kirim via Drive",
+    "latestChapter": "Order by @jeycavv | Ch.81-88.5 | Send via GDrive",
     "link": "https://mangadex.org/title/ccc174c5-715c-446e-b115-41ae79e1f268/tourigakari-ni-wanpointo-adobaisu-shite-iku-taipu-no-yankii",
     "synopsis": "(IDN)\nSakurai-san terlihat seperti seorang yankee, tetapi dia sering memberi saran singkat kepada orang-orang yang ditemuinya. Orang yang baru pertama kali bertemu dengannya biasanya takut karena penampilannya yang menyeramkan, namun lewat nasihatnya mereka mulai menyadari betapa baik hatinya dia. Perlahan, lingkaran pertemanannya pun semakin luas. Dia baik, perhatian, berpengetahuan luas, dan juga mahir dalam berbagai olahraga. Hari ini pun, Sakurai yang punya perbedaan mencolok antara penampilan dan kepribadiannya itu terus memberikan saran singkat kepada banyak orang, membuat hari mereka menjadi sedikit lebih baik.",
     "lang": [
@@ -804,7 +804,7 @@ const mangaList = [
       "School"
     ],
     "status": "Completed",
-    "latestChapter": "Order by @riskyrivaldo4 | Ch.1-187.5 | Kirim via MangaDex",
+    "latestChapter": "Order by @riskyrivaldo4 | Ch.1-187.5 | Send via MangaDex",
     "link": "https://mangadex.org/title/f6635579-f1e6-4e43-8adf-06b009e1af0c/mikakunin-de-shinkoukei",
     "synopsis": "(IDN)\nIni adalah manga komedi empat panel tentang Kobeni Yonomori, yang pada ulang tahunnya yang ke-16 tiba-tiba kedatangan seorang pria muda dengan kehadiran minim bernama Hakuya Mitsumine dan adik perempuannya Mashiro di hadapannya. Ternyata Hakuya adalah tunangannya, dan Mashiro adalah calon adik iparnya. Mereka bertiga (dan kakak perempuan Kobeni yang terlalu protektif, Benio) mulai tinggal bersama di bawah satu atap, dan kejadian-kejadian lucu pun terjadi.",
     "lang": [
