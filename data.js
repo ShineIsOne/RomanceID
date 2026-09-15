@@ -1,7 +1,7 @@
 const mangaList = [
   {
     "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
-    "image": "img/BG.webp",
+    "image": "img/HLtU7PrasAAJnaH.webp",
     "genres": [
       "Action",
       "Comedy",
