@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Cool na Eikoku Bishoujo ha Orenchi ni Homestay Shitairashii",
+    "image": "img/ac2ab84a-2f6c-4e83-b234-28d01c12bcda.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 - Ch.1 | Send via GDrive",
+    "link": "https://mangadex.org/title/2867b9cd-d71e-47e4-84dc-da00bc7a7db4/cool-na-eikoku-bishoujo-wa-orenchi-ni-homestay-shitairashii?tab=chapters",
+    "synopsis": "(ENG)\nHigh school student Miyamoto Shouhei hails from a distinguished samurai lineage that has endured for generations. One day, the Miyamoto Household welcomes an exchange student from England—Eleanor—for a homestay! Cool and fluent in Japanese, Eleanor seems to have an ulterior motive for coming to Japan beyond simply learning about the culture…",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1790078359210
+  },
+  {
     "title": "Deochi Mitaina Settei wo Fuyo Shite Kuru Henshuu no Aira-senpai",
     "image": "img/amsdpoasd.webp",
     "genres": [
