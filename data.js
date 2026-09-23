@@ -1,5 +1,117 @@
 const mangaList = [
   {
+    "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
+    "image": "img/1.webp",
+    "genres": [
+      "Reincarnation",
+      "Action",
+      "Romance",
+      "Comedy",
+      "Harem",
+      "Isekai",
+      "Fantasy",
+      "Adaptation"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol. 1 Ch.2.2",
+    "link": "https://mangadex.org/title/9f652434-2d30-49b0-9375-ba07de981c70/doutei-dakedo-akuyaku-kizoku-ni-tensei-shitanode-harem-wo-tsukuru-hazu-datta-no-ni-nazeka-sekai-wo",
+    "synopsis": "(IDN)\nDi kehidupan sebelumnya, ia meninggal sebagai seorang perjaka. Kini ia bereinkarnasi di dunia lain sebagai Grave, seorang bangsawan jahat dari sebuah eroge. Bertekad membangun harem, ia kemudian teringat bahwa Grave ditakdirkan akan terbunuh beberapa tahun kemudian. Mampukah ia menghindari takdir kematiannya dan mewujudkan harem impiannya? Fantasi harem penuh aksi dan fanservice pun dimulai!\n\n(ENG)\nIn his previous life, he died a virgin. In another world, he is reborn as Grave, the villainous noble of an eroge. Determined to build a harem, he soon remembers that Grave is destined to be killed just a few years later. Can he escape his doomed fate and create the harem of his dreams? A fantasy packed with action, fanservice, and harem antics begins!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1782542958510
+  },
+  {
+    "title": "Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
+    "image": "img/51aa889f-df58-4835-bc77-54ddc1b839d6.webp",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Romance",
+      "Fantas",
+      "Dungeon Exploration"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.16",
+    "link": "https://mangadex.org/title/2164efb1-1e83-41e4-b2f2-6d6a5ae19d3f/keiken-wo-sukiru-ni-suru-bannou-na-nouryoku-wo-te-ni-irete-saikyou-no-tansaku-sha-ni-narimashita-jk",
+    "synopsis": "(IDN)\n“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?\n\n(ENG)\n“His Dungeon Exploration Partner Is a High School Girl!?”\n\nMasato, the eldest son of the Jinguuji family, begins working as an explorer in the “Tokyo Dungeon” to support his younger brothers after their parents pass away. However, realizing the limits of working alone, he decides to look for companions to help conquer the dungeon. That is when his younger brother Rekka introduces him to Tachibana Rika, and the two form a party together.\n\nThey encounter many hardships along the way, but as they support each other and overcome those challenges together, their bond gradually grows deeper...!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778848977299
+  },
+  {
+    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
+    "image": "img/81S2p2mGoLL._SL1500_.webp",
+    "genres": [
+      "Erotica",
+      "Reincarnation",
+      "Comedy",
+      "Romance",
+      "Adventure",
+      "Isekai",
+      "Fantasy",
+      "Monsters"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.25",
+    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
+    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1779698191662
+  },
+  {
+    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
+    "image": "img/QKnws.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Ecchi",
+      "School Life",
+      "Sports"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Send via GDrive",
+    "link": "",
+    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901441421
+  },
+  {
+    "title": "Kakushite Kisetsu wa Ao wo Shiru",
+    "image": "img/dqwdqd3.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.6 | Send via GDrive",
+    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
+    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901909998
+  },
+  {
     "title": "Cool na Eikoku Bishoujo ha Orenchi ni Homestay Shitairashii",
     "image": "img/ac2ab84a-2f6c-4e83-b234-28d01c12bcda.webp",
     "genres": [
@@ -218,31 +330,6 @@ const mangaList = [
     "id": 1778676602805
   },
   {
-    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
-    "image": "img/81S2p2mGoLL._SL1500_.webp",
-    "genres": [
-      "Erotica",
-      "Reincarnation",
-      "Comedy",
-      "Romance",
-      "Adventure",
-      "Isekai",
-      "Fantasy",
-      "Monsters"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.3 Ch.24",
-    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
-    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1779698191662
-  },
-  {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
     "image": "img/c54342d2-4a9a-4b69-bb38-1cb16b19dc96.webp",
     "genres": [
@@ -308,46 +395,6 @@ const mangaList = [
     "id": 1787900738501
   },
   {
-    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
-    "image": "img/QKnws.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Ecchi",
-      "School Life",
-      "Sports"
-    ],
-    "status": "Ongoing",
-    "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.1 | Send via GDrive",
-    "link": "",
-    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787901441421
-  },
-  {
-    "title": "Kakushite Kisetsu wa Ao wo Shiru",
-    "image": "img/dqwdqd3.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School Life"
-    ],
-    "status": "Ongoing",
-    "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.3 | Send via GDrive",
-    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
-    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787901909998
-  },
-  {
     "title": "Kanojo wo Dere saseru Houhou wo, Shourai Kekkon suru Ore dake ga Shitteiru",
     "image": "img/sdddddaa.webp",
     "genres": [
@@ -367,30 +414,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1782745668726
-  },
-  {
-    "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
-    "image": "img/1.webp",
-    "genres": [
-      "Reincarnation",
-      "Action",
-      "Romance",
-      "Comedy",
-      "Harem",
-      "Isekai",
-      "Fantasy",
-      "Adaptation"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol. 1 Ch.2.1",
-    "link": "https://mangadex.org/title/9f652434-2d30-49b0-9375-ba07de981c70/doutei-dakedo-akuyaku-kizoku-ni-tensei-shitanode-harem-wo-tsukuru-hazu-datta-no-ni-nazeka-sekai-wo",
-    "synopsis": "(IDN)\nDi kehidupan sebelumnya, ia meninggal sebagai seorang perjaka. Kini ia bereinkarnasi di dunia lain sebagai Grave, seorang bangsawan jahat dari sebuah eroge. Bertekad membangun harem, ia kemudian teringat bahwa Grave ditakdirkan akan terbunuh beberapa tahun kemudian. Mampukah ia menghindari takdir kematiannya dan mewujudkan harem impiannya? Fantasi harem penuh aksi dan fanservice pun dimulai!\n\n(ENG)\nIn his previous life, he died a virgin. In another world, he is reborn as Grave, the villainous noble of an eroge. Determined to build a harem, he soon remembers that Grave is destined to be killed just a few years later. Can he escape his doomed fate and create the harem of his dreams? A fantasy packed with action, fanservice, and harem antics begins!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1782542958510
   },
   {
     "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
@@ -497,27 +520,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1768395262
-  },
-  {
-    "title": "Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~",
-    "image": "img/51aa889f-df58-4835-bc77-54ddc1b839d6.webp",
-    "genres": [
-      "Adventure",
-      "Action",
-      "Romance",
-      "Fantas",
-      "Dungeon Exploration"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.3 Ch.15",
-    "link": "https://mangadex.org/title/2164efb1-1e83-41e4-b2f2-6d6a5ae19d3f/keiken-wo-sukiru-ni-suru-bannou-na-nouryoku-wo-te-ni-irete-saikyou-no-tansaku-sha-ni-narimashita-jk",
-    "synopsis": "(IDN)\n“Partner Penjelajahan Dungeonku adalah Siswi SMA!?”\n\nMasato, putra sulung keluarga Jinguuji, mulai hidup sebagai penjelajah di “Tokyo Dungeon” demi menghidupi adik-adiknya setelah kedua orang tuanya meninggal. Namun, ia merasa ada batas dalam beraktivitas sendirian, dan saat berpikir untuk mencari rekan demi menaklukkan dungeon, ia diperkenalkan kepada Tachibana Rika oleh adiknya, Rekka, lalu membentuk party bersamanya.\n\nKeduanya menghadapi berbagai kesulitan, tetapi saat saling mendukung dan melewatinya bersama, hubungan mereka perlahan menjadi semakin dekat...!?\n\n(ENG)\n“His Dungeon Exploration Partner Is a High School Girl!?”\n\nMasato, the eldest son of the Jinguuji family, begins working as an explorer in the “Tokyo Dungeon” to support his younger brothers after their parents pass away. However, realizing the limits of working alone, he decides to look for companions to help conquer the dungeon. That is when his younger brother Rekka introduces him to Tachibana Rika, and the two form a party together.\n\nThey encounter many hardships along the way, but as they support each other and overcome those challenges together, their bond gradually grows deeper...!?",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778848977299
   },
   {
     "title": "Oshi no Teki ni Natta node",
