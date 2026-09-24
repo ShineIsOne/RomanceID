@@ -1,5 +1,49 @@
 const mangaList = [
   {
+    "title": "Gyaru Shinkan wa Rizare ga Darui",
+    "image": "img/61mPC8SDvuL._SL1000_.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.22",
+    "link": "https://mangadex.org/title/c6886f02-c7e5-41eb-aa35-c78bbd3bc757/gyaru-shinkan-wa-rizare-ga-darui",
+    "synopsis": "(IDN)\nUntuk mengalahkan Raja Iblis, seorang pahlawan terus bertarung sendirian berulang kali. Meski sudah mati berkali-kali, dia tetap maju tanpa ragu. Sebenarnya, dia melakukan semua itu karena ingin bertemu dan mengobrol berdua dengan seorang pendeta gyaru yang bisa menghidupkannya kembali. Bahkan mati pun tidak masalah baginya, selama dia bisa bertemu dengannya lagi.\n\n(ENG)\nTo defeat the Demon King, a hero continues to fight alone over and over again. Even though he dies countless times, he still pushes forward recklessly. In truth, he only does it because he wants to meet and spend time talking one-on-one with a gyaru priestess who can bring him back to life. Even dying doesn’t matter to him, as long as he can see her again.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1775650973058
+  },
+  {
+    "title": "Ririmu Horikku",
+    "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Themes",
+      "Demons",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.2 Ch.16",
+    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
+    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778676602805
+  },
+  {
     "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
     "image": "img/1.webp",
     "genres": [
@@ -284,50 +328,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1766795220
-  },
-  {
-    "title": "Gyaru Shinkan wa Rizare ga Darui",
-    "image": "img/61mPC8SDvuL._SL1000_.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.3 Ch.21",
-    "link": "https://mangadex.org/title/c6886f02-c7e5-41eb-aa35-c78bbd3bc757/gyaru-shinkan-wa-rizare-ga-darui",
-    "synopsis": "(IDN)\nUntuk mengalahkan Raja Iblis, seorang pahlawan terus bertarung sendirian berulang kali. Meski sudah mati berkali-kali, dia tetap maju tanpa ragu. Sebenarnya, dia melakukan semua itu karena ingin bertemu dan mengobrol berdua dengan seorang pendeta gyaru yang bisa menghidupkannya kembali. Bahkan mati pun tidak masalah baginya, selama dia bisa bertemu dengannya lagi.\n\n(ENG)\nTo defeat the Demon King, a hero continues to fight alone over and over again. Even though he dies countless times, he still pushes forward recklessly. In truth, he only does it because he wants to meet and spend time talking one-on-one with a gyaru priestess who can bring him back to life. Even dying doesn’t matter to him, as long as he can see her again.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1775650973058
-  },
-  {
-    "title": "Ririmu Horikku",
-    "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Themes",
-      "Demons",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.2 Ch.15",
-    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
-    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778676602805
   },
   {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
