@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
+    "image": "img/e9a209d2-be35-4762-a035-180307c1f1f4.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Slice of Life",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.2 Ch.10",
+    "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
+    "synopsis": "(IDN)\nRyuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai.\n\n(ENG)\nRyuuzaki-san, known as the most beautiful girl in our grade, is strangely cold toward me. Whenever our eyes meet, she glares at me like I’m a piece of trash. Then one day, I end up seeing something unbelievable about her. Ryuuzaki-san isn’t human at all. She’s a Dragonkin.\n\n“P-Please don’t stare at me that much!”\n\nThe school’s top beauty shows only me her true face, and it turns out she’s unexpectedly dere, leaving me completely flustered. A slightly fantastical romantic comedy set in the real world. Let the love story begin!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1768395262
+  },
+  {
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/IMG_7320.webp",
     "genres": [
@@ -499,29 +523,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1785238328973
-  },
-  {
-    "title": "Ryuuzaki-san ga Ore no Mae dake de Dereru Riyuu",
-    "image": "img/b8ab6cd9-eef3-47ee-bda5-f1312cb6a3ed.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Slice of Life",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol.2 Ch.9",
-    "link": "https://mangadex.org/title/cf542fc4-8e03-4903-a0f0-2dd5d72da474/ryuuzaki-san-ga-ore-no-mae-dake-de-dereru-riyuu",
-    "synopsis": "(IDN)\nRyuuzaki-san, yang dikenal sebagai gadis tercantik di angkatan kami, entah kenapa bersikap sangat dingin kepadaku. Setiap kali mata kami bertemu, dia selalu menatapku dengan tajam seolah-olah sedang melihat sampah.\n\nHingga pada suatu hari, aku tidak sengaja melihat wujud asli Ryuuzaki-san yang luar biasa...ternyata dia bukanlah manusia, melainkan seorang \"Dragonkin\" (Manusia Naga).\n\n\"T-Tolong jangan menatapku seperti itu!\"\n\nWajah asli yang hanya diperlihatkan oleh sang primadona sekolah itu kepadaku ternyata sangat manja dan pemalu di luar dugaan, hingga membuatku benar-benar goyah!?\n\nKisah komedi romantis di dunia nyata dengan sedikit sentuhan fantasi, resmi dimulai.\n\n(ENG)\nRyuuzaki-san, known as the most beautiful girl in our grade, is strangely cold toward me. Whenever our eyes meet, she glares at me like I’m a piece of trash. Then one day, I end up seeing something unbelievable about her. Ryuuzaki-san isn’t human at all. She’s a Dragonkin.\n\n“P-Please don’t stare at me that much!”\n\nThe school’s top beauty shows only me her true face, and it turns out she’s unexpectedly dere, leaving me completely flustered. A slightly fantastical romantic comedy set in the real world. Let the love story begin!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1768395262
   },
   {
     "title": "Oshi no Teki ni Natta node",
