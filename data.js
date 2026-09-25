@@ -1,5 +1,25 @@
 const mangaList = [
   {
+    "title": "Kurai Anoko to Shitai Koto",
+    "image": "img/IMG_7320.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life",
+      "School"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.9 Ch.104",
+    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
+    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1766795220
+  },
+  {
     "title": "Super no Ura de Yani Suu Futari",
     "image": "img/IMG_7319.webp",
     "genres": [
@@ -349,26 +369,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1781248070501
-  },
-  {
-    "title": "Kurai Anoko to Shitai Koto",
-    "image": "img/IMG_7320.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life",
-      "School"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.9 Ch.103",
-    "link": "https://mangadex.org/title/955c730a-9304-4f82-ae96-af48ff5eaa0c/kurai-anoko-to-shitai-koto",
-    "synopsis": "(IDN)\nSiswa kelas 2 SMA, Tabata Ren, bertekad untuk tidak menjadi penyendiri mulai semester baru. Orang pertama yang ia ajak bicara demi mencari teman adalah seorang gadis yang terlihat suram dan sedikit menakutkan… tapi entah kenapa, matanya tak bisa lepas darinya, Sasaki Touko.  \nSebuah komedi tentang usaha lepas dari kesendirian bersama gadis pemalu nan menggemaskan!",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1766795220
   },
   {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
