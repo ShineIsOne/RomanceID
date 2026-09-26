@@ -1,7 +1,7 @@
 const mangaList = [
   {
     "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
-    "image": "img/asdasdas.webp",
+    "image": "img/HLupIa7bQAAN6mw.webp",
     "genres": [
       "Romance",
       "Comedy",
