@@ -1,5 +1,28 @@
 const mangaList = [
   {
+    "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
+    "image": "img/HOM2ax1aIAAZN9s.webp",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Harem"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol. 1 Ch.2",
+    "link": "https://mangadex.org/title/0d9c8563-2e17-4859-8679-38885a3e0320/shinimodotta-ore-wa-seinaru-yuusha-o-yamete-harem-tsukutte-koshi-o-hekoheko-futteitai",
+    "synopsis": "(IDN)\nSetelah kehilangan nyawanya dalam pertempuran melawan Raja Iblis, sang pahlawan Haruya terbangun dan mendapati bahwa waktu telah kembali ke sebelum ia memulai perjalanannya. Dalam kehidupan keduanya, Haruya memutuskan untuk berhenti menjadi pahlawan dan menjalani hidup dengan membuat harem serta menggoyangkan pinggangnya...!?\n\n(ENG)\nAfter losing his life in a battle against the Demon King, the hero Haruya awakens to find that time has returned to before he set out on his journey. In his second life, Haruya decides to quit being a hero and live a life of making a harem and thrusting his hips...!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1787787370603
+  },
+  {
     "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
     "image": "img/HLupIa7bQAAN6mw.webp",
     "genres": [
@@ -502,28 +525,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1782745668726
-  },
-  {
-    "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
-    "image": "img/HOM2ax1aIAAZN9s.webp",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Harem"
-    ],
-    "status": "Ongoing",
-    "latestChapter": "Vol. 1 Ch.1",
-    "link": "https://mangadex.org/title/0d9c8563-2e17-4859-8679-38885a3e0320/shinimodotta-ore-wa-seinaru-yuusha-o-yamete-harem-tsukutte-koshi-o-hekoheko-futteitai",
-    "synopsis": "(IDN)\nSetelah kehilangan nyawanya dalam pertempuran melawan Raja Iblis, sang pahlawan Haruya terbangun dan mendapati bahwa waktu telah kembali ke sebelum ia memulai perjalanannya. Dalam kehidupan keduanya, Haruya memutuskan untuk berhenti menjadi pahlawan dan menjalani hidup dengan membuat harem serta menggoyangkan pinggangnya...!?\n\n(ENG)\nAfter losing his life in a battle against the Demon King, the hero Haruya awakens to find that time has returned to before he set out on his journey. In his second life, Haruya decides to quit being a hero and live a life of making a harem and thrusting his hips...!?",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1787787370603
   },
   {
     "title": "Oshi no Teki ni Natta node",
