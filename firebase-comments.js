@@ -74,6 +74,96 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 let unsubscribeComments = null; // untuk hentikan listener lama saat ganti manga
+let currentCommentsData = []; // simpan data komentar aktif untuk re-format timestamp saat ganti bahasa
+
+// ============================================================
+// I18N DICTIONARY
+// ============================================================
+const COMMENT_I18N = {
+  id: {
+    header: "Komentar",
+    placeholderUser: "Username kamu...",
+    placeholderComment: "Tulis komentar tentang manga ini...",
+    btnSend: "Kirim",
+    loading: "Memuat komentar...",
+    empty: "Belum ada komentar. Jadilah yang pertama!",
+    loadError: "Gagal memuat komentar.",
+    errNoUser: "Isi username dulu ya!",
+    errUserTooLong: "Username maksimal 30 karakter.",
+    errNoComment: "Komentarnya kosong nih!",
+    errCommentTooLong: "Komentar maksimal 300 karakter.",
+    errSpam: "Tunggu sebentar sebelum komentar lagi ya!",
+    errSendFailed: "Gagal mengirim komentar. Coba lagi.",
+    justNow: "baru saja",
+    minAgo: (m) => `${m} mnt lalu`,
+    hourAgo: (h) => `${h} jam lalu`,
+    dateLocale: "id-ID"
+  },
+  en: {
+    header: "Comments",
+    placeholderUser: "Your username...",
+    placeholderComment: "Write a comment about this manga...",
+    btnSend: "Send",
+    loading: "Loading comments...",
+    empty: "No comments yet. Be the first to comment!",
+    loadError: "Failed to load comments.",
+    errNoUser: "Please enter your username!",
+    errUserTooLong: "Username must be 30 characters or less.",
+    errNoComment: "Comment cannot be empty!",
+    errCommentTooLong: "Comment must be 300 characters or less.",
+    errSpam: "Please wait a moment before commenting again!",
+    errSendFailed: "Failed to send comment. Please try again.",
+    justNow: "just now",
+    minAgo: (m) => `${m}m ago`,
+    hourAgo: (h) => `${h}h ago`,
+    dateLocale: "en-US"
+  }
+};
+
+function getLang() {
+  return (window.currentLang === "en") ? "en" : "id";
+}
+
+// ============================================================
+// UPDATE COMMENT MODAL LANGUAGE
+// ============================================================
+window.updateCommentLanguage = function(lang) {
+  const current = lang === "en" ? "en" : "id";
+  const dict = COMMENT_I18N[current];
+
+  const headerLabel = document.getElementById("commentModalHeaderLabel");
+  if (headerLabel) headerLabel.textContent = dict.header;
+
+  const usernameInput = document.getElementById("commentUsername");
+  if (usernameInput) usernameInput.placeholder = dict.placeholderUser;
+
+  const commentInput = document.getElementById("commentInput");
+  if (commentInput) commentInput.placeholder = dict.placeholderComment;
+
+  const sendBtnText = document.getElementById("commentSendBtnText");
+  if (sendBtnText) sendBtnText.textContent = dict.btnSend;
+
+  const emptyP = document.querySelector("#commentList .comment-empty p");
+  if (emptyP) emptyP.textContent = dict.empty;
+
+  const loadingEl = document.querySelector("#commentList .comment-loading");
+  if (loadingEl) {
+    loadingEl.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ${dict.loading}`;
+  }
+
+  // Update timestamps jika komentar sedang dibuka
+  const items = document.querySelectorAll("#commentList .comment-item");
+  if (items.length && currentCommentsData.length) {
+    items.forEach((item, idx) => {
+      const timeEl = item.querySelector(".comment-time");
+      const d = currentCommentsData[idx];
+      if (timeEl && d) {
+        const time = d.timestamp?.toDate ? d.timestamp.toDate() : null;
+        timeEl.textContent = time ? formatTime(time) : dict.justNow;
+      }
+    });
+  }
+};
 
 // ============================================================
 // BUKA MODAL KOMENTAR
@@ -87,11 +177,19 @@ window.openCommentModal = function(manga) {
   const usernameInput = document.getElementById("commentUsername");
   const sendBtn = document.getElementById("commentSendBtn");
   const charCount = document.getElementById("commentCharCount");
+  const errorEl = document.getElementById("commentError");
+
+  const lang = getLang();
+  const dict = COMMENT_I18N[lang];
+
+  // Update teks sesuai bahasa aktif
+  window.updateCommentLanguage(lang);
 
   // Reset
   input.value = "";
+  if (errorEl) errorEl.textContent = "";
   charCount.textContent = "0/300";
-  listEl.innerHTML = `<div class="comment-loading"><i class="fa-solid fa-spinner fa-spin"></i> Memuat komentar...</div>`;
+  listEl.innerHTML = `<div class="comment-loading"><i class="fa-solid fa-spinner fa-spin"></i> ${dict.loading}</div>`;
 
   // Isi header modal
   titleEl.textContent = manga.title;
@@ -107,6 +205,7 @@ window.openCommentModal = function(manga) {
 
   // Hentikan listener sebelumnya
   if (unsubscribeComments) unsubscribeComments();
+  currentCommentsData = [];
 
   // Load komentar real-time
   const q = query(
@@ -117,11 +216,12 @@ window.openCommentModal = function(manga) {
   );
 
   unsubscribeComments = onSnapshot(q, (snapshot) => {
+    currentCommentsData = [];
     if (snapshot.empty) {
       listEl.innerHTML = `
         <div class="comment-empty">
           <i class="fa-regular fa-comment-dots"></i>
-          <p>Belum ada komentar. Jadilah yang pertama!</p>
+          <p>${dict.empty}</p>
         </div>`;
       return;
     }
@@ -129,8 +229,9 @@ window.openCommentModal = function(manga) {
     listEl.innerHTML = "";
     snapshot.forEach(doc => {
       const d = doc.data();
-      const time = d.timestamp?.toDate();
-      const timeStr = time ? formatTime(time) : "baru saja";
+      currentCommentsData.push(d);
+      const time = d.timestamp?.toDate ? d.timestamp.toDate() : null;
+      const timeStr = time ? formatTime(time) : dict.justNow;
 
       const item = document.createElement("div");
       item.className = "comment-item";
@@ -148,7 +249,7 @@ window.openCommentModal = function(manga) {
     });
   }, (error) => {
     console.error("Error loading comments:", error);
-    listEl.innerHTML = `<div class="comment-empty"><p>Gagal memuat komentar.</p></div>`;
+    listEl.innerHTML = `<div class="comment-empty"><p>${dict.loadError}</p></div>`;
   });
 };
 
@@ -163,6 +264,7 @@ window.closeCommentModal = function() {
     unsubscribeComments();
     unsubscribeComments = null;
   }
+  currentCommentsData = [];
 };
 
 // ============================================================
@@ -174,6 +276,9 @@ window.sendComment = async function() {
   const sendBtn = document.getElementById("commentSendBtn");
   const errorEl = document.getElementById("commentError");
 
+  const lang = getLang();
+  const dict = COMMENT_I18N[lang];
+
   const mangaId = sendBtn.dataset.mangaId;
   const mangaTitle = sendBtn.dataset.mangaTitle;
   const username = usernameInput.value.trim();
@@ -181,16 +286,16 @@ window.sendComment = async function() {
 
   // Validasi
   errorEl.textContent = "";
-  if (!username) { errorEl.textContent = "Isi username dulu ya!"; usernameInput.focus(); return; }
-  if (username.length > 30) { errorEl.textContent = "Username maksimal 30 karakter."; return; }
-  if (!text) { errorEl.textContent = "Komentarnya kosong nih!"; input.focus(); return; }
-  if (text.length > 300) { errorEl.textContent = "Komentar maksimal 300 karakter."; return; }
+  if (!username) { errorEl.textContent = dict.errNoUser; usernameInput.focus(); return; }
+  if (username.length > 30) { errorEl.textContent = dict.errUserTooLong; return; }
+  if (!text) { errorEl.textContent = dict.errNoComment; input.focus(); return; }
+  if (text.length > 300) { errorEl.textContent = dict.errCommentTooLong; return; }
 
   // Anti-spam sederhana (simpan waktu terakhir komentar di localStorage)
   const lastComment = localStorage.getItem("lastCommentTime");
   const now = Date.now();
   if (lastComment && now - parseInt(lastComment) < 15000) {
-    errorEl.textContent = "Tunggu sebentar sebelum komentar lagi ya!";
+    errorEl.textContent = dict.errSpam;
     return;
   }
 
@@ -214,11 +319,11 @@ window.sendComment = async function() {
     localStorage.setItem("lastCommentTime", String(now));
   } catch (err) {
     console.error("Gagal kirim komentar:", err);
-    errorEl.textContent = "Gagal mengirim komentar. Coba lagi.";
+    errorEl.textContent = dict.errSendFailed;
   }
 
   sendBtn.disabled = false;
-  sendBtn.innerHTML = `<i class="fa-solid fa-paper-plane"></i> Kirim`;
+  sendBtn.innerHTML = `<i class="fa-solid fa-paper-plane"></i> <span id="commentSendBtnText">${dict.btnSend}</span>`;
 };
 
 // ============================================================
@@ -235,12 +340,14 @@ function escapeHtml(str) {
 }
 
 function formatTime(date) {
+  const lang = getLang();
+  const dict = COMMENT_I18N[lang];
   const now = new Date();
   const diff = Math.floor((now - date) / 1000);
-  if (diff < 60) return "baru saja";
-  if (diff < 3600) return `${Math.floor(diff / 60)} mnt lalu`;
-  if (diff < 86400) return `${Math.floor(diff / 3600)} jam lalu`;
-  return date.toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" });
+  if (diff < 60) return dict.justNow;
+  if (diff < 3600) return dict.minAgo(Math.floor(diff / 60));
+  if (diff < 86400) return dict.hourAgo(Math.floor(diff / 3600));
+  return date.toLocaleDateString(dict.dateLocale, { day: "numeric", month: "short", year: "numeric" });
 }
 
 // ============================================================
@@ -259,3 +366,8 @@ window.loadCommentCounts = function(mangaIds) {
     }).catch(() => {});
   });
 };
+
+// Inisialisasi teks komentar saat module termuat
+if (typeof window.updateCommentLanguage === "function") {
+  window.updateCommentLanguage(window.currentLang || "id");
+}

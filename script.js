@@ -94,6 +94,7 @@
 })();
 
 let currentLang = "id";
+window.currentLang = "id";
 let currentView = "TL"; // default tampilan TL
 // =========================
 // LANGUAGE SYSTEM
@@ -101,6 +102,7 @@ let currentView = "TL"; // default tampilan TL
 
 function setLanguage(lang) {
     currentLang = lang;
+    window.currentLang = lang;
 
     btnID.classList.remove("active");
     btnEN.classList.remove("active");
@@ -108,11 +110,37 @@ function setLanguage(lang) {
     if (lang === "id") btnID.classList.add("active");
     if (lang === "en") btnEN.classList.add("active");
 
-    document.querySelector(".header-subtitle").textContent =
-        translateText("Project TL Manga", "Manga TL Project");
+    const scheduleBtnText = document.querySelector(".schedule-btn-text");
+    if (scheduleBtnText) {
+        scheduleBtnText.textContent = translateText("Jadwal Manga", "Manga Schedule");
+    }
 
-    document.querySelector(".synopsis-label").textContent =
-        translateText("Sinopsis:", "Synopsis:");
+    const supportBtnText = document.querySelector(".support-btn-text");
+    if (supportBtnText) {
+        supportBtnText.textContent = translateText("Dukung Saya", "Support Me");
+    }
+
+    const subtitleEl = document.querySelector(".header-subtitle");
+    if (subtitleEl) {
+        subtitleEl.textContent = translateText("Proyek TL Manga", "Manga TL Project");
+    }
+
+    if (btnTL) btnTL.textContent = translateText("Proyek TL", "TL Project");
+    if (btnOrder) btnOrder.textContent = translateText("Proyek Order", "Order Project");
+
+    const synopsisLabel = document.querySelector(".synopsis-label");
+    if (synopsisLabel) {
+        synopsisLabel.textContent = translateText("Sinopsis:", "Synopsis:");
+    }
+
+    // Sync modal order & support
+    if (typeof switchSupportLang === "function") switchSupportLang(lang);
+    if (typeof switchOrderLang === "function") switchOrderLang(lang);
+
+    // Sync comment modal texts
+    if (typeof window.updateCommentLanguage === "function") {
+        window.updateCommentLanguage(lang);
+    }
 
     renderManga();
 }
@@ -441,17 +469,20 @@ function switchOrderLang(lang) {
     const panelEN = document.getElementById("orderPanelEN");
     const tabID = document.getElementById("orderTabID");
     const tabEN = document.getElementById("orderTabEN");
+    const titleEl = document.getElementById("orderInfoTitle");
 
     if (lang === "id") {
         panelID.style.display = "";
         panelEN.style.display = "none";
         tabID.classList.add("active");
         tabEN.classList.remove("active");
+        if (titleEl) titleEl.textContent = "Info Order";
     } else {
         panelID.style.display = "none";
         panelEN.style.display = "";
         tabID.classList.remove("active");
         tabEN.classList.add("active");
+        if (titleEl) titleEl.textContent = "Order Info";
     }
 }
 
