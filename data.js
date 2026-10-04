@@ -10,7 +10,7 @@ const mangaList = [
     ],
     "status": "Ongoing",
     "working": false,
-    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.4 Ch.13-16 | Send via GDrive",
+    "latestChapter": "Order by @mieayamenakbatbangkeee | Vol.3 Ch.9-12 | Send via GDrive",
     "link": "https://mangadex.org/title/c8a0426d-539b-4f6a-9537-fbccf4962529/amayo-no-tsuki",
     "synopsis": "(IDN)\nSuatu malam hujan, Saki sedang terburu-buru ke les piano ketika ia menabrak seorang gadis cantik berambut panjang, membuat lembaran not musiknya jatuh. Saki gugup meminta maaf, tetapi gadis itu hanya mengembalikan notnya dan pergi tanpa berkata apa pun.\n\nKeesokan paginya, Saki memulai hari pertama SMA dan terkejut melihat gadis misterius tadi duduk di bangku sebelahnya. Ia mengetahui bahwa gadis itu bernama Kanon, dan bukan sepenuhnya tuli, tetapi sangat sulit mendengar.\n\nMeskipun Kanon harus berada dekat dengan orang lain untuk membaca gerak bibir, sikapnya yang dingin membuatnya cenderung menjauhkan diri. Lewat satu kebaikan kecil, Saki perlahan mulai membuka hati Kanon, sekaligus merasakan sesuatu yang baru tumbuh di dalam dirinya.",
     "lang": [
