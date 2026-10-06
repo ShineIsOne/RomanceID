@@ -1,5 +1,54 @@
 const mangaList = [
   {
+    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
+    "image": "img/ebbcf4c2-c7f8-4b05-8743-85dad4c7d8e6.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai",
+      "Romance",
+      "Slice of Life",
+      "Magic",
+      "Reincarnation"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.21",
+    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
+    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1770792399
+  },
+  {
+    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
+    "image": "img/81S2p2mGoLL._SL1500_.webp",
+    "genres": [
+      "Erotica",
+      "Reincarnation",
+      "Comedy",
+      "Romance",
+      "Adventure",
+      "Isekai",
+      "Fantasy",
+      "Monsters"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.26",
+    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
+    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1779698191662
+  },
+  {
     "title": "Cool na Eikoku Bishoujo ha Orenchi ni Homestay Shitairashii",
     "image": "img/ac2ab84a-2f6c-4e83-b234-28d01c12bcda.webp",
     "genres": [
@@ -362,31 +411,6 @@ const mangaList = [
     "id": 1778848977299
   },
   {
-    "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
-    "image": "img/81S2p2mGoLL._SL1500_.webp",
-    "genres": [
-      "Erotica",
-      "Reincarnation",
-      "Comedy",
-      "Romance",
-      "Adventure",
-      "Isekai",
-      "Fantasy",
-      "Monsters"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.3 Ch.25",
-    "link": "https://mangadex.org/title/fbec70b7-8e71-4ffa-b460-c342144a7537/atm-ojisan-isekai-de-mote-ki-ga-tomaranai",
-    "synopsis": "(IDN)\nFumita Daichi adalah pria paruh baya yang meninggal secara mendadak setelah diperlakukan seperti ATM oleh istri, putri, dan rekan kerjanya. Setelah bereinkarnasi ke dunia lain, ia menerima sebuah skill dari sang dewi, “Support Skill” yang hanya diberikan kepada mereka yang telah bekerja keras demi orang lain. Namun, karena kekuatan buff dari skill tersebut, ia kembali diperlakukan seperti ATM di dunia lain dan hampir melarikan diri.\n\nIa kemudian membuka sebuah pub di negeri yang jauh dan akhirnya mendapatkan kehidupan yang tenang.\n\nLalu suatu hari, Meltina, gadis langganan di bar itu, datang dalam keadaan compang-camping sambil berkata, “Aku akan dijual ke rumah bordil.”\n\nSetelah mendengar situasinya, Daichi memutuskan untuk menggunakan skill yang selama ini ia segel...?!\n\n(ENG)\nFumita Daichi is a middle-aged man who died unexpectedly while being treated as an ATM by his wife, daughter, and subordinates at work. Reincarnated in another world, he was given a skill to the goddess a \"Support Skill\" that is only given to those who have worked hard for others. However, due to the power of the buff brought by the skill, he was once again treated as an ATM in another world and almost fled. He opened a pub in a distant land and finally got a stable life.\n\nThen one day, Meltina, a girl who is a regular at the bar, comes to the store in tatters, saying, \"I'm going to be sold to a brothel.\" After hearing about her situation, Daichi decided to use the skill that had been sealed all this time...?!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1779698191662
-  },
-  {
     "title": "Kakushite Kisetsu wa Ao wo Shiru",
     "image": "img/dqwdqd3.webp",
     "genres": [
@@ -520,30 +544,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1781248070501
-  },
-  {
-    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
-    "image": "img/c54342d2-4a9a-4b69-bb38-1cb16b19dc96.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Romance",
-      "Slice of Life",
-      "Magic",
-      "Reincarnation"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.2 Ch.19",
-    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
-    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1770792399
   },
   {
     "title": "Oshi no Teki ni Natta node",
