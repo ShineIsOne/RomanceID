@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
+    "image": "img/QKnws.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Ecchi",
+      "School Life",
+      "Sports"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.4 | Send via GDrive",
+    "link": "",
+    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901441421
+  },
+  {
     "title": "Lilim Holic",
     "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
     "genres": [
@@ -150,27 +171,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1776053865381
-  },
-  {
-    "title": "Boku dake no Amakute Kowai Manejaa-san tachi",
-    "image": "img/QKnws.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Ecchi",
-      "School Life",
-      "Sports"
-    ],
-    "status": "Ongoing",
-    "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.4 | Send via GDrive",
-    "link": "",
-    "synopsis": "(ENG)\nKaede is a timid high school boy who belongs to the soft tennis club and has a weak stomach whenever he gets nervous. Wanting to show his childhood friend and beautiful club manager, Kasumi, that he can be reliable, he takes part in a match to select the regular members.\n\nHowever, his nerves get the better of him, leading to an extremely embarrassing accident. At his lowest moment, he is helped by Rin Kuroki, a beautiful transfer student who is rumored to spend her school days attending classes in the infirmary.\n\nAlthough they have supposedly just met for the first time, Rin calmly takes care of him without hesitation. And this is only the beginning of Kaede's strange relationship with the beautiful managers who are both sweet and frighteningly devoted to him...",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787901441421
   },
   {
     "title": "Aoi-kun no Waidan ga Tamaranai!!",
