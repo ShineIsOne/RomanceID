@@ -1,5 +1,50 @@
 const mangaList = [
   {
+    "title": "Daremo ga Urayamu Tonari no Cool Bishoujo, Jitsu wa Nounai Pink Sugiru",
+    "image": "img/asdvvv.webp",
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "School",
+      "Romance",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.1 Ch.4",
+    "link": "https://mangadex.org/title/10067312-34d0-4480-a1d7-bbc46d8bb9d3/daremo-ga-urayamu-tonari-no-cool-bishoujo-jitsu-wa-nounai-pink-sugiru",
+    "synopsis": "(IDN)\nKagura Rio adalah gadis yang sempurna, keren, dan cantik yang memikat perhatian semua orang begitu dia muncul di kelas. Dia brilian secara akademis, berbakat secara atletik, dan sangat cantik. Namun, hanya aku, Yonemine Sumito, yang duduk di sebelahnya dan diam-diam seorang telepati, yang tahu kebenarannya.\n\"Meskipun dia dipermainkan oleh banyak orang, tubuhnya tidak bisa menolak... rasanya sangat enak.\"\nAku tahu bahwa yang dia baca di mejanya adalah novel erotis (yang cukup ekstrem)!\nDan selama pelajaran matematika, dia memiliki pikiran terburuk: \"Guru itu sepertinya akan menjadi yang terbaik...\" Dan selama pelajaran olahraga, dia memikirkan para gadis, \"Mereka punya payudara besar. Aku ingin memegang mereka dari belakang.\" Pikiran Kagura selalu terlalu mesum!\nDia tidak dekat dengan siapa pun, tetapi entah kenapa, dia terbuka padaku dan mencoba mendekatiku!?\n\n(ENG)\nKagura Rio is a perfect, cool, and beautiful girl who captivates everyone's attention the moment she appears in the classroom. She's academically brilliant, athletically gifted, and a total beauty. However, only I, Yonemine Sumito, who sits next to her and is secretly a telepath, know the truth.\n\"Even though she's being played with by multiple people, her body can't resist...it feels so good.\"\nI know that what she's reading at her desk is an erotic novel (a pretty extreme one)!\nAnd during math class, she has the worst kind of thought: \"That teacher looks like he'd be the top...\" And during physical education class, she thinks of the girls, \"They have big boobs. I want to grab them from behind.\" Kagura's mind is always far too lewd!\nShe doesn't get close to anyone, but for some reason, she opens up to me and tries to get closer to me!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1784635314490
+  },
+  {
+    "title": "Seiken-chan wa Kojirasete Iru",
+    "image": "img/Layer 1.webp",
+    "genres": [
+      "Monsters",
+      "Romance",
+      "Comedy",
+      "Adventure",
+      "Magic",
+      "Fantasy"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.1 Ch.5",
+    "link": "https://mangadex.org/title/dc30bdcc-422c-4dd0-934e-7166d0c489b1/seiken-chan-wa-kojirasete-iru",
+    "synopsis": "(IDN)\nAlba, seorang petualang pemalas yang ingin kaya agar bisa hidup santai, tanpa sengaja memperoleh Holy Sword (Seiken) legendaris. Namun, di dalam pedang itu bersemayam roh Holy Sword (Seiken) yang tsundere, rumit, dan tidak percaya pada manusia. Kisah fantasi aksi dan komedi romantis pun dimulai antara petualang yang malas dan Holy Sword (Seiken)-chan yang sulit jujur pada perasaannya.\n\n(ENG)\nAlba, a lazy adventurer who dreams of getting rich and living an easy life, stumbles upon a legendary Holy Sword (Seiken). However, the sword is inhabited by a complicated tsundere spirit who distrusts humans. Thus begins a fantasy adventure and romantic comedy between a laid-back adventurer and Holy Sword (Seiken)-chan",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1781248070501
+  },
+  {
     "title": "Kurai Anoko to Shitai Koto",
     "image": "img/IMG_7320.webp",
     "genres": [
@@ -472,28 +517,6 @@ const mangaList = [
     "id": 1783737285752
   },
   {
-    "title": "Daremo ga Urayamu Tonari no Cool Bishoujo, Jitsu wa Nounai Pink Sugiru",
-    "image": "img/asdvvv.webp",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "School",
-      "Romance",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.1 Ch.3",
-    "link": "https://mangadex.org/title/10067312-34d0-4480-a1d7-bbc46d8bb9d3/daremo-ga-urayamu-tonari-no-cool-bishoujo-jitsu-wa-nounai-pink-sugiru",
-    "synopsis": "(IDN)\nKagura Rio adalah gadis yang sempurna, keren, dan cantik yang memikat perhatian semua orang begitu dia muncul di kelas. Dia brilian secara akademis, berbakat secara atletik, dan sangat cantik. Namun, hanya aku, Yonemine Sumito, yang duduk di sebelahnya dan diam-diam seorang telepati, yang tahu kebenarannya.\n\"Meskipun dia dipermainkan oleh banyak orang, tubuhnya tidak bisa menolak... rasanya sangat enak.\"\nAku tahu bahwa yang dia baca di mejanya adalah novel erotis (yang cukup ekstrem)!\nDan selama pelajaran matematika, dia memiliki pikiran terburuk: \"Guru itu sepertinya akan menjadi yang terbaik...\" Dan selama pelajaran olahraga, dia memikirkan para gadis, \"Mereka punya payudara besar. Aku ingin memegang mereka dari belakang.\" Pikiran Kagura selalu terlalu mesum!\nDia tidak dekat dengan siapa pun, tetapi entah kenapa, dia terbuka padaku dan mencoba mendekatiku!?\n\n(ENG)\nKagura Rio is a perfect, cool, and beautiful girl who captivates everyone's attention the moment she appears in the classroom. She's academically brilliant, athletically gifted, and a total beauty. However, only I, Yonemine Sumito, who sits next to her and is secretly a telepath, know the truth.\n\"Even though she's being played with by multiple people, her body can't resist...it feels so good.\"\nI know that what she's reading at her desk is an erotic novel (a pretty extreme one)!\nAnd during math class, she has the worst kind of thought: \"That teacher looks like he'd be the top...\" And during physical education class, she thinks of the girls, \"They have big boobs. I want to grab them from behind.\" Kagura's mind is always far too lewd!\nShe doesn't get close to anyone, but for some reason, she opens up to me and tries to get closer to me!?",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1784635314490
-  },
-  {
     "title": "Osananajimi to no Yakusoku wo Hatasu Tame ni Hyakunen Shugyo Shita Rouyuusha, Nokori no Jumyou de Maou wo Utsu",
     "image": "img/asdasdw.webp",
     "genres": [
@@ -541,29 +564,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1777344995267
-  },
-  {
-    "title": "Seiken-chan wa Kojirasete Iru",
-    "image": "img/Layer 1.webp",
-    "genres": [
-      "Monsters",
-      "Romance",
-      "Comedy",
-      "Adventure",
-      "Magic",
-      "Fantasy"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.1 Ch.4",
-    "link": "https://mangadex.org/title/dc30bdcc-422c-4dd0-934e-7166d0c489b1/seiken-chan-wa-kojirasete-iru",
-    "synopsis": "(IDN)\nAlba, seorang petualang pemalas yang ingin kaya agar bisa hidup santai, tanpa sengaja memperoleh Holy Sword (Seiken) legendaris. Namun, di dalam pedang itu bersemayam roh Holy Sword (Seiken) yang tsundere, rumit, dan tidak percaya pada manusia. Kisah fantasi aksi dan komedi romantis pun dimulai antara petualang yang malas dan Holy Sword (Seiken)-chan yang sulit jujur pada perasaannya.\n\n(ENG)\nAlba, a lazy adventurer who dreams of getting rich and living an easy life, stumbles upon a legendary Holy Sword (Seiken). However, the sword is inhabited by a complicated tsundere spirit who distrusts humans. Thus begins a fantasy adventure and romantic comedy between a laid-back adventurer and Holy Sword (Seiken)-chan",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1781248070501
   },
   {
     "title": "Oshi no Teki ni Natta node",
