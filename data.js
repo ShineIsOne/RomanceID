@@ -1,5 +1,30 @@
 const mangaList = [
   {
+    "title": "Osananajimi to no Yakusoku wo Hatasu Tame ni Hyakunen Shugyo Shita Rouyuusha, Nokori no Jumyou de Maou wo Utsu",
+    "image": "img/asdasdw.webp",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Comedy",
+      "Romance",
+      "Magic",
+      "Demons",
+      "Monsters"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.1 Ch.4",
+    "link": "https://mangadex.org/title/76a04714-96e5-4590-a365-443c8054a3aa/osananajimi-to-no-yakusoku-wo-hatasu-tame-ni-hyakunen-shugyo-shita-rouyuusha-nokori-no-jumyou-de",
+    "synopsis": "(IDN)\nBerg, yang kehilangan ayah dan ibunya di tangan para iblis, memulai perjalanan untuk mengalahkan Raja Iblis. Pada malam saat desanya diserang, ia berjanji kepada teman masa kecilnya bahwa ia akan menaklukkan Raja Iblis. Demi memenuhi janji itu, Berg mengasingkan diri di pegunungan dan berlatih tanpa henti. Seratus tahun kemudian, setelah usianya mencapai 110 tahun dan menguasai pukulan dengan kekuatan yang luar biasa, ia akhirnya turun gunung. Dalam perjalanannya menuju Raja Iblis, Berg bertemu dengan Eruruna, seorang pendekar pedang elf yang sedang bertarung melawan para iblis...\n\n(ENG)\nBerg, whose parents were killed by demons, sets out on a journey to defeat the Demon King. On the night his village was attacked, he promised his childhood friend that he would slay the Demon King. To fulfill that promise, he secluded himself in the mountains and trained relentlessly. One hundred years later, now 110 years old and armed with overwhelmingly powerful punches, Berg finally descends from the mountain. On his way to the Demon King, he encounters Eruruna, an elven swordswoman fighting against the demons...",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1783855050524
+  },
+  {
     "title": "Daremo ga Urayamu Tonari no Cool Bishoujo, Jitsu wa Nounai Pink Sugiru",
     "image": "img/asdvvv.webp",
     "genres": [
@@ -11,7 +36,7 @@ const mangaList = [
     ],
     "status": "Ongoing",
     "working": false,
-    "latestChapter": "Vol.1 Ch.4",
+    "latestChapter": "Vol.1 Ch.3",
     "link": "https://mangadex.org/title/10067312-34d0-4480-a1d7-bbc46d8bb9d3/daremo-ga-urayamu-tonari-no-cool-bishoujo-jitsu-wa-nounai-pink-sugiru",
     "synopsis": "(IDN)\nKagura Rio adalah gadis yang sempurna, keren, dan cantik yang memikat perhatian semua orang begitu dia muncul di kelas. Dia brilian secara akademis, berbakat secara atletik, dan sangat cantik. Namun, hanya aku, Yonemine Sumito, yang duduk di sebelahnya dan diam-diam seorang telepati, yang tahu kebenarannya.\n\"Meskipun dia dipermainkan oleh banyak orang, tubuhnya tidak bisa menolak... rasanya sangat enak.\"\nAku tahu bahwa yang dia baca di mejanya adalah novel erotis (yang cukup ekstrem)!\nDan selama pelajaran matematika, dia memiliki pikiran terburuk: \"Guru itu sepertinya akan menjadi yang terbaik...\" Dan selama pelajaran olahraga, dia memikirkan para gadis, \"Mereka punya payudara besar. Aku ingin memegang mereka dari belakang.\" Pikiran Kagura selalu terlalu mesum!\nDia tidak dekat dengan siapa pun, tetapi entah kenapa, dia terbuka padaku dan mencoba mendekatiku!?\n\n(ENG)\nKagura Rio is a perfect, cool, and beautiful girl who captivates everyone's attention the moment she appears in the classroom. She's academically brilliant, athletically gifted, and a total beauty. However, only I, Yonemine Sumito, who sits next to her and is secretly a telepath, know the truth.\n\"Even though she's being played with by multiple people, her body can't resist...it feels so good.\"\nI know that what she's reading at her desk is an erotic novel (a pretty extreme one)!\nAnd during math class, she has the worst kind of thought: \"That teacher looks like he'd be the top...\" And during physical education class, she thinks of the girls, \"They have big boobs. I want to grab them from behind.\" Kagura's mind is always far too lewd!\nShe doesn't get close to anyone, but for some reason, she opens up to me and tries to get closer to me!?",
     "lang": [
@@ -515,31 +540,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1783737285752
-  },
-  {
-    "title": "Osananajimi to no Yakusoku wo Hatasu Tame ni Hyakunen Shugyo Shita Rouyuusha, Nokori no Jumyou de Maou wo Utsu",
-    "image": "img/asdasdw.webp",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Comedy",
-      "Romance",
-      "Magic",
-      "Demons",
-      "Monsters"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.1 Ch.3",
-    "link": "https://mangadex.org/title/76a04714-96e5-4590-a365-443c8054a3aa/osananajimi-to-no-yakusoku-wo-hatasu-tame-ni-hyakunen-shugyo-shita-rouyuusha-nokori-no-jumyou-de",
-    "synopsis": "(IDN)\nBerg, yang kehilangan ayah dan ibunya di tangan para iblis, memulai perjalanan untuk mengalahkan Raja Iblis. Pada malam saat desanya diserang, ia berjanji kepada teman masa kecilnya bahwa ia akan menaklukkan Raja Iblis. Demi memenuhi janji itu, Berg mengasingkan diri di pegunungan dan berlatih tanpa henti. Seratus tahun kemudian, setelah usianya mencapai 110 tahun dan menguasai pukulan dengan kekuatan yang luar biasa, ia akhirnya turun gunung. Dalam perjalanannya menuju Raja Iblis, Berg bertemu dengan Eruruna, seorang pendekar pedang elf yang sedang bertarung melawan para iblis...\n\n(ENG)\nBerg, whose parents were killed by demons, sets out on a journey to defeat the Demon King. On the night his village was attacked, he promised his childhood friend that he would slay the Demon King. To fulfill that promise, he secluded himself in the mountains and trained relentlessly. One hundred years later, now 110 years old and armed with overwhelmingly powerful punches, Berg finally descends from the mountain. On his way to the Demon King, he encounters Eruruna, an elven swordswoman fighting against the demons...",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1783855050524
   },
   {
     "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
