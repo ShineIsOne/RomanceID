@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
+    "image": "img/HLtU7PrasAAJnaH.webp",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Sci-Fi",
+      "Gyaru",
+      "Harem",
+      "Military"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.19",
+    "link": "https://mangadex.org/title/8a9e6214-e66a-46ec-b45f-cb5c12a5aee0/senchi-kara-kaette-kita-takashi-kun-futsuu-ni-koukou-seikatsu-wo-okuritai",
+    "synopsis": "(IDN)\nHari ini, setelah perang invasi oleh makhluk luar angkasa berakhir, sang pahlawan Shibunsaki Takashi pensiun dari militer dan kembali ke Jepang. Setelah lepas dari hari-hari yang selalu berdampingan dengan kematian, akhirnya kehidupan SMA biasa yang ia impikan pun dimulai… dengan penuh harapan, Takashi menantikannya. Namun kenyataannya, kehidupan sehari-harinya justru dipermainkan oleh para gadis cantik yang unik, termasuk rekan seperjuangannya dari Eropa Utara, Natalie, dan ia terus terseret ke dalam pertarungan tak terduga setiap hari! Apakah hari-harinya tak lagi biasa karena dirinya sendiri telah berubah...?\n\n(ENG)\nToday, as the invasion war by extraterrestrials comes to an end, the hero Shibunsaki Takashi retires from the military and returns to Japan. After escaping from days spent on the brink of death, the normal high school life he had long dreamed of finally begins… filled with anticipation, Takashi looks forward to it. However, in reality, his daily life is turned upside down by a group of unique and beautiful girls, including his comrade from Northern Europe, Natalie, and he finds himself caught up in unexpected battles every day! Has his life stopped being normal because he himself has changed...?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1777344995267
+  },
+  {
     "title": "Osananajimi to no Yakusoku wo Hatasu Tame ni Hyakunen Shugyo Shita Rouyuusha, Nokori no Jumyou de Maou wo Utsu",
     "image": "img/asdasdw.webp",
     "genres": [
@@ -540,30 +564,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1784635314490
-  },
-  {
-    "title": "Senchi Kara Kaette kita Takashi-kun. Futsuu ni Koukou Seikatsu wo Okuritai",
-    "image": "img/HLtU7PrasAAJnaH.webp",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance",
-      "Sci-Fi",
-      "Gyaru",
-      "Harem",
-      "Military"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.3 Ch.18",
-    "link": "https://mangadex.org/title/8a9e6214-e66a-46ec-b45f-cb5c12a5aee0/senchi-kara-kaette-kita-takashi-kun-futsuu-ni-koukou-seikatsu-wo-okuritai",
-    "synopsis": "(IDN)\nHari ini, setelah perang invasi oleh makhluk luar angkasa berakhir, sang pahlawan Shibunsaki Takashi pensiun dari militer dan kembali ke Jepang. Setelah lepas dari hari-hari yang selalu berdampingan dengan kematian, akhirnya kehidupan SMA biasa yang ia impikan pun dimulai… dengan penuh harapan, Takashi menantikannya. Namun kenyataannya, kehidupan sehari-harinya justru dipermainkan oleh para gadis cantik yang unik, termasuk rekan seperjuangannya dari Eropa Utara, Natalie, dan ia terus terseret ke dalam pertarungan tak terduga setiap hari! Apakah hari-harinya tak lagi biasa karena dirinya sendiri telah berubah...?\n\n(ENG)\nToday, as the invasion war by extraterrestrials comes to an end, the hero Shibunsaki Takashi retires from the military and returns to Japan. After escaping from days spent on the brink of death, the normal high school life he had long dreamed of finally begins… filled with anticipation, Takashi looks forward to it. However, in reality, his daily life is turned upside down by a group of unique and beautiful girls, including his comrade from Northern Europe, Natalie, and he finds himself caught up in unexpected battles every day! Has his life stopped being normal because he himself has changed...?",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1777344995267
   },
   {
     "title": "Oshi no Teki ni Natta node",
