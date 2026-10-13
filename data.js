@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Lilim Holic",
+    "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Themes",
+      "Demons",
+      "Monster Girls",
+      "School Life",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.2 Ch.19",
+    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
+    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1778676602805
+  },
+  {
     "title": "Shachou to Sake to Hoshi",
     "image": "img/d96d3fdf-ce67-4a39-a560-51f082914a04.webp",
     "genres": [
@@ -151,30 +175,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1787901441421
-  },
-  {
-    "title": "Lilim Holic",
-    "image": "img/ab4bfd73-ae6c-40a4-8582-ae3bf0297aae.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Themes",
-      "Demons",
-      "Monster Girls",
-      "School Life",
-      "Supernatural"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.2 Ch.18",
-    "link": "https://mangadex.org/title/a4807f27-d96e-4069-9705-88056e81a555/lilim-holic",
-    "synopsis": "(IDN)\nDi masyarakat tempat succubus dan manusia hidup berdampingan, seorang otaku sekaligus siswa kasta teratas bernama Yui Hayato jatuh cinta pada teman sekelasnya, succubus bernama Katou Emu. Namun karena sifatnya yang negatif, ia terus berpikir kalau “tidak mungkin seseorang seperti dirinya bisa disukai.” Sementara itu, Emu yang sebenarnya juga menyukainya ingin menjadi lebih dekat dengannya…!? Romcom salah paham saat perasaan keduanya terus saling bersilangan!!\n\n(ENG)\nIn a society where succubi and humans coexist, otaku and top-class student Yui Hayato is in love with his classmate, the succubus Katou Emu. However, due to his negative personality, he convinces himself that “there’s no way someone like me could ever be liked.” Meanwhile, Emu, who actually has feelings for him, wants to grow closer to him too…!? A misunderstanding romantic comedy where their feelings keep missing each other!!",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1778676602805
   },
   {
     "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
