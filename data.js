@@ -1,5 +1,51 @@
 const mangaList = [
   {
+    "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
+    "image": "img/HOM2ax1aIAAZN9s.webp",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Harem"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.1 Ch.3",
+    "link": "https://mangadex.org/title/0d9c8563-2e17-4859-8679-38885a3e0320/shinimodotta-ore-wa-seinaru-yuusha-o-yamete-harem-tsukutte-koshi-o-hekoheko-futteitai",
+    "synopsis": "(IDN)\nSetelah kehilangan nyawanya dalam pertempuran melawan Raja Iblis, sang pahlawan Haruya terbangun dan mendapati bahwa waktu telah kembali ke sebelum ia memulai perjalanannya. Dalam kehidupan keduanya, Haruya memutuskan untuk berhenti menjadi pahlawan dan menjalani hidup dengan membuat harem serta menggoyangkan pinggangnya...!?\n\n(ENG)\nAfter losing his life in a battle against the Demon King, the hero Haruya awakens to find that time has returned to before he set out on his journey. In his second life, Haruya decides to quit being a hero and live a life of making a harem and thrusting his hips...!?",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1787787370603
+  },
+  {
+    "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
+    "image": "img/HLupIa7bQAAN6mw.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Mystery",
+      "Psychological",
+      "Drama",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.1 Ch.5",
+    "link": "https://mangadex.org/title/7a82d0ef-034e-427b-bf5c-ed7d08ddbd6b/shujinkou-sama-no-imouto-ni-aisarete-iru-kedo-shikkari-yandere",
+    "synopsis": "(IDN)\nSiswa SMA bernama Usui Shinji memiliki teman masa kecil tampan, Ichinose Hinata, yang populer di kalangan perempuan layaknya seorang protagonis dalam cerita. Berada di samping Hinata yang memikat semua orang bagaikan matahari membuat Shinji merasa rendah diri, hingga tanpa sadar ia mulai sedikit tidak menyukainya. Di sisi lain, entah mengapa Ichinose Runa, adik perempuan Hinata, sangat menyayangi Shinji layaknya kakak kandung sendiri. Di tengah kesehariannya yang dipenuhi perasaan rumit itu, kisah pun dimulai ketika Shinji menerima sebuah surat cinta yang mencurigakan.\n\n(ENG)\nMale high school student Usui Shinji has a handsome childhood friend, Ichinose Hinata, who is as popular with girls as the protagonist of a story. Being beside Hinata, whose charm draws everyone in like the sun, always makes Shinji feel inferior, and before he knew it, he had started to dislike him a little. Meanwhile, for some reason, Ichinose Runa, Hinata's younger sister, is very attached to Shinji as if he were her real older brother. As Shinji goes about his days burdened by these complicated feelings, the story begins when he receives a suspicious love letter.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1785238328973
+  },
+  {
     "title": "Shachou to Sake to Hoshi",
     "image": "img/0e193f95-bfb7-4862-a493-41331816f169.webp",
     "genres": [
@@ -449,52 +495,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1787900738501
-  },
-  {
-    "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
-    "image": "img/HOM2ax1aIAAZN9s.webp",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Harem"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol. 1 Ch.2",
-    "link": "https://mangadex.org/title/0d9c8563-2e17-4859-8679-38885a3e0320/shinimodotta-ore-wa-seinaru-yuusha-o-yamete-harem-tsukutte-koshi-o-hekoheko-futteitai",
-    "synopsis": "(IDN)\nSetelah kehilangan nyawanya dalam pertempuran melawan Raja Iblis, sang pahlawan Haruya terbangun dan mendapati bahwa waktu telah kembali ke sebelum ia memulai perjalanannya. Dalam kehidupan keduanya, Haruya memutuskan untuk berhenti menjadi pahlawan dan menjalani hidup dengan membuat harem serta menggoyangkan pinggangnya...!?\n\n(ENG)\nAfter losing his life in a battle against the Demon King, the hero Haruya awakens to find that time has returned to before he set out on his journey. In his second life, Haruya decides to quit being a hero and live a life of making a harem and thrusting his hips...!?",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1787787370603
-  },
-  {
-    "title": "Shujinkou-sama no Imouto ni Aisarete Iru Kedo, Shikkari Yandere",
-    "image": "img/HLupIa7bQAAN6mw.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Mystery",
-      "Psychological",
-      "Drama",
-      "School Life"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.1 Ch.4",
-    "link": "https://mangadex.org/title/7a82d0ef-034e-427b-bf5c-ed7d08ddbd6b/shujinkou-sama-no-imouto-ni-aisarete-iru-kedo-shikkari-yandere",
-    "synopsis": "(IDN)\nSiswa SMA bernama Usui Shinji memiliki teman masa kecil tampan, Ichinose Hinata, yang populer di kalangan perempuan layaknya seorang protagonis dalam cerita. Berada di samping Hinata yang memikat semua orang bagaikan matahari membuat Shinji merasa rendah diri, hingga tanpa sadar ia mulai sedikit tidak menyukainya. Di sisi lain, entah mengapa Ichinose Runa, adik perempuan Hinata, sangat menyayangi Shinji layaknya kakak kandung sendiri. Di tengah kesehariannya yang dipenuhi perasaan rumit itu, kisah pun dimulai ketika Shinji menerima sebuah surat cinta yang mencurigakan.\n\n(ENG)\nMale high school student Usui Shinji has a handsome childhood friend, Ichinose Hinata, who is as popular with girls as the protagonist of a story. Being beside Hinata, whose charm draws everyone in like the sun, always makes Shinji feel inferior, and before he knew it, he had started to dislike him a little. Meanwhile, for some reason, Ichinose Runa, Hinata's younger sister, is very attached to Shinji as if he were her real older brother. As Shinji goes about his days burdened by these complicated feelings, the story begins when he receives a suspicious love letter.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1785238328973
   },
   {
     "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
