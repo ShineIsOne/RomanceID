@@ -1,5 +1,24 @@
 const mangaList = [
   {
+    "title": "Kakushite Kisetsu wa Ao wo Shiru",
+    "image": "img/dqwdqd3.webp",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School Life"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.9 | Send via GDrive",
+    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
+    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787901909998
+  },
+  {
     "title": "Shini Modotta Ore wa Seinaru Yuusha wo Yamete, Haremu Tsukutte Koshi wo Hekoheko Futte Itai",
     "image": "img/HOM2ax1aIAAZN9s.webp",
     "genres": [
@@ -240,25 +259,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1778848977299
-  },
-  {
-    "title": "Kakushite Kisetsu wa Ao wo Shiru",
-    "image": "img/dqwdqd3.webp",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School Life"
-    ],
-    "status": "Ongoing",
-    "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 Ch.8 | Send via GDrive",
-    "link": "https://mangadex.org/title/1c73b4fb-54ca-4002-b46f-a24b15e1e0d7/kakushite-kisetsu-wa-ao-wo-shiru",
-    "synopsis": "(ENG)\nNatsuki Sano is a high school boy desperate to hide his dream of becoming a shojo manga artist. But out of nowhere, a mysterious beauty appears: Hina Harumiya—a girl rocking cringey anime tees, eccentric quirks, and a bottomless appetite! The only problem? They’re on completely different wavelengths!!\n\nTense, awkward, and totally mismatched... until Hinaga drops a secret plan to land them a serialization... and it's completely unhinged!?\n\n“How about we start dating?”\n\nA wild, runaway youth driven by the urge to draw \"love\"—this unpredictable, full-contact rom-com kicks off now!",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787901909998
   },
   {
     "title": "Ore ga Inai to Sugu Chomeru Hakanagi Kasumi",
