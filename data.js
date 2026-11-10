@@ -1,5 +1,25 @@
 const mangaList = [
   {
+    "title": "Shachou to Sake to Hoshi",
+    "image": "img/zzzz.webp",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Slice of Life",
+      "Office Workers"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.10 Ch.75",
+    "link": "https://mangadex.org/title/7991e715-40ae-4c3e-b0e0-aa8bee90ece7/shachou-to-sake-to-hoshi?tab=chapters",
+    "synopsis": "(IDN)\nSetelah ayahnya meninggal secara mendadak, Izutsu Reina yang berusia 24 tahun harus mengambil alih perusahaan keluarga, Percetakan Izutsu. Tiba-tiba menjadi Direktur perusahaan membuatnya berada di bawah tekanan besar, hingga sifatnya berubah menjadi tegas dan kaku. Akibatnya, para karyawan pun segan mendekatinya, terutama Ishizumi Kenichi, Kepala Seksi senior berusia 37 tahun yang pendiam.\n\nSuatu malam, saat sedang mabuk ringan dan diliputi kelelahan di sebuah taman yang sepi, Reina tiba-tiba berkata, \"Sudah cukup! Aku berhenti jadi atasan semua orang!\" tanpa menyadari bahwa pria yang duduk di sampingnya adalah salah satu karyawannya. Di bawah lembutnya cahaya bintang, pria itu hanya mendengarkan dalam diam... lalu diam-diam berjanji akan selalu berada di sisinya.“",
+    "lang": [
+      "id"
+    ],
+    "type": "TL",
+    "id": 1784173772922
+  },
+  {
     "title": "ATM Ojisan: Isekai de Mote-ki ga Tomaranai!",
     "image": "img/81rHB0zfUKL._SL1500_.webp",
     "genres": [
@@ -87,26 +107,6 @@ const mangaList = [
     ],
     "type": "TL",
     "id": 1778676602805
-  },
-  {
-    "title": "Shachou to Sake to Hoshi",
-    "image": "img/zzzz.webp",
-    "genres": [
-      "Romance",
-      "Comedy",
-      "Slice of Life",
-      "Office Workers"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.10 Ch.74",
-    "link": "https://mangadex.org/title/7991e715-40ae-4c3e-b0e0-aa8bee90ece7/shachou-to-sake-to-hoshi?tab=chapters",
-    "synopsis": "(IDN)\nSetelah ayahnya meninggal secara mendadak, Izutsu Reina yang berusia 24 tahun harus mengambil alih perusahaan keluarga, Percetakan Izutsu. Tiba-tiba menjadi Direktur perusahaan membuatnya berada di bawah tekanan besar, hingga sifatnya berubah menjadi tegas dan kaku. Akibatnya, para karyawan pun segan mendekatinya, terutama Ishizumi Kenichi, Kepala Seksi senior berusia 37 tahun yang pendiam.\n\nSuatu malam, saat sedang mabuk ringan dan diliputi kelelahan di sebuah taman yang sepi, Reina tiba-tiba berkata, \"Sudah cukup! Aku berhenti jadi atasan semua orang!\" tanpa menyadari bahwa pria yang duduk di sampingnya adalah salah satu karyawannya. Di bawah lembutnya cahaya bintang, pria itu hanya mendengarkan dalam diam... lalu diam-diam berjanji akan selalu berada di sisinya.“",
-    "lang": [
-      "id"
-    ],
-    "type": "TL",
-    "id": 1784173772922
   },
   {
     "title": "Kakushite Kisetsu wa Ao wo Shiru",
