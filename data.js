@@ -1,5 +1,29 @@
 const mangaList = [
   {
+    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
+    "image": "img/ebbcf4c2-c7f8-4b05-8743-85dad4c7d8e6.webp",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai",
+      "Romance",
+      "Slice of Life",
+      "Magic",
+      "Reincarnation"
+    ],
+    "status": "Ongoing",
+    "working": false,
+    "latestChapter": "Vol.3 Ch.23",
+    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
+    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
+    "lang": [
+      "id",
+      "en"
+    ],
+    "type": "TL",
+    "id": 1770792399
+  },
+  {
     "title": "Kakushite Kisetsu wa Ao wo Shiru",
     "image": "img/dqwdqd3.webp",
     "genres": [
@@ -371,30 +395,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1787901441421
-  },
-  {
-    "title": "Megami to Kekkon Shite Isekai de Shinkon Seikatsu",
-    "image": "img/ebbcf4c2-c7f8-4b05-8743-85dad4c7d8e6.webp",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Romance",
-      "Slice of Life",
-      "Magic",
-      "Reincarnation"
-    ],
-    "status": "Ongoing",
-    "working": false,
-    "latestChapter": "Vol.3 Ch.21",
-    "link": "https://mangadex.org/title/1259b4af-266a-4980-83b0-e24f4b3b5658/megami-to-kekkon-shite-isekai-de-shinkon-seikatsu",
-    "synopsis": "(IDN)\nKatou Manabu, seorang pekerja kantoran yang meninggal karena terlalu banyak bekerja, bertemu dengan seorang dewi yang memberinya kesempatan hidup di dunia lain. Ia jatuh cinta dan melamar sang dewi. Dewi itu menerima, lalu mereka memulai kehidupan sebagai pasangan suami istri di dunia fantasi. Ceritanya berisi romansa, kehidupan sehari-hari, dan petualangan ringan.\n\n(ENG)\nKatou Manabu, an office worker who died from overworking, meets a goddess who grants him a chance to live in another world. He falls in love and proposes to the goddess. The goddess accepts, and they begin their life as a married couple in a fantasy world. The story contains romance, daily life, and light adventures.",
-    "lang": [
-      "id",
-      "en"
-    ],
-    "type": "TL",
-    "id": 1770792399
   },
   {
     "title": "Cool na Eikoku Bishoujo ha Orenchi ni Homestay Shitairashii",
