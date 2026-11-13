@@ -1,5 +1,26 @@
 const mangaList = [
   {
+    "title": "Aoi-kun no Waidan ga Tamaranai!!",
+    "image": "img/322603000335.webp",
+    "genres": [
+      "Boys' Love",
+      "Comedy",
+      "Slice of Life",
+      "Office Workers",
+      "Josei"
+    ],
+    "status": "Ongoing",
+    "working": true,
+    "latestChapter": "Order by @azibaw42 | Vol.1 - Vol.5 Ch.1 - Ch.22 | Send via MangaDex",
+    "link": "https://mangadex.org/title/1ae96a86-b943-4c1f-8e06-e46981f6d4d3/aoi-kun-no-waidan-ga-tamaranai",
+    "synopsis": "(ENG)\n\"In exchange for me talking dirty...let me live here?\" Mebuku is an office lady who loves BL and has never had a boyfriend. On Christmas Eve, when searching for fap material at a manga cafe, A gay man named Aoi, who she had never met, proposes that they live together on the condition that I \"listen to his sexy stories\"!? Aoi's exquisite dirty talk will satisfy your mind and body...! We're neither friends with benefits nor lovers. 100% pure \"I just want to tell/listen to dirty talk\" A gay man and a fujoshi's shared sex life begins!",
+    "lang": [
+      "en"
+    ],
+    "type": "Order",
+    "id": 1787900738501
+  },
+  {
     "title": "Doutei Dakedo Akuyaku Kizoku ni Tensei Shitanode Harem wo Tsukuru... Hazu Datta no ni Nazeka Sekai wo Sukuu Seijin ni Nattemashita (Namida)",
     "image": "img/1.webp",
     "genres": [
@@ -521,27 +542,6 @@ const mangaList = [
     ],
     "type": "Order",
     "id": 1776053865381
-  },
-  {
-    "title": "Aoi-kun no Waidan ga Tamaranai!!",
-    "image": "img/322603000335.webp",
-    "genres": [
-      "Boys' Love",
-      "Comedy",
-      "Slice of Life",
-      "Office Workers",
-      "Josei"
-    ],
-    "status": "Ongoing",
-    "working": true,
-    "latestChapter": "Order by @azibaw42 | Vol.1 - Vol.4 Ch.1 - Ch.21 | Send via MangaDex",
-    "link": "https://mangadex.org/title/1ae96a86-b943-4c1f-8e06-e46981f6d4d3/aoi-kun-no-waidan-ga-tamaranai",
-    "synopsis": "(ENG)\n\"In exchange for me talking dirty...let me live here?\" Mebuku is an office lady who loves BL and has never had a boyfriend. On Christmas Eve, when searching for fap material at a manga cafe, A gay man named Aoi, who she had never met, proposes that they live together on the condition that I \"listen to his sexy stories\"!? Aoi's exquisite dirty talk will satisfy your mind and body...! We're neither friends with benefits nor lovers. 100% pure \"I just want to tell/listen to dirty talk\" A gay man and a fujoshi's shared sex life begins!",
-    "lang": [
-      "en"
-    ],
-    "type": "Order",
-    "id": 1787900738501
   },
   {
     "title": "Daremo ga Urayamu Tonari no Cool Bishoujo, Jitsu wa Nounai Pink Sugiru",
